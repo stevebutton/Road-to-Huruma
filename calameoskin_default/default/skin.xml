@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<root xmlns="http://skin.calameo.com/1.0" left="0" top="0" right="0" bottom="0" symbol="background" backgroundColor="0xff9900">
+	<library name="skin" source="http://sk.calameo.com/1.0/default/skin.swf"/>
+	<logo depth="5" symbol="logo" url="http://calameo.com" left="16" top="8"></logo>
+	<viewer depth="1" left="0" right="0" top="0" bottom="0"></viewer>
+	
+	
+	<!--<timeline orientation="horizontal" depth="3" percentLeft="0.2" percentRight="0.2" height="50" bottom="6">
+		<button upState="skin#btnTimeLineOn" overState="skin#btnTimelineHover"></button>
+	</timeline>-->
+	
+	
+	
+	<layout right="16" bottom="0" orientation="horizontal" spacer="0" depth="2" alignment="right">
+		<button action="verticalSubmenu" cornerRadius="20" horizontalMargin="5" verticalMargin="5"	spacer="2" upState="skin#btnBookOn"	overState="skin#btnBookHover" disabledState="skin#btnBookOff">
+			<button action="book" tooltip="label" upState="skin#btnBookModeOn" overState="skin#btnBookModeHover" disabledState="skin#btnBookModeOff"></button>
+			<!--<button action="diaporama" tooltip="label" upState="skin#btnSlideModeOn" overState="skin#btnSlideModeHover" disabledState="skin#btnSlideModeOff"></button>-->
+			<button action="thumbnails" tooltip="label" upState="skin#btnIndexModeOn" overState="skin#btnIndexModeHover" disabledState="skin#btnIndexModeOff"></button>
+		</button>
+		
+		<!--<button action="toc" upState="skin#btnTocOn" overState="skin#btnTocHover" disabledState="skin#btnTocOff"></button>-->
+		<!--<button action="subscription" upState="skin#btnSubscriptionOn" overState="skin#btnSubscriptionHover" disabledState="skin#btnSubscriptionOff"></button>-->
+		<!--<button action="verticalSubmenu" cornerRadius="20" horizontalMargin="5" verticalMargin="5" spacer="2" upState="skin#btnBookmarkOn" overState="skin#btnBookmarkHover" disabledState="skin#btnBookmarkOff">
+			<button action="annotate_all" tooltip="label" upState="skin#btnAnnotateAllOn" overState="skin#btnAnnotateAllHover" disabledState="skin#btnAnnotateAllOff"></button>
+			<button action="annotate_page" tooltip="label" upState="skin#btnAnnotatePageOn" overState="skin#btnAnnotatePageHover" disabledState="skin#btnAnnotatePageOff"></button>
+			<button action="annotate_add" tooltip="label" upState="skin#btnAnnotateAddOn" overState="skin#btnAnnotateAddHover" disabledState="skin#btnAnnotateAddOff"></button>
+		</button>-->
+		
+		<!--<button action="search" upState="skin#btnSearchOn" overState="skin#btnSearchHover" disabledState="skin#btnSearchOff"></button>-->
+		<button action="zoom" upState="skin#btnZoomOn" overState="skin#btnZoomHover" disabledState="skin#btnZoomOff"></button>
+		<button action="fullScreen" upState="skin#btnFullscreenOn" overState="skin#btnFullscreenHover" disabledState="skin#btnFullscreenOff"></button>
+		<button action="download" upState="skin#btnDownloadOn" overState="skin#btnDownloadHover" disabledState="skin#btnDownloadOff"></button>
+		<!--<button action="print" upState="skin#btnPrintOn" overState="skin#btnPrintHover" disabledState="skin#btnPrintOff"></button>-->
+	</layout>
+	
+	
+	<!--
+	<layout left="0" bottom="0" orientation="vertical" spacer="0" depth="2" alignment="right">
+		<button action="volume" upState="skin#btnVolumeOn" overState="skin#btnVolumeHover" disabledState="skin#btnVolumeOff"></button>
+	</layout>-->
+	
+	
+	<!--<layout depth="4" left="0" spacer="16" verticalCenter="0" orientation="vertical" alignment="top,left">
+		<button action="previousPage" upState="skin#PreviousOn" overState="skin#PreviousHover" disabledState="skin#PreviousOff"></button>
+		<button action="firstPage" upState="skin#FirstOn" overState="skin#FirstHover" disabledState="skin#FirstOff"></button>
+	</layout>
+	
+	
+	<layout depth="4" right="0" spacer="16" verticalCenter="0" orientation="vertical" alignment="top,right">
+		<button action="nextPage" upState="skin#NextOn" overState="skin#NextHover" disabledState="skin#NextOff"></button>
+		<button action="lastPage" upState="skin#LastOn" overState="skin#LastHover" disabledState="skin#LastOff"></button>
+	</layout>-->
+	
+	
+</root>

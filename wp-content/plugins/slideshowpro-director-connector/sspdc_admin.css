@@ -1,0 +1,21 @@
+ /* SSPDC*/
+ 
+ .sspdc_matrix {
+	display:block !important;
+	width: 680px;
+	text-align: left;
+	margin-top: 10px;	
+}
+
+
+.sspdc_thumbnail {
+	display: inline;
+}
+
+.sspdc_thumbnail img {
+	background-color:#FFFFFF;
+	border:1px solid #CCC;
+	margin:0px 5px 6px 1px;
+	padding:2px;
+	position:relative;
+}

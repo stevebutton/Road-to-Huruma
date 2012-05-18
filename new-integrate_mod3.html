@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TIMELINE INTEGRATED CRASH-BOX</title>
+		<meta charset=utf-8 />
+        <meta name="description" content="Animated Content Menu with jQuery" />
+        <meta name="keywords" content="jquery, animation, menu, navigation, template, slide out, effect, background image"/>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" type="text/css" href="slidingsite/css/menustyle.css" />
+		<link  href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold" rel="stylesheet" type="text/css" />
+        
+        <script src="http://crash-box.fr/javascripts/timeline_js/timeline-api.js"    
+ *     type="text/javascript">
+ *   </script>
+  <script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+ <script>
+ Timeline_ajax_url="http://crash-box.fr/javascripts/timeline_ajax/simile-ajax-api.js";
+ Timeline_urlPrefix="http://crash-box.fr/javascripts/timeline_js/";       
+ Timeline_parameters='bundle=true';
+ </script>	
+ 
+ <!--*****JS IMPORTS SPECIFIC TO MAP AND TIMELINE************-->
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="slidingsite/lib/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="slidingsite/lib/mxn/mxn.js?(googlev3)"></script>
+    <script src="slidingsite/src/timemap.js" type="text/javascript"></script>
+    <script src="basetrack_map.js" type="text/javascript"></script>
+      <script src="slidingsite/src/param.js" type="text/javascript"></script>
+    <script src="slidingsite/src/loaders/xml.js" type="text/javascript"></script>
+    <script src="slidingsite/src/loaders/georss.js" type="text/javascript"></script>
+<!--    <script type="text/javascript" src="slidingsite/lib/timeline-1.2.js"></script>
+-->    
+<!--******END OF MAP AND TIMELINE SPECIFIC*********-->
+
+ <!-- *************MASTER TIMELINE***************     -->  
+   <script>
+var tl;
+ function onLoad() {
+ var eventSource = new Timeline.DefaultEventSource();
+ var eventSource1 = new Timeline.DefaultEventSource();
+ var eventSource2 = new Timeline.DefaultEventSource();
+ var eventSource3 = new Timeline.DefaultEventSource();
+   var bandInfos = [
+     Timeline.createBandInfo({
+	 eventSource:    eventSource3,
+         date:           "Jun 28 2011 00:00:00 GMT",
+         width:          "100px", 
+         intervalUnit:   Timeline.DateTime.MONTH, 
+         intervalPixels: 400,
+		 zoomIndex:      6,
+            zoomSteps:      new Array(
+              /*{pixelsPerInterval: 280,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval: 140,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval:  70,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval:  35,  unit: Timeline.DateTime.HOUR},*/
+              {pixelsPerInterval: 400,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 200,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 100,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval:  50,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 100,  unit: Timeline.DateTime.MONTH},
+              {pixelsPerInterval: 200,  unit: Timeline.DateTime.MONTH},
+              {pixelsPerInterval: 400,  unit: Timeline.DateTime.MONTH} // DEFAULT zoomIndex
+            )
+		 
+     }),
+	  Timeline.createBandInfo({
+	 eventSource:    eventSource2,
+         date:           "Jun 28 2011 00:00:00 GMT",
+         width:          "100px", 
+         intervalUnit:   Timeline.DateTime.MONTH, 
+         intervalPixels: 400,
+		 zoomIndex:      6,
+            zoomSteps:      new Array(
+             /* {pixelsPerInterval: 280,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval: 140,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval:  70,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval:  35,  unit: Timeline.DateTime.HOUR},*/
+              {pixelsPerInterval: 400,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 200,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 100,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval:  50,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 100,  unit: Timeline.DateTime.MONTH},
+              {pixelsPerInterval: 200,  unit: Timeline.DateTime.MONTH},
+              {pixelsPerInterval: 400,  unit: Timeline.DateTime.MONTH} // DEFAULT zoomIndex
+            )
+		 
+     }),
+	  Timeline.createBandInfo({
+	 eventSource:    eventSource1,
+         date:           "Jun 28 2011 00:00:00 GMT",
+         width:          "100px", 
+         intervalUnit:   Timeline.DateTime.MONTH, 
+         intervalPixels: 400,
+		 zoomIndex:      6,
+            zoomSteps:      new Array(
+             /* {pixelsPerInterval: 280,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval: 140,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval:  70,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval:  35,  unit: Timeline.DateTime.HOUR},*/
+              {pixelsPerInterval: 400,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 200,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 100,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval:  50,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 100,  unit: Timeline.DateTime.MONTH},
+              {pixelsPerInterval: 200,  unit: Timeline.DateTime.MONTH},
+              {pixelsPerInterval: 400,  unit: Timeline.DateTime.MONTH} // DEFAULT zoomIndex
+            )
+		 
+     }),
+	 Timeline.createBandInfo({
+	 eventSource:    eventSource3,
+         date:           "Jun 28 2011 00:00:00 GMT",
+         width:          "100px", 
+         intervalUnit:   Timeline.DateTime.MONTH, 
+         intervalPixels: 400,
+		 zoomIndex:      6,
+            zoomSteps:      new Array(
+             /* {pixelsPerInterval: 280,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval: 140,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval:  70,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval:  35,  unit: Timeline.DateTime.HOUR},*/
+              {pixelsPerInterval: 400,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 200,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 100,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval:  50,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 100,  unit: Timeline.DateTime.MONTH},
+              {pixelsPerInterval: 200,  unit: Timeline.DateTime.MONTH},
+              {pixelsPerInterval: 400,  unit: Timeline.DateTime.MONTH} // DEFAULT zoomIndex
+            )
+		 
+     }),
+     Timeline.createBandInfo({
+	/* eventSource:    eventSource,*/
+         date:           "Jun 28 2011 00:00:00 GMT",
+         width:          "30px", 
+         intervalUnit:   Timeline.DateTime.MONTH, 
+         intervalPixels: 600,
+		 zoomIndex:      6,
+            zoomSteps:      new Array(
+              /*{pixelsPerInterval: 280,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval: 140,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval:  70,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval:  35,  unit: Timeline.DateTime.HOUR},*/
+              {pixelsPerInterval: 400,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 200,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 100,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval:  50,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 100,  unit: Timeline.DateTime.MONTH},
+              {pixelsPerInterval: 200,  unit: Timeline.DateTime.MONTH},
+              {pixelsPerInterval: 600,  unit: Timeline.DateTime.MONTH} // DEFAULT zoomIndex
+            )
+		 
+     }),
+	 
+
+	  Timeline.createBandInfo({
+	/* eventSource:    eventSource,*/
+         date:           "Jun 28 2011 00:00:00 GMT",
+         width:          "100px", 
+         intervalUnit:   Timeline.DateTime.MONTH, 
+         intervalPixels: 400
+     }),
+
+	  Timeline.createBandInfo({
+	eventSource:    eventSource1,
+         date:           "Jun 28 2011 00:00:00 GMT",
+         width:          "50px", 
+         intervalUnit:   Timeline.DateTime.MONTH, 
+         intervalPixels: 400,
+		 zoomIndex:      6,
+            zoomSteps:      new Array(
+             /* {pixelsPerInterval: 280,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval: 140,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval:  70,  unit: Timeline.DateTime.HOUR},
+              {pixelsPerInterval:  35,  unit: Timeline.DateTime.HOUR},*/
+              {pixelsPerInterval: 400,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 200,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 100,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval:  50,  unit: Timeline.DateTime.DAY},
+              {pixelsPerInterval: 100,  unit: Timeline.DateTime.MONTH},
+              {pixelsPerInterval: 200,  unit: Timeline.DateTime.MONTH},
+              {pixelsPerInterval: 400,  unit: Timeline.DateTime.MONTH} // DEFAULT zoomIndex
+            )
+		 
+     }),
+   ];
+   bandInfos[0].syncWith = 4;
+   bandInfos[0].highlight = true;
+   bandInfos[1].syncWith = 4;
+   bandInfos[1].highlight = true;
+   bandInfos[2].syncWith = 4;
+   bandInfos[2].highlight = true;
+   bandInfos[3].syncWith = 4;
+   bandInfos[3].highlight = true;
+   bandInfos[5].syncWith = 4;
+   bandInfos[5].highlight = true;
+   bandInfos[6].syncWith = 4;
+   bandInfos[6].highlight = true;
+<!--   ********SETTING A COLOR BAND FOR DATE *************-->
+  bandInfos[1].highlight = true;
+            
+            for (var i = 0; i < bandInfos.length; i++) {
+                bandInfos[i].decorators = [
+                    new Timeline.SpanHighlightDecorator({
+                        startDate:  "Tues Apr 5 2011 12:30:00 GMT-0600",
+                        endDate:    "Wed Apr 6 2011 13:00:00 GMT-0600",
+                        color:      "#FF0000",
+                        opacity:    20,
+                        startLabel: "",
+                        endLabel:   "EXPECTED DATE",
+                       // theme:      theme,
+                       cssClass: 't-highlight1'
+                    }),
+                    new Timeline.PointHighlightDecorator({
+                        date:       "Tues Apr 5 2011 14:38:00 GMT-0600",
+                        color:      "#FFC080",
+                        opacity:    50,
+                        //theme:      theme,
+                        cssClass: 'p-highlight1'
+                    }),
+                    new Timeline.PointHighlightDecorator({
+                        date:       "Tues Apr 5 2011 13:00:00 GMT-0600",
+                        color:      "#FFC080",
+                        opacity:    50
+                        //theme:      theme
+                    })
+                ];
+            }
+   
+    bandInfos[2].highlight = true;
+            
+            for (var i = 2; i < bandInfos.length; i++) {
+                bandInfos[i].decorators = [
+                    new Timeline.SpanHighlightDecorator({
+                        startDate:  "Tues May 5 2011 12:30:00 GMT-0600",
+                        endDate:    "Wed May 6 2011 13:00:00 GMT-0600",
+                        color:      "#FF0000",
+                        opacity:    50,
+                        startLabel: "",
+                        endLabel:   "HILLS",
+                       // theme:      theme,
+                       cssClass: 't-highlight1'
+                    }),
+                    new Timeline.PointHighlightDecorator({
+                        date:       "Tues Apr 5 2011 14:38:00 GMT-0600",
+                        color:      "#FFC080",
+                        opacity:    50,
+                        //theme:      theme,
+                        cssClass: 'p-highlight1'
+                    }),
+                    new Timeline.PointHighlightDecorator({
+                        date:       "Tues Apr 5 2011 13:00:00 GMT-0600",
+                        color:      "#FFC080",
+                        opacity:    50
+                        //theme:      theme
+                    })
+                ];
+            }
+   tl = Timeline.create(document.getElementById("my-timeline"), bandInfos);
+   Timeline.loadXML("http://crash-box.fr/index.php?feed=timeline&cat=26", function(xml, url) { eventSource.loadXML(xml, url); });
+Timeline.loadXML("http://crash-box.fr/index.php?feed=timeline&cat=4", function(xml, url) { eventSource1.loadXML(xml, url); });
+ Timeline.loadXML("http://crash-box.fr/index.php?feed=timeline&cat=19", function(xml, url) { eventSource2.loadXML(xml, url); });
+  Timeline.loadXML("http://crash-box.fr/index.php?feed=timeline&cat=20", function(xml, url) { eventSource3.loadXML(xml, url); });
+
+  //CENTER TIMELINE (Replace "tl" with whatever the timeline object id is)
+  var ladate = new Date();
+  ladate = ladate.toGMTString();
+  tl.getBand(1).setCenterVisibleDate(Timeline.DateTime.parseGregorianDateTime(ladate)); 
+
+ }
+
+ var resizeTimerID = null;
+ function onResize() {
+     if (resizeTimerID == null) {
+         resizeTimerID = window.setTimeout(function() {
+             resizeTimerID = null;
+             tl.layout();
+         }, 500);
+     }
+ }
+</script>
+<!--   ***************END MASTER TIMELINE****************-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+<!--
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+-->
+</style>
+
+<!--************CODE FOR MAP AND TIMELINE******************      -->
+    <script type="text/javascript">
+
+/*var tm;
+$(function() {
+ 
+    // make a custom map style
+    var styledMapType = new google.maps.StyledMapType([
+        {
+            featureType: "water",
+            elementType: "all",
+            stylers: [
+              { saturation: 0 },
+              { lightness: 100 }
+            ]
+        },
+        {
+            featureType: "all",
+            elementType: "all",
+            stylers: [
+              { saturation: -100 }
+            ]
+        }
+    ], {
+        name: "white"
+    });
+    
+    tm = TimeMap.init({
+        mapId: "map",               // Id of map div element (required)
+        timelineId: "my-timeline",     // Id of timeline div element (required)
+        options: {
+            eventIconPath: "../images/"
+        },
+       datasets: [
+            {
+                title: "Recent Earthquakes",
+                theme: "red",
+                type: "georss", // Data to be loaded in GeoRSS - must be a local URL
+                options: { 
+                    // GeoRSS file to load
+                    url: "../../index.php?feed=georss&cat=20",
+                    // additional tags to load
+                    extraTags: ['link'],
+                    // custom template to use the extra data
+                    infoTemplate: '<div class="infotitle"><a href="{{link}}">{{title}}</a></div>' + 
+                                  '<div class="infodescription">{{description}}</div>'
+                }
+           
+		   
+		    }
+        ],
+
+       /* bandIntervals: [
+            Timeline.DateTime.DECADE, 
+            Timeline.DateTime.CENTURY
+        ]*/
+ /*   });
+	*/
+	
+
+   // set the map to our custom style
+   /* var gmap = tm.getNativeMap();
+    gmap.mapTypes.set("white", styledMapType);
+    gmap.setMapTypeId("white");
+
+});*/
+
+*/
+
+    </script>
+    <link href="slidingsite/examples/examples.css" type="text/css" rel="stylesheet"/>
+    <style>
+    div#timelinecontainer{ height: 20px; }
+    div#mapcontainer{ height: 300px; }
+	div#map{ height: 100%; }
+	div#timeline{ height: 50%; }
+    </style> 
+</head>
+    <body onLoad="onLoad();" onResize="onResize();">
+
+
+ <div id="timebox" style="height: 580px; padding-top: 25px; border: 0px solid #aaa">
+        
+        <div id="my-timeline" style="height: 580px; border: 0px solid #aaa"></div>
+                            </div>
+                            
+		<div id="ac_background" class="ac_background">
+			<img class="ac_bgimage" src="slidingsite/images/Default.jpg" alt="Background"/>
+			<div class="ac_overlay"></div>
+			<div class="ac_loading"></div>
+		</div>
+		<div id="ac_content" class="ac_content">
+        
+
+		<div class="ac_header"><img src="slidingsite/images/headerback.png" />
+                          </div>
+
+			<div class="ac_menu">
+          <!--  **********FLASH COUNTDOWN***********-->
+            <countdown>
+<script language="javascript">
+	if (AC_FL_RunContent == 0) {
+		alert("This page requires AC_RunActiveContent.js.");
+	} else {
+		AC_FL_RunContent(
+			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+			'width', '750',
+			'height', '80',
+			'src', 'Countdown_final',
+			'quality', 'high',
+			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+			'align', 'middle',
+			'play', 'true',
+			'loop', 'true',
+			'scale', 'showall',
+			'wmode', 'window',
+			'devicefont', 'false',
+			'id', 'Countdown_final',
+			'wmode', 'transparent',
+			'name', 'Countdown_final',
+			'menu', 'true',
+			'allowFullScreen', 'false',
+			'allowScriptAccess','sameDomain',
+			'movie', 'slidingsite/Countdown_final',
+			'salign', ''
+			); //end AC code
+	}
+</script>
+<noscript>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="750" height="80" id="Countdown_final" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />
+	<param name="movie" value="slidingsite/Countdown_final.swf" /><param name="quality" value="high" /><param name="wmode" value="transparent" />	<embed src="slidingsite/Countdown_final.swf" quality="high" bgcolor="#ffffff" width="750" height="80" name="Countdown_final" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	</object>
+</noscript>
+            
+     </countdown>
+            
+				
+              <!--  ************CONTENT PANELS ************-->
+                
+                <ul>
+					<li>
+						<a href="slidingsite/images/Appetizers.jpg">GASC DEMOLITION</a>
+						<div class="ac_subitem">
+							<span class="ac_close"></span>
+							<h2>GASC Demolition</h2>
+							<ul>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros et lacus scelerisque egestas. Quisque sed interdum nunc. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec. Sed semper scelerisque urna, et rutrum ipsum sollicitudin laoreet.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros et lacus scelerisque egestas. Quisque sed interdum nunc. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec.Sed semper scelerisque urna, et rutrum ipsum sollicitudin laoreet.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros et lacus scelerisque egestas. Quisque sed interdum nunc. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec. Sed semper scelerisque urna, et rutrum ipsum sollicitudin laoreet.</li>
+								<!--<li>Sub-Menu 1</li>
+								<li>Sub-Menu 2</li>
+								<li>Sub-Menu 3</li>
+								<li>Sub-Menu 4</li>
+								<li>Sub-Menu 5</li>-->
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="slidingsite/images/MainCourse.jpg">THE PROJECT</a>
+						<div class="ac_subitem">
+							<span class="ac_close"></span>
+							<h2>The Project</h2>
+							<ul>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros et lacus scelerisque egestas. Quisque sed interdum nunc. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec. Sed semper scelerisque urna, et rutrum ipsum sollicitudin laoreet.</li>
+								<li>Sub-Menu 1</li>
+								<li>Sub-Menu 2</li>
+								<li>Sub-Menu 3</li>
+								<li>Sub-Menu 4</li>
+								<li>Sub-Menu 5</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="slidingsite/images/Specials.jpg">THE PROJECT TEAM</a>
+						<div class="ac_subitem">
+							<span class="ac_close"></span>
+							<h2>The Project Team</h2>
+							<ul>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros et lacus scelerisque egestas. Quisque sed interdum nunc. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec. Sed semper scelerisque urna, et rutrum ipsum sollicitudin laoreet.</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros et lacus scelerisque egestas. Quisque sed interdum nunc. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec. Sed semper scelerisque urna, et rutrum ipsum sollicitudin laoreet.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros et lacus scelerisque egestas. Quisque sed interdum nunc. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec. Sed semper scelerisque urna, et rutrum ipsum sollicitudin laoreet.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros et lacus scelerisque egestas. Quisque sed interdum nunc. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec. Sed semper scelerisque urna, et rutrum ipsum sollicitudin laoreet.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros et lacus scelerisque egestas. Quisque sed interdum nunc. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec. Sed semper scelerisque urna, et rutrum ipsum sollicitudin laoreet.</li>
+				
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="slidingsite/images/Desserts.jpg">SUBSCRIBE</a>
+						<div class="ac_subitem">
+							<span class="ac_close"></span>
+							<h2>Subscribe</h2>
+							<ul>
+								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros et lacus scelerisque egestas. Quisque sed interdum nunc. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec. Sed semper scelerisque urna, et rutrum ipsum sollicitudin laoreet.</li>
+								<li>Sub-Menu 1</li>
+								<li>Sub-Menu 2</li>
+								<li>Sub-Menu 3</li>
+								<li>Sub-Menu 4</li>
+								<li>Sub-Menu 5</li>
+							</ul>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+		
+        
+      
+        
+        <div id="mapcontainer">
+        <div id="timelinecontainer">
+          <div id="timeline"></div>
+        </div>
+          <div id="map"></div>
+           
+       </div>
+     
+        
+    
+        
+		<div class="ac_footer">
+        <img src="slidingsite/images/footerback.png" />
+       
+	
+        
+<!--	<a class="ac_left" href="http://"></a>
+			<a href="http://">CREDITS     |     SUBSCRIBE     |      MARSEILLE 2013       |OTHER BACKGROUND</a>-->
+		</div>
+         </div>   
+		<!-- The JavaScript -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="slidingsite/js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				var $ac_background	= $('#ac_background'),
+				$ac_bgimage		= $ac_background.find('.ac_bgimage'),
+				$ac_loading		= $ac_background.find('.ac_loading'),
+				
+				$ac_content		= $('#ac_content'),
+				$title			= $ac_content.find('h1'),
+				$menu			= $ac_content.find('.ac_menu'),
+				$mainNav		= $menu.find('ul:first'),
+				$menuItems		= $mainNav.children('li'),
+				totalItems		= $menuItems.length,
+				$ItemImages		= new Array();
+				
+				/* 
+				for this menu, we will preload all the images. 
+				let's add all the image sources to an array,
+				including the bg image
+				*/
+				$menuItems.each(function(i) {
+					$ItemImages.push($(this).children('a:first').attr('href'));
+				});
+				$ItemImages.push($ac_bgimage.attr('src'));
+					  
+				
+				var Menu 			= (function(){
+					var init				= function() {
+						loadPage();
+						initWindowEvent();
+					},
+					loadPage			= function() {
+						/*
+							1- loads the bg image and all the item images;
+							2- shows the bg image;
+							3- shows / slides out the menu;
+							4- shows the menu items;
+							5- initializes the menu items events
+						 */
+						$ac_loading.show();//show loading status image
+						$.when(loadImages()).done(function(){
+							$.when(showBGImage()).done(function(){
+								//hide the loading status image
+								$ac_loading.hide();
+								$.when(slideOutMenu()).done(function(){
+										$.when(toggleMenuItems('up')).done(function(){
+										initEventsSubMenu();
+									});
+								});
+							});
+						});
+					},
+					showBGImage			= function() {
+						return $.Deferred(
+						function(dfd) {
+							//adjusts the dimensions of the image to fit the screen
+							adjustImageSize($ac_bgimage);
+							$ac_bgimage.fadeIn(1000, dfd.resolve);
+						}
+					).promise();
+					},
+					slideOutMenu		= function() {
+						/* calculate new width for the menu */
+						var new_w	= $(window).width() - $title.outerWidth(true);
+						return $.Deferred(
+						function(dfd) {
+							//slides out the menu
+							$menu.stop()
+							.animate({
+								width	: new_w + 'px'
+							}, 700, dfd.resolve);
+						}
+					).promise();
+					},
+						/* shows / hides the menu items */
+						toggleMenuItems		= function(dir) {
+						return $.Deferred(
+						function(dfd) {
+							/*
+							slides in / out the items. 
+							different animation time for each one.
+							*/
+							$menuItems.each(function(i) {
+										var $el_title	= $(this).children('a:first'),
+											marginTop, opacity, easing;
+										if(dir === 'up'){
+											marginTop	= '0px';
+											opacity		= 1;
+											easing		= 'easeOutBack';
+										}
+										else if(dir === 'down'){
+											marginTop	= '60px';
+											opacity		= 0;
+											easing		= 'easeInBack';
+						}
+								$el_title.stop()
+								.animate({
+													marginTop	: marginTop,
+													opacity		: opacity
+												 }, 200 + i * 200 , easing, function(){
+									if(i === totalItems - 1)
+										dfd.resolve();
+								});
+							});
+						}
+					).promise();
+					},
+					initEventsSubMenu	= function() {
+						$menuItems.each(function(i) {
+							var $item		= $(this), // the <li>
+							$el_title	= $item.children('a:first'),
+							el_image	= $el_title.attr('href'),
+							$sub_menu	= $item.find('.ac_subitem'),
+							$ac_close	= $sub_menu.find('.ac_close');
+							
+							/* user clicks one item : appetizers | main course | desserts | wines | specials */
+							$el_title.bind('click.Menu', function(e) {
+									$.when(toggleMenuItems('down')).done(function(){
+									openSubMenu($item, $sub_menu, el_image);
+								});
+								return false;
+							});
+							/* closes the submenu */
+							$ac_close.bind('click.Menu', function(e) {
+								closeSubMenu($sub_menu);
+								return false;
+							});
+						});
+					},
+					openSubMenu			= function($item, $sub_menu, el_image) {
+						$sub_menu.stop()
+						.animate({
+							height		: '400px',
+							marginTop	: '-200px'
+						}, 400, function() {
+										//the bg image changes
+							showItemImage(el_image);
+						});
+					},
+						/* changes the background image */
+					showItemImage		= function(source) {
+							//if its the current one return
+						if($ac_bgimage.attr('src') === source)
+							return false;
+								
+						var $itemImage = $('<img src="'+source+'" alt="Background" class="ac_bgimage"/>');
+						$itemImage.insertBefore($ac_bgimage);
+						adjustImageSize($itemImage);
+						$ac_bgimage.fadeOut(1500, function() {
+							$(this).remove();
+							$ac_bgimage = $itemImage;
+						});
+						$itemImage.fadeIn(1500);
+					},
+					closeSubMenu		= function($sub_menu) {
+						$sub_menu.stop()
+						.animate({
+							height		: '0px',
+							marginTop	: '0px'
+						}, 400, function() {
+							//show items
+										toggleMenuItems('up');
+						});
+					},
+						/*
+						on window resize, ajust the bg image dimentions,
+						and recalculate the menus width
+						*/
+					initWindowEvent		= function() {
+						/* on window resize set the width for the menu */
+						$(window).bind('resize.Menu' , function(e) {
+							adjustImageSize($ac_bgimage);
+							/* calculate new width for the menu */
+							var new_w	= $(window).width() - $title.outerWidth(true);
+							$menu.css('width', new_w + 'px');
+						});
+					},
+						/* makes an image "fullscreen" and centered */
+					adjustImageSize		= function($img) {
+						var w_w	= $(window).width(),
+						w_h	= $(window).height(),
+						r_w	= w_h / w_w,
+						i_w	= $img.width(),
+						i_h	= $img.height(),
+						r_i	= i_h / i_w,
+						new_w,new_h,
+						new_left,new_top;
+							
+						if(r_w > r_i){
+							new_h	= w_h;
+							new_w	= w_h / r_i;
+						}
+						else{
+							new_h	= w_w * r_i;
+							new_w	= w_w;
+						}
+							
+						$img.css({
+							width	: new_w + 'px',
+							height	: new_h + 'px',
+							left	: (w_w - new_w) / 2 + 'px',
+							top		: (w_h - new_h) / 2 + 'px'
+						});
+					},
+						/* preloads a set of images */
+					loadImages			= function() {
+						return $.Deferred(
+						function(dfd) {
+							var total_images 	= $ItemImages.length,
+							loaded			= 0;
+							for(var i = 0; i < total_images; ++i){
+								$('<img/>').load(function() {
+									++loaded;
+									if(loaded === total_images)
+										dfd.resolve();
+								}).attr('src' , $ItemImages[i]);
+							}
+						}
+					).promise();
+					};
+						
+					return {
+						init : init
+					};
+				})();
+			
+				/*
+			call the init method of Menu
+				 */
+				Menu.init();
+			});
+		</script>
+    </body>
+</html>

@@ -1,0 +1,92 @@
+<rss version="2.0"
+	xmlns:georss="http://www.georss.org/georss">
+ <channel>
+ 	<title>crash-box: user origin feed</title>  
+ 	<link>http://crash-box.fr/</link>
+ 	<description></description>
+ 	<lastBuildDate>Mon, 09 May 2011 06:06:56 +0000</lastBuildDate> 
+ 	<language>en</language>
+ 	<generator>None.</generator> 
+		 
+	<item>
+		<title><![CDATA[Utilisateurs de FR]]></title>
+		<link>http://crash-box.fr/</link>
+		<comments>http://crash-box.fr/</comments>
+		<pubDate>Mon, 09 May 2011 06:06:56 +0000</pubDate>
+		<description>2533 utilisateurs.</description>
+			<georss:point>46.2276380,2.2137490</georss:point>
+		</item>
+			 
+	<item>
+		<title><![CDATA[Utilisateurs de US]]></title>
+		<link>http://crash-box.fr/</link>
+		<comments>http://crash-box.fr/</comments>
+		<pubDate>Mon, 09 May 2011 06:06:56 +0000</pubDate>
+		<description>14 utilisateurs.</description>
+			<georss:point>37.0902400,-95.7128910</georss:point>
+		</item>
+			 
+	<item>
+		<title><![CDATA[Utilisateurs de DE]]></title>
+		<link>http://crash-box.fr/</link>
+		<comments>http://crash-box.fr/</comments>
+		<pubDate>Mon, 09 May 2011 06:06:56 +0000</pubDate>
+		<description>2 utilisateurs.</description>
+			<georss:point>51.1656910,10.4515260</georss:point>
+		</item>
+							 
+	<item>
+		<title><![CDATA[Utilisateurs de GB]]></title>
+		<link>http://crash-box.fr/</link>
+		<comments>http://crash-box.fr/</comments>
+		<pubDate>Mon, 09 May 2011 06:06:56 +0000</pubDate>
+		<description>1 utilisateurs.</description>
+			<georss:point>55.3780510,-3.4359730</georss:point>
+		</item>
+			 
+	<item>
+		<title><![CDATA[Utilisateurs de NL]]></title>
+		<link>http://crash-box.fr/</link>
+		<comments>http://crash-box.fr/</comments>
+		<pubDate>Mon, 09 May 2011 06:06:56 +0000</pubDate>
+		<description>6 utilisateurs.</description>
+			<georss:point>52.1326330,5.2912660</georss:point>
+		</item>
+			 
+	<item>
+		<title><![CDATA[Utilisateurs de DZ]]></title>
+		<link>http://crash-box.fr/</link>
+		<comments>http://crash-box.fr/</comments>
+		<pubDate>Mon, 09 May 2011 06:06:56 +0000</pubDate>
+		<description>22 utilisateurs.</description>
+			<georss:point>28.0338860,1.6596260</georss:point>
+		</item>
+			 
+	<item>
+		<title><![CDATA[Utilisateurs de ES]]></title>
+		<link>http://crash-box.fr/</link>
+		<comments>http://crash-box.fr/</comments>
+		<pubDate>Mon, 09 May 2011 06:06:56 +0000</pubDate>
+		<description>8 utilisateurs.</description>
+			<georss:point>40.4636670,-3.7492200</georss:point>
+		</item>
+			 
+	<item>
+		<title><![CDATA[Utilisateurs de EU]]></title>
+		<link>http://crash-box.fr/</link>
+		<comments>http://crash-box.fr/</comments>
+		<pubDate>Mon, 09 May 2011 06:06:56 +0000</pubDate>
+		<description>4 utilisateurs.</description>
+			<georss:point>50.0502995,1.4197301</georss:point>
+		</item>
+			 
+	<item>
+		<title><![CDATA[Utilisateurs de PH]]></title>
+		<link>http://crash-box.fr/</link>
+		<comments>http://crash-box.fr/</comments>
+		<pubDate>Mon, 09 May 2011 06:06:56 +0000</pubDate>
+		<description>1 utilisateurs.</description>
+			<georss:point>12.8797210,121.7740170</georss:point>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,79 @@
+<h3>Cool Digital Countdown Timer</h3>
+
+Fully vector, resizable countdown timer. Looks cool with red lcd numbers and mettalic base.
+
+Zip file includes Instructions.txt, both FlashCS3 and Flash8 versions. 
+Really so easy to modify the event date...I explained it in the text file. 
+
+Small file. Only 4 kb.
+
+<p></p>
+<p></p>
+<b>Ready to use! Just copy and paste in your movie</b>
+<p></p>
+<p></p>
+
+
+
+
+<h3><a href="http://onurdemirsoy.com/rss/flashden.xml">Subscribe to my RSS Feed. Get notified about new files</a></h3>
+
+<p><a href="http://onurdemirsoy.com/rss/flashden.xml"><img src="http://onurdemirsoy.com/rss/rss.png" alt="" /></a></p>
+
+<h3>Do you give support to Flash Den buyers?</h3>
+
+<p>Yes, I give full support when a bug is reported.</p>
+<p>If it'd happen, please write that bug as a comment to that file's page and send me an email, 
+then i ll contact you and send you the fixed file...</p>
+
+<p>All of my files checked several times, all of my files also scanned with different anti virus softwares 
+and usually i put different flash versions of the same file in the zip file... So you dont need to be worry...</p>
+
+
+<p>If you need to adapt any application to your needs, you need to have knowledge in Flash and Action Script coding.</p>
+
+I usually put comments in my actionscript codes and also i usually put an instructions.txt in the zip file.
+You ll easily understand how to use my files.
+Please rate my files if you like them..
+
+Thank you...
+
+
+<h2>My Items!</h2>
+<p></p>
+<p></p>
+<h3>Flv Players</h3>
+<p></p>
+<a href="http://flashden.net/item/advanced-flv-player-with-cool-features/9224"><img src="http://flashden.net/files/23376.jpg" alt="" /></a>
+<p></p>
+<h3>Mp3 Players</h3>
+<p></p>
+<a href="http://flashden.net/item/xml-mp3-player-with-cool-features/8640"><img src="http://flashden.net/files/21064.jpg" alt="" /></a>
+<a href="http://flashden.net/item/xml-driven-mp3-player-with-amazing-features/10224"><img src="http://flashden.net/files/25217.jpg" alt="" /></a>
+<a href="http://flashden.net/item/tiny-mp3-player/9012"><img src="http://flashden.net/files/22058.jpg" alt="" /></a>
+<p></p>
+<h3>Preloaders</h3>
+<p></p>
+<a href="http://flashden.net/item/cool-preloader-with-reflection-and-lightning-effects/8659"><img src="http://flashden.net/files/21110.jpg" alt="" /></a>
+<a href="http://flashden.net/item/blue-circle-preloader-with-mouse-following-/8867"><img src="http://flashden.net/files/21726.jpg" alt="" /></a>
+<a href="http://flashden.net/item/digital-percentage-based-preloader-with-mouse-following-/8803"><img src="http://flashden.net/files/21544.jpg" alt="" /></a>
+<p></p>
+<h3>Time/Date</h3>
+<p></p>
+<a href="http://flashden.net/item/modern-analogue-led-clock-with-date/8682"><img src="http://flashden.net/files/21206.jpg" alt="" /></a>
+<a href="http://flashden.net/item/tiny-digital-clock-set/9196"><img src="http://flashden.net/files/22553.jpg" alt="" /></a>
+<a href="http://flashden.net/item/amazing-retro-clock-with-date/9653"><img src="http://flashden.net/files/23745.jpg" alt="" /></a>
+<a href="http://flashden.net/item/time-bar/10747"><img src="http://flashden.net/files/26795.jpg" alt="" /></a>
+<p></p>
+<h3>Illustrations</h3>
+<p></p>
+<a href="http://flashden.net/item/comic-style-speech-balloon-set/8752"><img src="http://flashden.net/files/21404.jpg" alt="" /></a>
+<a href="http://flashden.net/item/comic-style-speech-balloon-set-2/9721"><img src="http://flashden.net/files/23951.jpg" alt="" /></a>
+<a href="http://flashden.net/item/comic-style-speech-balloon-set-3/9722"><img src="http://flashden.net/files/23952.jpg" alt="" /></a>
+<p></p>
+<h3>Other Stuff!</h3>
+<p></p>
+<a href="http://flashden.net/item/hearts-banner/8660"><img src="http://flashden.net/files/21112.jpg" alt="" /></a>
+<a href="http://flashden.net/item/notepad-with-coloring-pencils/9318"><img src="http://flashden.net/files/22871.jpg" alt="" /></a>
+<a href="http://flashden.net/item/flashing-lights-banner-with-blur-effect/9329"><img src="http://flashden.net/files/22890.jpg" alt="" /></a>
+<a href="http://flashden.net/item/interactive-red-car/10376"><img src="http://flashden.net/files/25617.jpg" alt="" /></a>

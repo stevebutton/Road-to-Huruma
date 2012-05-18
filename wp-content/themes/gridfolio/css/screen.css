@@ -1,0 +1,601 @@
+/* This file contains layout/font information, see the other CSS files for color information */
+/* The 960 Grid Framework is in 960.css */
+h1, h2, h3, h4, h5, h6,
+p, body
+{
+	margin:0;
+	padding:0;
+}
+@font-face {
+	font-family: 'LeagueGothicRegular';
+	src: url('fonts/League_Gothic-webfont.eot');
+	src: local('☺'), 
+		url('fonts/League_Gothic-webfont.woff') format('woff'), 
+		url('fonts/League_Gothic-webfont.ttf') format('truetype'), 
+		url('fonts/League_Gothic-webfont.svg#webfontOTINA1xY') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{	
+	font-size:14px;	
+	line-height:160%;
+}
+body, textarea, #cancel-comment-reply-link
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+h1, h2, h3, h4, h5, h6, 
+.main-menu, 
+#footer
+{
+	font-family:'LeagueGothicRegular', 'Arial Narrow', Arial, Helvetica;
+	
+}
+h1, h2, h3, h4, h5, h6
+{
+	line-height:100%;
+	font-weight:normal;
+}
+h1
+{
+	font-size:60px;
+}
+h2
+{
+	font-size:50px;
+}
+h3
+{
+	font-size:35px;
+}
+h4
+{
+	font-size:25px;
+}
+h5
+{
+	font-size:20px;
+}
+h6
+{
+	font-size:18px;
+}
+.widget UL
+{
+	padding-left:20px;
+}
+UL,OL
+{
+	margin-top:0;
+	margin-bottom:15px;
+}
+LI UL,
+LI OL
+{
+	margin-bottom:0;
+}
+blockquote
+{
+	margin-top:0;
+	margin-bottom:0;
+}
+p,
+h1, h2, h3, h4, h5, h6
+{
+	padding:0 0 15px 0;
+}
+h5, h6
+{
+	letter-spacing:0.5px;
+}
+a,
+a.active:hover
+{
+	outline:0;
+}
+#header
+{
+	padding:10px 0 12px 0;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:20;
+}
+#logo h1
+{
+	padding:0;
+	margin:0;
+}
+#logo img
+{
+	display:block;
+}
+#logo a
+{
+	text-decoration:none;
+	line-height:100%;
+}
+#footer
+{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	font-size:16px;
+	padding:8px 0 5px 0;
+	z-index:19;
+}
+#footer p
+{
+	padding:0;
+}
+#footer UL.social,
+#footer UL.social LI
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#footer .social li
+{
+	display:inline;
+}
+#footer .social a
+{
+	display:block;
+	float:left;
+	padding:0 20px 0 0;
+}
+#footer UL.social LI:last-child a
+{
+	padding-right:0;
+}
+#footer a
+{
+	text-decoration:none;
+}
+
+.slider
+{
+	position:relative;
+}
+.slider .next,
+.slider .prev
+{
+	display:none;
+	cursor:pointer;
+	position:absolute;
+	top:44%;
+	opacity:0.85;
+	padding:10px 10px;
+	font-size:18px;
+	z-index:30;
+	text-indent:-9999px;
+	width:16px;
+	height:16px;
+}
+.slider .next
+{
+	right:0;
+}
+.slider .prev
+{
+	left:0;
+}
+.slider:hover a.next,
+.slider:hover a.prev
+{
+	display:block;
+}
+
+.homewidgets
+{
+	padding:40px 0 0 0;
+}
+.menu-container
+{
+	position:relative;
+}
+UL.main-menu
+{
+	position:absolute;
+	right:0;	
+	display:inline;
+	margin:8px 0 0 0;
+	padding:8px 10px;
+}
+UL.main-menu LI
+{
+	display:inline;
+	list-style-type:none;
+}
+UL.main-menu LI a
+{
+	display:block;
+	float:left;
+	text-decoration:none;
+	font-size:20px;
+	padding:0 10px;
+}
+.section
+{
+	padding:125px 0 300px 0;
+}
+.boxed
+{
+	padding:20px 15px 5px 15px;
+}
+.rounded
+{
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.rounded-small
+{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+.left
+{
+	float:left;
+}
+.right
+{
+	float:right;
+}
+img.right
+{
+	padding:10px 0 10px 10px;
+}
+img.left
+{
+	padding:10px 10px 0 10px;
+}
+img.center
+{
+	padding:10px;
+	display:block;
+	margin:0 auto;
+}
+.end
+{
+	height:500px;
+}
+a img
+{
+	border:0;
+}
+.hidden,.alternate
+{
+	display:none;
+}
+
+.message
+{
+	font-weight:bold;
+}
+
+
+.section-heading h2
+{
+	padding:0 0 10px 0;
+	margin:0 0 20px 0;
+	text-transform:uppercase;
+}
+.post
+{
+	margin:0 0 15px;
+	padding:0 0 10px 0;
+}
+
+.fancydate .m
+{
+	text-transform:lowercase;
+}
+.fancydate .m,
+.fancydate .y
+{
+	font-size:14px;
+}
+.fancydate .d
+{
+	font-size:22px;
+}
+
+.meta
+{
+	font-size:12px;
+}
+.posttitle
+{
+	padding:0 0 5px 0;
+}
+.posttitle a
+{
+	text-decoration:none;
+}
+
+
+.portfolio-large
+{
+	margin-bottom:20px;
+	padding-bottom:20px;
+}
+
+
+UL.clean,
+UL.clean LI
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+
+#commentform #comment,
+#commentform #author,
+#commentform #email,
+#commentform #url,
+.standardForm input:focus,
+.standardForm textarea:focus,
+.standardForm .submit:hover
+{
+	outline:0;
+}
+.standardForm .textbox,
+.standardForm .textarea,
+.standardForm .submit,
+#commentform #comment,
+#commentform #author,
+#commentform #email,
+#commentform #url,
+#commentform #submit
+{
+	padding:8px 5px;
+	font-weight:bold;
+	display:block;
+	margin:0 0 10px 0;
+}
+.standardForm .textbox
+{
+	width:70%;
+}
+#commentform #comment,
+.standardForm .textarea
+{
+	width:95%; /*100% breaks IE6*/
+	height:120px;
+	line-height:160%;
+}
+
+.standardForm .submit
+{
+	width:35%;
+	cursor:pointer;
+}
+#searchform,
+#searchform .textbox
+{
+	position:relative;
+	width:125px;
+}
+#searchform .submit
+{
+	position:absolute;
+	right:-8px;
+	top:0px;
+	border:0;
+	background:none;
+	font-size:10px;
+	padding:0;
+	width:30px;
+	height:38px;
+	margin:0;
+	
+}
+
+#contactform_sent
+{
+	position:relative;
+	top:-250px;
+}
+
+code
+{
+	font-size:90%;
+}
+
+.centered
+{
+	text-align:center;
+}
+
+
+
+/* WordPress Image/Caption Formatting*/
+.aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignleft {
+	float: left;
+	margin:5px 15px 15px 0;
+}
+.alignright {
+	float: right;
+	margin:5px 0 15px 15px;
+}
+.wp-caption {
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	margin: 10px;
+	padding-top: 4px;
+	text-align: center;
+}
+.wp-caption img {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+}
+
+
+/* Default WordPress Gallery */
+.gallery 
+{
+	padding:0;
+}
+.gallery dl { 
+	float:left; 
+	margin:0 0 20px 0;
+}
+.gallery dl + dl
+{
+	margin-left:20px;
+}
+.gallery dl a { 
+	display:block; 
+	line-height:100%;
+}
+.gallery-caption 
+{
+	padding:2px 0;
+	margin:0;
+	font-size:11px;
+	text-align:center;	
+}
+
+
+.widget
+{
+	padding-bottom:20px;
+}
+
+
+
+
+/* Comments */
+#commentform p
+{
+	margin:0;
+	padding:0;
+}
+#commentform .form-allowed-tags
+{
+	display:none;
+}
+#commentform .comment-notes
+{
+	padding-bottom:10px;
+}
+#commentform #comment
+{
+	width:50%;
+}
+#respond
+{
+	padding:20px 0 0 0;
+}
+
+#comments OL LI
+{
+	list-style-type:none;
+}
+#comments
+{
+	margin:20px 0;
+}
+#comments OL LI p.cancel-comment-reply
+{
+	padding:0;
+}
+#comments OL
+{
+	margin:0;
+	padding:0;
+}
+#comments .avatar
+{
+	padding:1px;
+}
+#comments OL LI
+{
+	margin-bottom:20px;
+	padding:15px;
+	display:block;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+#comments .reply,
+#comments .comment-body
+{
+	margin-left:100px;
+}
+#comments .reply
+{
+	position:relative;
+	font-size:85%;
+	text-decoration:none;
+	font-weight:bold;
+}
+#cancel-comment-reply-link
+{
+	font-size:14px;
+}
+#comments .reply .comment-toolbox
+{
+	float:right;
+}
+#comments .author, 
+#comments .author a
+{
+	padding:10px 0 4px 0;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:110%;
+}
+#comments OL LI UL.children
+{
+	margin:30px 0 5px 0;
+}
+#comments .vcard
+{
+	float:left;
+	width:100px;
+}
+#comments .comment-body
+{
+	min-height:108px;
+}
+#comments cite
+{
+	font-style:normal;
+	display:block;
+	font-size:11px;
+}
+#comments cite a
+{	
+	font-weight:bold;
+	text-decoration:none;
+}
+#comments .pingback p
+{
+	padding-bottom:0;
+	font-style:italic;
+}
+
+

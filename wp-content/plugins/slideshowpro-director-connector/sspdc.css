@@ -1,0 +1,68 @@
+ /* SSPDC*/
+ 
+ .sspdc_album_matrix, .sspdc_album_preview {
+	display:block !important;
+	width: auto;
+	text-align: left;
+	padding-top: 5px;	
+}
+
+.sspdc_album_text {
+	margin-left: 0px;
+	margin-top: 5px;
+}
+
+.sspdc_album_preview img {
+	padding: 2px;
+	margin-right: 20px;	
+	border:1px solid #CCC;
+	display: inline
+	position: relative;
+	float: left;
+}
+
+.sspdc_image img {
+	margin-top: 10px;
+	padding: 2px;
+	border:1px solid #CCC;
+}
+
+.sspdc_thumbnail, .sspdc_widget_thumbnail {
+	display: inline;
+	position: relative;
+}
+
+.sspdc_thumbnail img {
+	background-color:#FFFFFF;
+	border:1px solid #CCC;
+	margin:0px 5px 6px 1px;
+	padding:2px;
+	position:relative;
+}
+
+.sspdc_widget {
+	padding: 0 0 3px 0;
+	margin: 0 0 3px 0;
+}
+
+.sspdc_widget img {
+	padding: 1px;
+	margin: 1px;
+	border: 1px solid #ccc;
+}
+
+.sspdc_photostrip  {
+	text-align:center;
+	width: 848px;
+	padding: 7px 0 2px 0px;
+	margin: 0 0 0 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.sspdc_photostrip img {
+    width: 58px;
+    height: 58px;
+    margin: 1px 1px;
+    padding: 1px;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu textSize="12" 
+	  textColor="0x000000" hoverTextColor="0x0066FF" selectedTextColor="0xFF0000" 
+	  borderColor="0x999999" bgColor="0xFFFFFF" gradientColor="0xCCCCCC"  
+	  tabOffset="0" tabGap="2" width="800" level1Height="30" level2Height="35" 
+	  fadeSubmenu="true" borderOn="true" tabType="round" autoSelect="true" target="_self">
+	
+	<tabfilter on="true" textColor="0xFFFFFF" bgColor="0xCCCCCC" gradientColor="0x666666" borderColor="0x999999"/> 
+	  
+	<tab submenuAlign="left">
+		<menuitem label="Flash Den" link="#deep-linking" class="special-anchor"/>			
+		<submenuitem label="Flash Files"/>
+		<submenuitem label="Flash Templates"/>
+		<submenuitem label="Pixel Fonts"/>
+		<submenuitem label="Stock Video"/>
+	</tab>	
+	<tab submenuAlign="auto">
+		<menuitem label="Audio Jungle"/>		
+		<submenuitem label="Music"/>
+		<submenuitem label="Sound"/>
+		<submenuitem label="Source Files"/>		
+	</tab>
+	<tab submenuAlign="center">
+		<menuitem label="Theme Forest"/>
+		<submenuitem label="HTML Templates"/>		
+		<submenuitem label="WordPress"/>
+		<submenuitem label="Joomla"/>
+		<submenuitem label="Flash Sites"/>
+		<submenuitem label="Misc."/>
+		<submenuitem label="PSD Templates"/>
+	</tab>
+	<tab submenuAlign="auto">
+		<menuitem label="Video Hive"/>		
+		<submenuitem label="Stock Footage"/>
+		<submenuitem label="Motion Graphics"/>
+		<submenuitem label="Project Files"/>
+	</tab>	
+	<tab submenuAlign="right">
+		<menuitem label="Graphic River"/>
+		<submenuitem label="Graphics"/>
+		<submenuitem label="Textures"/>
+		<submenuitem label="Vectors"/>
+		<submenuitem label="Add-ons"/>
+		<submenuitem label="Isolated Objects"/>
+		<submenuitem label="Icons"/>
+	</tab>
+	
+</menu>

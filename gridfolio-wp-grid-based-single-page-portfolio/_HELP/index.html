@@ -1,0 +1,468 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Template Documentation by Cudazi</title>
+    <!-- Note: Original documentation template provided by ThemeForest -->
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="all">
+	<!--<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">-->
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="all">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		.stdTable
+		{
+			border-top:1px solid #eee;
+			border-right:1px solid #eee;
+			border-left:1px solid #eee;
+		}
+		.stdTable TH
+		{
+			background:#eee;
+		}
+		.stdTable TD, .stdTable TH
+		{
+			padding:2px 4px;
+			margin:1px;
+			border-bottom:1px solid #eee;
+			vertical-align:top;
+		}
+		.stdTable TR:hover { background:#fafafa; }
+		a{ color:#888; outline:0; }
+		a:hover { color:#c60;}
+		a:active { color:#b00; position:relative; top:1px; }
+		
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;GridFolio&rdquo; WordPress Template Documentation by &ldquo;Cudazi&rdquo; v1.1</h3>
+		
+		<hr />
+		
+		<h1 class="center">&ldquo;GridFolio&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					By: Cudazi<br />
+					<a href="http://themeforest.net/user/cudazi/">Support / Questions</a><br />
+					<a href="http://twitter.com/cudazi/">Follow me for updates and news</a><br />
+					<a href="http://cudazi.com/">Freelance Availability</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/cudazi">here</a>. Thanks so much!</p>
+				<p>For questions on basic WordPress installation/usage, HTML, JavaScript or CSS editing - please try the <a href="http://themeforest.net/forums">ThemeForest forums</a>, <a href="http://www.w3schools.com/tags/default.asp">W3Schools</a>, the <a href="http://codex.wordpress.org/">Wordpress Codex</a> or <a href="http://www.google.com/search?q=how+to+find+category+id+wordpress">Google</a> as theme errors/issues get top priority.</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+        <hr />
+        <div class="success center">
+        	<strong>Love my work? <a href="http://twitter.com/home?status=Loving%20my%20theme%built%20by%20@cudazi%20-%20http://bit.ly/tf-cudazi">Let people know</a> on Twitter! :)</strong>
+        </div>
+		
+		<div class="notice">
+			<strong>WordPress 3.0+ is Required</strong> - You should be running that anyway or you're setting yourself up to be hacked. :)
+		</div>
+        
+		
+  <div class="notice">
+    <h3 id="intro"><strong>Helpful Tips</strong></h3>
+    <ul>
+      <li>Quickly find what you're looking for in this document by using your browser's "Find in Page" feature, typically Control+F.</li>
+      <li><a href="http://getfirebug.com/">Download firebug</a> to track down which styles are being used and test-edit the CSS.</li>
+      <li>Trying to locate/replace text, styles or code in themes? "Find in Files" command which is commonly found in any decent text editor which will save you hours of searching.</li>
+      <li>Getting an error message, chances are someone else has seen it too, try a google search for a quick fix.</li>
+      <li>Many times plugins are to blame when a site fails, always try disabling any third-party plugins if you encounter an error you can't solve.</li>
+      <li>Looking for more features? <a href="http://wordpress.org/extend/plugins/">Download and install a plugin</a> from Contact Forms, Polls, or Custom Widgets!</li>
+    </ul>
+  </div>
+  
+  
+  <div class="notice">
+    <h3><strong>Common Problems</strong></h3>
+    <ul>
+      <li><strong>Stylesheet Missing error?</strong><br />
+        Do not upload the entire download you get from ThemeForest, just upload the theme folder itself</li>
+      <li><strong>Custom field not working? </strong><br />
+        They are case sensitive and must be spelled exactly, ex: categories not category. Also be sure to hit publish after making a change as "update" does not always take effect immediately.</li>
+      <li><strong>Promo height issues</strong>
+        <hr />
+        <br />
+        The images being pulled into the promo must all be of the same height, even if they are auto-resized, upload images of the same proportions to ensure they're sized evenly.</li>
+    </ul>
+  </div>
+  <br />
+  <br />
+<hr />
+		
+        
+        
+        
+        
+        
+        
+	<h3 id="started"><strong>Install Guide</strong></h3>
+    <p>Follow the steps in the order given below.<br />They are intended for a blank install but read through them even if switching a current site to learn how the site works.</p>
+    	<ol>
+        	<li>
+            	<p><strong>Start Blank</strong><br />
+	            Start with a <strong>blank installation</strong>, otherwise you'll have a mix of your posts and my import.
+				<br /><strong>Delete</strong> the default "About" page and hello world post.</p>            
+            </li>
+            
+            <li>
+            	<strong>Adjust Media Settings Before Uploading Images (IMPORTANT)</strong><br />
+                <strong>Before</strong> you add any images, you need to adjust the media sizes slightly.<br />
+				If you change these settings after adding images, you need to <a href="http://wordpress.org/extend/plugins/regenerate-thumbnails/">re-generate your thumbnails</a>.
+                <ol>
+                	<li>In Settings > Media <strong>set Thumbnail to 140px by 140px</strong> (six 140px thumbnails fit perfectly in a gallery on a page)</li>
+                    <li>In Settings > Media <strong>set Medium to 620px by 620px </strong>(used for the portfolio slider)</li>
+                </ol>
+                <br />&nbsp;
+            </li>
+            
+            
+            <li>
+            	<strong>Import Sample XML File</strong>
+                <ol>
+                	<li>Go to Tools > Import > WordPress</li>
+                    <li>If prompted, install the importer plugin and activate it</li>
+                    <li>Choose the XML sample file included in the Sample Content folder, be sure to check the box to <strong>import sample files and attachments</strong>.</li>
+                </ol>
+                <br />&nbsp;
+            </li>
+            
+            <li>
+				<p><strong>Set the background image</strong><br />
+                The background image/color is not set by default, this is to allow the use of the new Background tool in WordPress.<br />
+				In appearance > Background Choose a solid color or upload one included in the Sample Content folder.</p>
+            </li>
+            
+            <li>
+            	<strong>Items to update after the import</strong><br />
+                <ol>
+               	  <li>In Settings > Reading > Front page choose the page titled: "Display All Pages"<br />Display All Pages is a page template that pulls in all your pages<strong> and needs to be set as your home page</strong>.</li>
+                    <li>In Settings > Reading > Posts page choose the page titled: Blog<br />Your blog page is optional and does not use a special page template.</li>
+                    <li>Add Widgets in Appearance > Widgets<br />Widgets are used in the "Home" template and blog sidebar.</li>
+                    <li>Install Lightbox<br />I suggest "FancyBox for WordPress" (Theme tested with version 2.7.2 by Jose Pardilla)<br />Once this plugin has been activated, any link to an image will open in a lightbox.</li>
+                    <li>View and enter your settings in the Settings+ page<br />Email address, etc...</li>
+                </ol>
+                <br />&nbsp;
+            </li>
+            
+        </ol>
+    
+    <hr />
+	
+    <div class="notice">
+		Get into more detail on the individual page templates below
+    </div><br />
+    <hr />
+	
+    <br />&nbsp;
+	
+	<h3><strong>Display All Pages</strong></h3>
+	<p>The template that makes this a single page template is the page you assign the "Display All Pages" page template.</p>
+	<p>You NEED to assign this page as your home page in settings > reading, it will then be hidden from the main menu and not pull itself in.</p>
+	<p>This is the page that will grab and display all pages on your site, it's title and content are not displayed on your site.</p>
+	<p>If you need to re-arrange the pages as the display, use "page order" along the right when adding/editing other pages, lower numbers appear first (left).</p>
+	<hr />
+	
+	<h3><strong>Home / Top Section</strong></h3>
+	<p>The top section in the demo is using the page template "Home". It is NOT set as the home page under settings > reading. (See "Display All Pages" template above).</p>
+	<p>This page template pulls in the four home widgets. Drop 4 text widgets into Appearance > Widgets - Home Column A, B, C and D.</p>
+	<p>This "home" template also hides the page title, useful for the top section.</p>
+	<p>You do not actually need to use this template if you are using a different style as your home such as the portfolio, gallery, contact or default page template.</p>
+	<hr />
+	
+	<h3><strong>Portfolio Container</strong></h3>
+	<p>The portfolio section refers to the large items with an optional slider (if more than 1 image is used).</p>
+	<p>Create a page using the "Portfolio" page template, add a title some optional content. This will create a section/container to pull in your portfolio items added next.</p>
+	<hr />
+		<blockquote>
+			<h3><strong>Portfolio Items</strong></h3>
+			<p><em>Please create a page using the portfolio page template first to pull in these items. (Above)</em></p>
+			<p>The individual portfolio items are a custom post type included with this theme called Portfolio.</p>
+			<p>Click the Portfolio heading in the left menu and click "Add New".</p>
+			<p>Enter a title, a small amount of content and a sub heading (additional options box below the main content area).</p>
+			<p>To attach an image, click the "Add an image" square icon right above the main content area.</p>
+			<ol>
+				<li>Upload a few images <strong>but do not insert them into the post</strong> it will pull them in automatically.</li>
+				<li>Click save all changes after they appear in the pop-up after uploading and close the pop-up</li>
+				<li>They will be resized automatically to the "medium" setting you adjusted above BUT for the slider to function nicely, be sure they are the same <a href="http://en.wikipedia.org/wiki/Aspect_ratio_%28image%29">aspect ratio</a>.</li>
+			</ol>
+		</blockquote>
+	<hr />
+	
+        
+	<h3><strong>Blog Summary</strong></h3>
+	<p>Create a blog summary that will appear on the single page layout.</p>
+	<p>Add a page, I'll call mine "Latest News".</p>
+	<p>Set it to use the page template: Blog Summary.</p>
+	<p>Additional settings for this are found in the Settings+ page.</p>
+	<hr />
+	
+	
+	<h3><strong>Blog</strong></h3>
+	<p>(Full blog page)</p>
+	<p>Create page: Blog (leave as default page template)</p>
+	<p>Set your blog page in Settings > Reading > Posts Page (otherwise it will try to appear within the main content which is what the Blog Summary template is for)</p>
+	<p>This will be your full blog, which will open in a second page.</p>
+	<p>Additional settings for this are found in the Settings+ page.</p>
+	<p>Sidebar: add widgets in Appearance > Widgets</p>
+	<hr />
+	
+   
+	
+	<h3><strong>Gallery</strong></h3>
+	<p>The gallery section / effect is actually a standard page with the default WordPress gallery shortcode inserted.</p>
+	<p>Create a page, let's call ours Gallery.</p>
+	<p>Leave the template set to "Default template"</p>
+	<p>To attach an image, click the "Add an image" icon right above the main content area.</p>
+	<ol>
+		<li>Upload a few images but do not insert them into the post.</li>
+		<li>Click save all changes after they appear in the pop-up after uploading</li>
+		<li>You should now be in the gallery tab, if you have uploaded your images correctly it will say Gallery (3) where 3 is the number of images you added.</li>
+		<li>While on this gallery tab, look at the gallery settings section and set the following:
+			<br />Link thumbnails to: Image File
+			<br />Gallery Columns: 6 (IMPORTANT)
+		</li>
+		<li>Insert the gallery into the post.</li>
+	</ol>
+	<hr />
+   
+	
+	<h3><strong>Contact</strong></h3>
+	<p>The contact form is inserted automatically when you create a page using the "Contact Form" page template.</p>
+	<p>Set the "to" email address in the Settings+ page.</p>
+	<hr />
+	
+	
+	<h3><strong>Main Menu</strong></h3>
+	<p>Pages are added to this area automatically as you add and order pages.</p>
+	<p>If you have set the "Display all Pages" page template up properly and have it set as your home page, the menu items will all have #go-pageslug in the link which will scroll to a specific spot on the page.</p>
+	<p>See the settings+ page for excluding the blog from this menu.</p>
+	<hr />
+	
+	
+	<h3><strong>Footer Menus</strong></h3>
+	<p>Two menus are defined for this in the appearance > Menus area allowing you to add any URL you want in the footer.</p>
+	<p>You can also disable the footer in the Settings+ page.</p>
+	<hr />
+    
+    
+    <br />
+    <div class="notice">
+    	Read on to really dig into this template's settings, structure and files.
+    </div>
+    <br />
+    <hr />
+    
+    
+    
+    
+    <h3><strong>Shortcodes</strong></h3>
+    <p>Shortcodes are a very powerful way to insert custom functions directly into the main content of a wordpress page or post. They're items surrounded with square brackets like [shortcode] and can accept parameters (options) and/or content. Enter shortcodes in HTML mode on your WordPress editor, they are case sensitive.</p>
+    <p>You can override the default settings by referring to the settings below.<br />
+		For example on cudazi_contact, I will set a "to" address: [cudazi_contact to="example@example.com"]</p>
+			
+            <hr />
+            
+            
+           <p><strong>[cudazi_contact]</strong> - Used to display a contact form with PHP and JavaScript validation.</p>
+           
+           <div class="notice">
+           	Note, this is inserted automatically into the Contact Form page template but you can insert it into a normal page template too.
+           </div>
+           
+          <table width="100%" class="small stdTable">
+              <tbody><tr>
+                <th width="150">Parameter</th>
+                <th width="150">Values</th>
+                <th>Description</th>
+              </tr>
+              <tr>
+                <td>to</td>
+                <td>you@youremail.com</td>
+                <td>Must be populated with your email address.</td>
+              </tr>
+              <tr>
+                <td>subject</td>
+                <td>Contact Form Message</td>
+                <td>The subject of the email that you will get.</td>
+              </tr>
+              <tr>
+                <td>button</td>
+                <td>Send Message</td>
+                <td>Text of the send button</td>
+              </tr>
+              <tr>
+                <td>sent</td>
+                <td>Message Sent!</td>
+                <td>Message displayed to the user when a message is sent.</td>
+              </tr>
+              <tr>
+                <td>error</td>
+                <td>Error, please be sure you filled out all fields properly.</td>
+                <td>Error message user will see if filled out improperly.</td>
+              </tr>
+            </tbody></table>
+            
+            
+            
+            <hr />
+            
+            <p><strong>[cudazi_column]</strong> - Used to create columned layouts, not needed for general users.</p>
+           
+           <div class="notice">
+           	<strong>Note, see the sample layout .txt files created in the Sample Content folder.<br />Enter them exactly like the sample content file with the extra spaces above/below each element.</strong>
+           </div>
+           
+          <table width="100%" class="small stdTable">
+              <tbody><tr>
+                <th width="150">Parameter</th>
+                <th width="150">Values</th>
+                <th>Description</th>
+              </tr>
+              <tr>
+                <td>width</td>
+                <td>3</td>
+                <td>1-12, corresponds to the grid_xx in the 960.gs Grid.</td>
+              </tr>
+              <tr>
+                <td>class</td>
+                <td>alpha <em>or</em> omega</td>
+                <td>For the first column, use alpha.<br />For the last column, use omega.<br />Leave blank for all others.</td>
+              </tr>
+              <tr>
+                <td>special</td>
+                <td>boxed</td>
+                <td>Use boxed to give rounded corners, a white background and shadow like the demo.</td>
+              </tr>              
+            </tbody></table>
+            
+            
+            
+            
+            
+              
+            
+    <hr />
+    <br />
+    
+	<h3><strong>Other Items to Note</strong></h3>
+    	
+      <p><strong>Widget Areas / Sidebars</strong><br />
+      The available sidebars / widget areas are found in Appearance > Widgets. <a href="http://www.google.com/search?q=multiple+widget+areas+wordpress">Adding Additional Widget Areas</a><br />
+      (The widgets are defined in /libraries/widgets.php for this theme).<br />
+      Looking for more control over your widgets? I suggest <a href="http://www.google.com/search?q=widget+logic+plugin+wordpress" target="_blank">this plugin</a> for even greater control.</p>
+        
+        <p><strong>Favicon</strong><br />Replace my favion.gif in the images folder with your own.</p>
+        <p><strong>Localization / Translation</strong><br />This template is translation ready and uses __() and _e() functions for text strings. <a href="http://www.google.com/search?q=translating+wordpress+themes">Translating Wordpress Themes</a> </p>
+    
+    <hr />
+
+
+
+
+	  <h3 id="htmlStructure"><strong>HTML Structure</strong></h3>
+      <p>This theme is a fixed layout with 1 to 12 columns. The general concept behind the 12 column framework is that all the columns need to add up to 12. In the single column sections, you will just see a div with a class of "grid_12", for a page with a main column and a sidebar, the classes add up to 12. <a href="http://960.gs">learn more and find demos on their website...</a></p>
+      <p>If you are using nested columns, the first column class must also include "alpha" and the last column of "omega".</p>
+  
+      
+<pre><small>&lt;div class=&quot;container_12&quot;&gt;
+    &lt;div class=&quot;grid_12&quot;&gt;
+        Full width Column content.
+        &lt;div class=&quot;grid_6 alpha&quot;&gt;nested first column&lt;/div&gt;
+        &lt;div class=&quot;grid_3&quot;&gt;nested second column&lt;/div&gt;
+        &lt;div class=&quot;grid_3 omega&quot;&gt;nested last column, adding up to 12.
+    &lt;/div&gt;
+&lt;/div&gt;</small></pre>
+      
+      <p><strong>NetTuts has a <a href="http://net.tutsplus.com/tutorials/html-css-techniques/prototyping-with-the-grid-960-css-framework/">great overview of the 960.gs Framework</a> you may want to check out.</strong></p>
+  <hr />
+
+
+
+
+
+
+  <h3 id="cssFiles"><strong>CSS Files and Structure</strong></h3>
+  <ul>
+    <li>/style.css - Required by WordPress, unused for styling</li>
+    <li>/css/screen.css - This is the main CSS file. Site color information is in the colors-xxxxx.css files below.
+    	<ul>
+          <li>/css/style-theme-default.css - Lite Version of the theme, applied after the main /css/style.css file.</li>
+            <li>/css/style-theme-dark.css - Dark Version of the theme, applied after the main /css/style.css file.</li>
+        </ul>
+    </li>
+    <li>/css/960.css - 960.gs Framework, no need to edit</li>
+    <li>/css/dynamic-css.php - Outputs CSS from <a href="#settingsPlus">Settings+</a> page</li>
+  </ul>
+  <p>See the <a href="#settingsPlus">Settings+</a> page area on how to "add on" css without having to edit the CSS directly - perfect for small changes.</p>
+  <p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+  <p>Please note that jQuery/JavaScript can apply classes <strong>after the page has loaded</strong>, to dig in further <a href="http://getfirebug.com/">download firebug</a>.</p>
+  <hr />
+
+
+
+        
+
+
+          <hr />
+  <h3 id="fonts"><strong>Fonts</strong></h3>
+  <p>This theme uses a Font-Face kit downloaded from FontSquirrel.com, if you are interested in changing the font on elements using @Font-Face, NetTuts+ has <a href="http://net.tutsplus.com/tutorials/design-tutorials/quick-tip-how-to-work-with-font-face/">a great article on Font-Face</a> I suggest reading. (Font-face is defined in the main screen.css CSS file).</p>
+  <p><a href="http://www.fontsquirrel.com/fontface">http://www.fontsquirrel.com/fontface</a></p>
+
+        
+        
+          <hr />
+  <h3 id="javascript"><strong>JavaScript</strong></h3>
+  <p>This theme imports these Javascript files:</p>
+  <ol>
+  	<li>jQuery a Javascript library - www.jQuery.com</li>
+    <li>js/jcarousellite_1.0.1.min.js - Slider/Promo Plugin (do not edit)</li>    
+    <li>js/general.js - Basic Theme JavaScript Configuration, edit this as needed</li>
+  </ol>
+  <hr />
+
+
+
+  <h3 id="credits"><strong>Sources and Credits</strong></h3>
+  <p>I've used the following images, icons or other resources as listed.
+  
+  <ul>
+        <li><strong>Heading Font</strong> - Open Type - League Gothic via FontSquirrel.com</li>
+        <li><strong>Body Font</strong> - Georgia</li>
+        <li><strong>Icons</strong> - Created by Cudazi, PSD included</li>
+        <li><strong>Background Texture</strong> - Created by Cudazi</li>
+        <li><strong>People Cutouts</strong> - "PEOPLE SILHOUETTES 12" by Sidath Free for commercial / non-commercial use</li>
+        <li><strong>CSS Framework</strong> - 960.gs</li>
+        <li><strong>jQuery</strong> - www.jquery.com</li>
+        <li><strong>jQuery Slider (jCarouselLite) </strong> - http://www.gmarwaha.com/jquery/jcarousellite/</li>
+        <li><strong>IE7.js</strong> - Project Hosting on Google Code: http://code.google.com/p/ie7-js/</li>
+        <li><strong>Photos</strong> - Flickr CC Commercial Use Photos</li>
+	</ul>
+  <hr />		
+		
+		
+	  <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, basic HTML/CSS/JavaScript related questions, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		<p class="append-bottom">
+			<strong>Curt Ziegler</strong><br />
+			<a href="http://www.cudazi.com/">www.Cudazi.com</a> | <a href="http://twitter.com/cudazi">twitter.com/cudazi</a>
+		</p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

@@ -1,0 +1,176 @@
+/* General style information */
+body
+{	
+	/* background color and image removed, set in Appearance > Background */
+}
+
+body,
+.posttitle a
+{
+	color:#222;
+}
+
+a,
+a.active:hover,
+#footer,
+UL.main-menu LI a,
+.fancydate .m,
+.fancydate .y,
+.meta,
+.standardForm .textbox,
+.standardForm .textarea,
+.standardForm .submit,
+#commentform #comment,
+#commentform #author,
+#commentform #email,
+#commentform #url,
+#commentform #submit
+{
+	color:#888;
+}
+
+
+a:hover,
+a.active,
+.posttitle a:hover,
+UL.main-menu LI a:hover,
+UL.main-menu LI a.active
+{
+	color:#c33;
+}
+#footer,
+UL.main-menu,
+.standardForm .submit,
+#commentform #submit
+
+{
+	background:#ececec;
+}
+
+.slider .next,
+.slider .prev,
+.boxed,
+.standardForm .textbox,
+.standardForm .textarea,
+.standardForm .submit,
+#commentform #comment,
+#commentform #author,
+#commentform #email,
+#commentform #url,
+#commentform #submit
+{
+	background:#fff;
+}
+
+#header
+{
+	border-bottom:2px solid #f0f0f0;
+	background:#fafafa;
+}
+#footer
+{
+	border-top:1px solid #e0e0e0;
+}
+
+.slider .next
+{
+	background:#fff url(../images/arrow_right.png) no-repeat center center;
+}
+.slider .prev
+{
+	background:#fff url(../images/arrow_left.png) no-repeat center center;
+}
+
+UL.main-menu
+{
+	border:4px solid #fff;
+}
+
+.shadow,
+.gallery dl img
+{
+	-moz-box-shadow:0 0 5px #eee;
+	-webkit-box-shadow:0 0 5px #eee;
+	box-shadow:0 0 5px #eee;
+}
+.hovershadow:hover,
+.gallery dl img:hover
+{
+	-moz-box-shadow:0 0 7px #ccc;
+	-webkit-box-shadow:0 0 7px #ccc;
+	box-shadow:0 0 7px #ccc;
+}
+.warning
+{
+	color:#f00;
+}
+.error
+{
+	color:#f90;
+}
+.success
+{
+	color:#390;
+}
+.section-heading h2
+{
+	border-bottom:2px solid #f0f0f0;
+}
+.post
+{
+	border-bottom:2px solid #f0f0f0;
+}
+.standardForm input:focus,
+.standardForm textarea:focus,
+.standardForm .submit:hover
+{
+	border-color:#e7e7e7;
+}
+.standardForm .textbox,
+.standardForm .textarea,
+.standardForm .submit,
+.rounded,
+#commentform #comment,
+#commentform #author,
+#commentform #email,
+#commentform #url,
+#commentform #submit
+{
+	border:4px solid #f0f0f0;
+}
+
+
+
+
+
+#comments OL LI,
+#comments .avatar
+{
+	border:1px solid #e7e7e7;
+}
+#comments OL LI
+{
+	background:#fff;
+}
+#comments .even 
+{
+	background:#f0f0f0;
+}
+#comments OL LI.bypostauthor
+{
+	border-color:#aaa;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+

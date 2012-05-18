@@ -1,0 +1,39 @@
+/*
+Copyright: © 2009 WebSharks, Inc. ( coded in the USA )
+<mailto:support@websharks-inc.com> <http://www.websharks-inc.com/>
+
+Released under the terms of the GNU General Public License.
+You should have received a copy of the GNU General Public License,
+along with this software. In the main directory, see: /licensing/
+If not, see: <http://www.gnu.org/licenses/>.
+*/
+/*
+s2Member / Multisite Integration Forms.
+
+These are basic CSS rules. You can override any of these
+through the style.css file for your WordPress® theme.
+
+If you're using a `PriMo Theme`, you can use:
+	PriMoTheme Options -> Custom CSS
+See: http://www.primothemes.com/
+*/
+div#content > div.mu_register > form#setupform input.ws-plugin--s2member-custom-reg-field[type = text],
+div#content > div.mu_register > form#setupform input.ws-plugin--s2member-custom-reg-field[type = password],
+div#content > div.mu_register > form#setupform textarea.ws-plugin--s2member-custom-reg-field,
+div#content > div.mu_register > form#setupform select.ws-plugin--s2member-custom-reg-field
+	{
+		width: 100%;
+		margin: 5px 0 5px 0;
+		/* Match the default theme for WordPress®. ( Twenty Ten ). */
+		<?php if(get_current_theme() === "Twenty Ten"): ?>
+			font-size: 24px; /* Match font size. */
+		<?php endif; ?>
+	}
+div#content > div.mu_register > form#setupform select.ws-plugin--s2member-custom-reg-field
+	{
+		width: 101%;
+	}
+div#content > div.mu_register > div.mu_alert
+	{
+		display: none;
+	}

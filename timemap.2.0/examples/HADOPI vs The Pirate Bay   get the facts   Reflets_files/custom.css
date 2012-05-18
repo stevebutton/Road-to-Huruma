@@ -1,0 +1,196 @@
+/* Custom CSS */
+
+/*
+ * Please add all your custom CSS here. You can also modify this file directly by
+ * editing custom.css, which is located in the theme's admin folder.
+ * 
+ * Make sure permissions for custom.css are set to 0666.
+ * 
+ * NOTE: Avoid modifying core theme files or upgrading the theme will overwrite 
+ * your changes.
+ * 
+ * If you are new to styles and CSS, check out http://www.w3schools.com/css/.
+ * 
+ * If you encounter any issues visit http://support.bavotasan.com/.
+ * 
+ * Below is a sample style. It will change the color of your site's blog title to 
+ * blue.
+ * 
+ * Delete the slashes and asterix before and after the style to see it in action.
+ */
+
+/*
+#title a { color: #4893cc; }
+*/
+
+/* Reflets hacks */
+
+
+.FlattrButton {
+   padding-bottom : 7px ;
+}
+
+
+#fluxall { 
+  font-size : 120% ;
+  color : #FFFFFF ;
+  text-align : center ;
+  background : #575757 ; 
+  widht : 400px;
+  margin-right : 280px ;
+  padding-top : 0.5em ;
+  padding-bottom : 0.5em ;
+}
+
+#fluxtribunes { 
+  font-size : 120% ;
+  color : #FFFFFF ;
+  text-align : center ;
+  background : #575757 ; 
+  widht : 40% ;
+  margin-left : 412px ;
+  margin-top : -2.2em ;
+  padding-top : 0.5em ;
+  padding-bottom : 0.5em ;
+}
+
+#body { 
+ background : transparent url(http://mamba.toonux.com/refletsdev/wp-content/uploads/2011/02/bg.jpg) top center repeat-y !important;
+}
+
+#menu-pages.menu {
+  text-align : right ;
+  font-weight : bold ;
+}
+
+#socialstuff {
+  float : right ;
+  padding-right : 3em ;
+  padding-top : 2.5em ;
+}
+
+.catheader {
+  background : #F1F1F1 ;
+}
+
+.comment-reply-link {
+  padding-right :  10px !important;
+  padding-left :  -4px !important;
+}
+
+.related_post_title {
+  padding-top : 1.2em ;
+  font-weight : bold ;
+}
+
+/* FEATURED POST WIDGET */
+
+#featured_post.side-widget.widget_myFeature {
+  background : #333333;
+  border : solid 2px #D2D2D2;
+  border-radius : 10px 10px  ; 
+}
+
+#featured_post.side-widget.widget_myFeature .storycontent.noline {
+  color : #818181 ;
+  font-size : 90% ;
+}
+
+#featured_post.side-widget.widget_myFeature h3,h2,h4 {
+  color : #818181;
+}
+
+#featured_post.side-widget.widget_myFeature .side {
+  font-size : 100%;
+  font-weight : bold ;
+}
+
+#featured_post.side-widget.widget_myFeature .side a {
+  color : #FFFFFF;
+}
+
+#featured_post.side-widget.widget_myFeature .meta {
+  color : #818181;
+  font-size : 72% ;
+}
+
+#featured_post.side-widget.widget_myFeature .meta a {
+  color : #FF5500;
+}
+
+/* TABBED WIDGET */
+
+#tabbed-1.ui-tabs-panel.ui-widget-content.ui-corner-bottom li { 
+  background : none ;
+}
+
+#tabbed-1.ui-tabs-panel.ui-widget-content.ui-corner-bottom li { 
+  padding-left : 0em ;
+  padding-right : 0em ;
+}
+
+#tabbed-2.ui-tabs-panel.ui-widget-content.ui-corner-bottom li { 
+  background : none ;
+}
+
+#tabbed-2.ui-tabs-panel.ui-widget-content.ui-corner-bottom li { 
+  padding-left : 0em ;
+  padding-right : 0em ;
+}
+
+ #tabs.side-widget.widget_myTabs {
+  background : #F2F2F2;
+  border : solid 1px #D2D2D2;
+  border-radius : 10px 10px  ; 
+}
+
+
+/* TWEETS WIDGETS */
+
+#twitter-3.side-widget.widget_twitter .tweets  li { 
+  padding-left : 0em ;
+  padding-right : 0em ;
+}
+
+#twitter-3.side-widget.widget_twitter .tweets a {
+  color : #33CCFF ;
+}
+
+#twitter-3.side-widget.widget_twitter .tweets .timesince  {
+  color : #858585 !important ;
+}
+
+
+/* COMMENTAIRES */
+
+#comments .comment-reply-link {
+  font-size : 79% ;
+}
+
+#comments .comment.odd.alt.depth-2 {
+  background : #F4F4F4 ;
+}
+
+#comments .comment.odd.alt.depth-3 {
+  background : #FFFFFF ;
+}
+
+#comments .comment.odd.alt.depth-4 {
+  background : #F4F4F4 ;
+}
+
+#comments .comment.odd.alt.depth-5 {
+  background : #FFFFFF ;
+}
+
+
+#maincontent {
+ border : solid 1px #E3E3E3 ;
+ border-radius : 10px 10px  ; 
+ margin-left : 1em ;
+}
+
+#body  {
+ border : solid 1px #E3E3E3 ;
+ border-radius : 10px 10px  ; 
+}

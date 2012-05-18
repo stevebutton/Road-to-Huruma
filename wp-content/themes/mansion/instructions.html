@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>Mansion Instructions</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+body {margin: 20px; font-family: arial; font-size: 12px; color: #ccc; background: #000;}
+.container {width: 850px; margin:0 auto;}
+li.box { margin: 0 0 2em; }
+a { color: #eee; }
+hr {border:none;border-top:1px solid #222; height: 1px; color: #666;}
+</style>
+</head>
+<body>
+<div class="container">
+	<h1 class="fancy">Instructions</h1>
+	<div class="span-15 colborder">
+		<p>Mansion is a free multimedia theme for WordPress. The theme design was developed with users who appreciate visual browsing and prefer a minimal layout, with their photos and multimedia featured front and center. Mansion caters the photobloggers audience who love to just throw in the photographs they have and occasionally share their views as blog posts. <a href="http://feeds.feedburner.com/GraphPaperPress">Subscribe to Graph Paper Press' feed</a> or follow us on the bleeding edge of development by <a href="http://twitter.com/GraphPaperPress">following us on Twitter</a>.</p>
+		<p>Here is a brief list of the major features:</p>
+		<ul style="list-style-type: disc; margin: 0 0 2em;">
+			<li>Fully flexible according to the browser width</li>
+			<li>Choose to show one image per post or all on the grid</li>
+	<li>Pulls all the images you have in your library</li>
+	<li>Separate Blog archive grid</li>
+	<li>Highlight your posts by tagging it "featured"</li>
+	<li>Widgetized sidebar in single pages</li>
+			<li>Compatibility with WordPress 2.9+</li>
+			<li>Standards Compliance:  This theme validates as Strict XHTML and has been tested on Firefox 3.6+, Safari 4.0+, Opera 10+, IE8, and IE7</li>
+		</ul>
+	</div>
+	<div class="span-8 last">
+		<div class="box">
+			<hr>
+			<h3 class="fancy">Best Practices</h3>
+			<p>If you want to make changes to how this theme looks and feels, then you should create a child theme.  Never make changes to the original theme files.  Why?  Because when a new version of this theme is released, all of your changes will be lost when you update.  Plus, making a child theme is incredibly easy. <a href="http://graphpaperpress.com/2010/02/10/how-to-create-child-themes-for-our-modularity-theme-for-wordpress/">Here is how you do it.</a></p>
+		</div>
+	</div>
+	<hr>
+	<ol>
+		<li class="box">
+			<h3 class="fancy">Installation</h3>
+			<ol style="list-style-type: decimal">
+				<li>Unzip <strong>mansion.zip</strong> to your computer's desktop. It should be contained within a folder called <strong>/mansion/</strong></li>
+				<li>Upload the folder and its contents to the themes directory of your blog <strong>via FTP</strong>, located in <strong>wp-content/themes</strong> where WordPress is installed.</li>
+				<li>Click on <strong>Appearance</strong> - <strong>Themes</strong> menu from the WordPress admin panel and then activate Mansion.</li>
+				<li>Click on <strong>View Site</strong> at the top of the page.  Bam.  Hot site!</li>
+			</ol>
+			<p><strong>Note:</strong> Here's <a href="http://vimeo.com/8624806" title="How To Install Modularity">a related video</a> about installing <a href="http://graphpaperpress.com/demo/?themedemo=modularity" title="Modularity">Modularity</a>, another theme by Graph Paper Press</p>
+		</li>
+		<li class="box">
+			<hr>
+			<h3 class="fancy">Installation Troubleshooting</h3>
+			<p>If you've performed a clean install of Mansion and are having problems, make sure that the following conditions have been met:
+			<ol style="list-style-type: decimal;">
+				<li>Make sure that you've installed Mansion properly. You should use an FTP program like <a href="http://filezilla-project.org/">FileZilla</a>, <a href="http://winscp.net/eng/index.php">WinSCP</a>, or <a href="http://fetchsoftworks.com/">Fetch</a> to upload your files. <strong>Do not</strong> use WordPress' <em>Install a theme in .zip format</em> option.</li>
+				<li><strong>Permissions:</strong> On most servers, Mansion <strong>files</strong> should be set to <strong>644</strong> and <strong>folders</strong> should be set to <strong>755</strong>.</li>
+				<li>Make sure that you've deactivated all of your plugins before installing and/or upgrading Mansion.</li>
+				<li>Your Mansion folder should be named <strong>mansion</strong>. <strong>Do not rename</strong> this folder.</li>
+				<li>If you are upgrading your version of Mansion, make sure to backup first and completely delete your old version of Mansion from your server before uploading the new version of Mansion to your server.</li>
+			</ol>
+		</li>
+		<li class="box">
+			<hr>
+			<h3 class="fancy">Initial Setup - Media settings</h3>
+			<ol style="list-style-type: decimal;">
+				<li>Click Settings -> Media.  Set your thumbnails to 200 x 150.  Set your medium photo size to 495 x 0.  Set your large size to 950 x 0.</li>
+				<li>Set your external video embed width to 495. Leave the height blank. This applied for your YouTube or Vimeo links.</li>
+
+				<li>This theme will automatically create thumbnails from the images that you upload, when you upload them.</li>
+		</ol>
+			<h6>IMPORTANT</h6>
+			<p>If you are migrating from an old theme to a new theme and your thumbnails look squished or distorted, you might need to re-upload the image you plan on using for the post thumbnail.  This is because WordPress creates your image sizes based on the dimensions you specified above.  Old thumbnails will not be automatically resized.  You can also <a href="http://wordpress.org/extend/plugins/regenerate-thumbnails/" title="regenerate your thumbnails">regenerate your thumbnails</a> so that your old uploaded media have the new settings applied to it.</p>
+			<p>By default, thumbnails are auto cropped by Wordpress.  This theme checks first to see if you have added the URL to your prefered thumbnail to custom field called, you guessed it, thumbnail.  If not, the theme will defer to the first photo that you uploaded using Wordpress' Add Photo icon.  If you haven't uploaded a photo using the Add Photo icon, the theme will can the post body for an image, and use it.  If no photo exists in the post body, the theme will use a default image.  As you can see, this series of "checks" allow you to have 100% control over your post thumnbnails.</p>
+		</li>
+
+		
+		<li class="box">
+			<hr>
+			<h3 class="fancy">Common problems</h3>
+			<p>This theme uses jQuery javascript to do lots of fancy stuff.  If your theme looks broken, than you likely have a plugin that uses a conflicting javascript library.  Deactivate your plugins, one-by-one, to determine which plugin is conflicting with jQuery.</p>
+			<p>Still having trouble?  Consider <a href="http://graphpaperpress.com/members/signup.php">becoming a member of Graph Paper Press</a> so you can get access to our private, well-groomed <a href="http://graphpaperpress.com/support/">support forum</a>, tutorials, and additional themes.</p>
+		</li>
+		
+		<li class="box">
+			<hr>
+			<h3 class="fancy">Frequently Asked Questions</h3>
+			<p><strong>How do we get the Big image as in the homepage of your demo site?</strong></p>
+			<p>Tag your last post with "featured" tag and your image will automatically become big. Note it only happens for the last post.</p>
+			<p><strong>How do we get that blog look as in the demo?</strong></p>
+			<p>You will simply need to have a "blog" category and the blog archive page will automatically look like in the demo page. If you want to have other category also have this look, simply duplicate and rename the category-blog.php to category-catname.php where you will need to replace catname by your preferred category name.</p>
+			<p><strong>Why am I not getting the array of image as in the demo homepage?</strong></p>
+			<p>You can now set this from the <strong>Appearance</strong> -> <strong>Theme Options</strong>. How cool is that?</p>
+			
+			<p>Still having trouble?  Consider <a href="http://graphpaperpress.com/members/signup.php">becoming a member of Graph Paper Press</a> so you can get access to our private, well-groomed <a href="http://graphpaperpress.com/support/">support forum</a>, tutorials, and additional themes.</p>
+		</li>
+		
+		
+		<li class="box">
+			<hr>
+			<h3 class="fancy">Recommended plugins</h3>
+			<ul>
+				<li><a href="http://wordpress.org/extend/plugins/regenerate-thumbnails/">Regenerate Thumbnails</a>: If you moved from another theme to this theme, and you are having image size issues, then after setting proper image sizes, feel free to use this plugin and regenerate all the image to the new image size.</li>
+				<li><a href="http://wordpress.org/extend/plugins/fancybox-for-wordpress/">Fancybox</a>: The best lightbox plugin available, currently seen on Apple.com.</li>
+				<li><a href="http://wordpress.org/extend/plugins/wp-super-cache/">WP Super Cache:</a> This plugin generates static html files from your dynamic WordPress blog.  After a html file is generated your webserver will serve that file instead of processing the comparatively heavier and more expensive WordPress PHP scripts.</li>
+			</ul>
+		</li>
+		<li class="box">
+			<hr>
+			<h3 class="fancy">Credits</h3>
+			<ul>
+				<li><a href="http://nhuja.com" title="Chandra Maharzan">Chandra Maharzan</a> - Design / Development</li>
+				<li><a href="http://thadallender.com" title="Thad Allender">Thad Allender</a> - Suggestions</li>
+				<li><a href="http://philiparthurmoore.com/" title="Philip Arthur Moore">Philip Arthur Moore</a> - Debugging</li>
+				<li><a href="http://desandro.com/resources/jquery-masonry/" title="David DeSandro">David DeSandro</a> - jQuery Masonry Plugin</li>
+			</ul>
+		</li>
+		<li class="box">
+			<hr>
+			<h3 class="fancy">License Details</h3>
+			<p>There are a few things to know that you can and cannot do with this theme:</p>
+			<ul>
+				<li>Give credit where credit is due.  Keeping the credit link intact is <strong>recommended</strong>.  If you want to remove the credit, consider becoming <a href="http://graphpaperpress.com/members/signup.php">a developer-level member of Graph Paper Press</a>.</li>
+				<li>You <strong>may</strong> use this product for personal and commercial purposes.</li>
+				<li><strong>DO NOT</strong> resell or redistribute this product in whole or part (including derivative works).</li>
+			</ul>
+			<br>
+			<p>This theme was created for by us for you.  <a href="http://graphpaperpress.com/contact/">Contact us</a> for inquiries, comments, or suggestions</p>
+		</li>
+	</ol>
+	<hr style="margin: 0 0 2em;">
+</div>
+</body>
+</html>

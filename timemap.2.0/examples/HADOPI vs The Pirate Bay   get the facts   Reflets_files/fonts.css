@@ -1,0 +1,116 @@
+/* The fonts included are copyrighted by the vendors listed below. */
+
+/*
+ * @vendor:     SIL International
+ * @vendorurl:  http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&cat_id=Home
+ * @licenseurl: http://www.fontsquirrel.com/license/Galatia-SIL
+ */
+
+@font-face {
+	font-family: 'GalatiaSILRegular';
+	src: url('fonts/GalSILR.eot');
+	src: local('Galatia SIL Regular'), local('GalatiaSIL'), url('fonts/GalSILR.ttf') format('truetype');
+}
+
+/*
+ * @vendor:     The League of Moveable Type
+ * @vendorurl:  http://www.theleagueofmoveabletype.com
+ * @licenseurl: http://www.fontsquirrel.com/license/ChunkFive
+ */
+
+@font-face {
+	font-family: 'ChunkFiveRegular';
+	src: url('fonts/Chunkfive.eot');
+	src: local('ChunkFive Regular'), local('ChunkFive'), url('fonts/Chunkfive.ttf') format('truetype');
+}
+
+/*
+ * @vendor:     Bernd Montag
+ * @licenseurl: http://www.fontsquirrel.com/license/Chantelli-Antiqua
+ */
+
+@font-face {
+	font-family: 'ChantelliAntiquaRegular';
+	src: url('fonts/Chantelli_Antiqua.eot');
+	src: local('Chantelli Antiqua Regular'), local('ChantelliAntiqua'), url('fonts/Chantelli_Antiqua.ttf') format('truetype');
+}
+
+/*
+ * @vendor:     Laffayette Systems
+ * @licenseurl: http://www.fontsquirrel.com/license/Laffayette-Comic-Pro
+ */
+
+@font-face {
+	font-family: 'LaffayetteComicProRegular';
+	src: url('fonts/Laffayette_Comic_Pro.eot');
+	src: local('Laffayette Comic Pro Regular'), local('LaffayetteComicPro'), url('fonts/Laffayette_Comic_Pro.ttf') format('truetype');
+}
+
+/*
+ * @vendor:     Casady & Greene
+ * @vendorurl:  http://www.moorstation.org/typoasis/designers/casady_greene/
+ * @licenseurl: http://www.fontsquirrel.com/license/JottFLF
+ */
+
+@font-face {
+	font-family: 'JottFLFRegular';
+	src: url('fonts/JottFLF-Casual.eot');
+	src: local('JottFLF Regular'), local('JottFLF-Casual'), url('fonts/JottFLF-Casual.ttf') format('truetype');
+}
+
+/*
+ * @vendor:     Bright Ideas
+ * @licenseurl: http://www.fontsquirrel.com/license/Riesling
+ */
+
+@font-face {
+	font-family: 'RieslingRegular';
+	src: url('fonts/riesling.eot');
+	src: local('Riesling Regular'), local('Riesling'), url('fonts/riesling.ttf') format('truetype');
+}
+
+/*
+ * @vendor:     Yeah Noah
+ * @licenseurl: http://www.fontsquirrel.com/license/Existence-Light
+ */
+
+@font-face {
+	font-family: 'ExistenceLightRegular';
+	src: url('fonts/Existence-Light.eot');
+	src: local('Existence Light Regular'), local('Existence-Light'), url('fonts/Existence-Light.ttf') format('truetype');
+}
+
+/*
+ * @vendor:     Andrew Paglinawan
+ * @vendorurl:  http://www.andrewpaglinawan.com
+ * @licenseurl: http://www.fontsquirrel.com/license/Quicksand
+ */
+
+@font-face {
+	font-family: 'QuicksandLight';
+	src: url('fonts/Quicksand_Light.eot');
+	src: local('Quicksand Light'), local('QuicksandLight-Regular'), url('fonts/Quicksand_Light.ttf') format('truetype');
+}
+
+/*
+ * @vendor:     Rogier van Dalen
+ * @vendorurl:  http://home.kabelfoon.nl/~slam/fonts/fonts.html
+ * @licenseurl: http://www.fontsquirrel.com/license/Garogier
+ */
+
+@font-face {
+	font-family: 'GarogierRegular';
+	src: url('fonts/Garogier_unhinted.eot');
+	src: local('Garogier Regular'), local('Garogier'), url('fonts/Garogier_unhinted.ttf') format('truetype');
+}
+
+/*
+ * @licenseurl: http://www.fontsquirrel.com/license/Adler
+ */
+
+@font-face {
+	font-family: 'AdlerRegular';
+	src: url('fonts/adler.eot');
+	src: local('Adler Regular'), local('Adler'), url('fonts/adler.ttf') format('truetype');
+}
+

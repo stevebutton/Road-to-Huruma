@@ -1,0 +1,358 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2009 RUGGERO DE PELLEGRINI
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <MAIL@RDP-PHOTO.NET>, 2009.
+#
+#: sspdc.php:719
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-21 13:47+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: RUGGERO DE PELLEGRINI <MAIL@RDP-PHOTO.NET>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: sspdc.php:227
+msgid "SSPDC Configuration"
+msgstr "SSPDC Konfiguration"
+
+#: sspdc.php:231
+msgid "SSPDC"
+msgstr "SSPDC"
+
+#: sspdc.php:237
+msgid "SSPD Connector"
+msgstr "SSPD Connector"
+
+#: sspdc.php:424 sspdc.php:461
+msgid "Please choose..."
+msgstr "Bitte ausw&auml;hlen"
+
+#: sspdc.php:454
+msgid "Select Album &#187;"
+msgstr "Album ausw&auml;hlen &#187; "
+
+#: sspdc.php:488
+msgid "Select Gallery &#187;"
+msgstr "Gallerie ausw&auml;hlen &#187;"
+
+#: sspdc.php:516 sspdc.php:620
+msgid "Show"
+msgstr "Einblenden"
+
+#: sspdc.php:519 sspdc.php:621
+msgid "Hide"
+msgstr "Ausblenden"
+
+#: sspdc.php:528
+msgid "not set"
+msgstr "keine"
+
+#: sspdc.php:538
+msgid "Album ID: "
+msgstr "Album ID: "
+
+#: sspdc.php:544 sspdc.php:636
+msgid "Title: "
+msgstr "Titel: "
+
+#: sspdc.php:550
+msgid "Description: "
+msgstr "Beschreibung: "
+
+#: sspdc.php:560
+msgid "Album style"
+msgstr "Album Stil"
+
+#: sspdc.php:565
+msgid "Matrix"
+msgstr "Matrix"
+
+#: sspdc.php:567
+msgid "Preview"
+msgstr "Vorschau"
+
+#: sspdc.php:573
+msgid "Add name to post"
+msgstr "Name zum Beitrag hinzuf&uuml;gen"
+
+#: sspdc.php:578 sspdc.php:591 sspdc.php:741 sspdc.php:754 sspdc.php:907
+#: sspdc.php:930 sspdc.php:953 sspdc.php:976 sspdc.php:999 sspdc.php:1022
+#: sspdc.php:1048 sspdc.php:1073 sspdc.php:1098 sspdc.php:1122
+msgid "Yes"
+msgstr "Ja"
+
+#: sspdc.php:581 sspdc.php:594 sspdc.php:744 sspdc.php:757 sspdc.php:905
+#: sspdc.php:928 sspdc.php:951 sspdc.php:974 sspdc.php:997 sspdc.php:1020
+#: sspdc.php:1046 sspdc.php:1071 sspdc.php:1096 sspdc.php:1120
+msgid "No"
+msgstr "Nein"
+
+#: sspdc.php:587 sspdc.php:750
+msgid "Add caption to post"
+msgstr "Bildtext zum Beitrag hinzuf&uuml;gen"
+
+#: sspdc.php:606
+msgid "Insert Album into Post"
+msgstr "Album zum Beitrag hinzuf&uuml;gen"
+
+#: sspdc.php:630
+msgid "Image ID: "
+msgstr "Bild ID: "
+
+#: sspdc.php:636
+msgid " (Video) "
+msgstr " (Video) "
+
+#: sspdc.php:641
+msgid "Caption: "
+msgstr "Bildtext: "
+
+#: sspdc.php:646
+msgid "Link: "
+msgstr "Link: "
+
+#: sspdc.php:651
+msgid "Tags: "
+msgstr "Tags: "
+
+#: sspdc.php:660
+msgid "Format"
+msgstr "Format"
+
+#: sspdc.php:665 sspdc.php:696
+msgid "Post"
+msgstr "Beitrag"
+
+#: sspdc.php:668 sspdc.php:699
+msgid "Original"
+msgstr "Original"
+
+#: sspdc.php:689
+msgid "Link"
+msgstr "Link"
+
+#: sspdc.php:693
+msgid "None"
+msgstr "Keine"
+
+#: sspdc.php:702
+msgid "Raw link to format"
+msgstr "Direkter Link zum Format"
+
+#: sspdc.php:706
+msgid "Director (see above)"
+msgstr "Director (siehe oben)"
+
+#: sspdc.php:710
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: sspdc.php:718
+msgid "URL (enter below)"
+msgstr "URL (unten eingeben)"
+
+#: sspdc.php:726
+msgid "Videoparameter"
+msgstr "Videoparameter"
+
+#: sspdc.php:737
+msgid "Add title to post"
+msgstr "Titel zum Beitrag hinzuf&uuml;gen"
+
+#: sspdc.php:767
+msgid "Insert into Post"
+msgstr "Zum Beitrag hinzuf&uuml;gen"
+
+#: sspdc.php:794 sspdc.php:1179
+msgid "Cheatin&#8217; uh?"
+msgstr "Cheatin&#8217; uh?"
+
+#: sspdc.php:879
+msgid "SlideShowPro Director Connector Options"
+msgstr "SlideShowPro Director Connector Einstellungen"
+
+#: sspdc.php:882
+msgid "Formats"
+msgstr "Formate"
+
+#: sspdc.php:883
+msgid "This section controls the on-demand image publishing system of Director."
+msgstr "Dieser Abschnitt kontrolliert das Bildveröffentlichungs-System von Director"
+
+#: sspdc.php:896
+msgid "Single Image in Posts & Pages"
+msgstr "Einzelnes Bild in Beitrag & Seite"
+
+#: sspdc.php:919
+msgid "Album Preview"
+msgstr "Album Vorschau"
+
+#: sspdc.php:942
+msgid "Album Matrix"
+msgstr "Album Matrix"
+
+#: sspdc.php:965
+msgid "Lightview Fullsize"
+msgstr "Lightview Fullsize"
+
+#: sspdc.php:988
+msgid "Photostrip Thumbnails"
+msgstr "Photostrip Thumbnails"
+
+#: sspdc.php:1011
+msgid "Widget Thumbnails"
+msgstr "Widget Thumbnails"
+
+#: sspdc.php:1111
+msgid "Video Preview"
+msgstr "Video Vorschau"
+
+#: sspdc.php:1134
+msgid "Video Size"
+msgstr "Video Grösse"
+
+#: sspdc.php:1153 sspdc.php:1261
+msgid "Update options &raquo;"
+msgstr "Einstellungen sichern &raquo;"
+
+#: sspdc.php:1155
+msgid "Don't forget to install the fabulous Lightbox 2 plugin by Rupert Morris. Otherwise the fullsize format will open in a new browser window which is not very nice."
+msgstr ""
+
+#: sspdc.php:1156
+msgid "Get Lightbox from here: <a href='http://wordpress.org/extend/plugins/lightbox-2/'> Lightbox 2</a>"
+msgstr ""
+
+#: sspdc.php:1158
+msgid "Recommended Lightbox Options"
+msgstr ""
+
+#: sspdc.php:1194
+msgid "Your SlideShowPro Director API settings are ok. Options saved."
+msgstr "Deine SlideShowPro Director API Einstellungen sind in Ordnung und gesichert."
+
+#: sspdc.php:1203
+msgid "API Settings are wrong. Pleas double check it."
+msgstr "API Einstellungen können nicht stimmen. Bitte &uuml;berpr&uuml;fen."
+
+#: sspdc.php:1216
+msgid "SlideShowPro Director Connector Configuration"
+msgstr "SlideShowPro Director Connector Einstellungen"
+
+#: sspdc.php:1223
+msgid "API Key Settings"
+msgstr "API Key"
+
+#: sspdc.php:1224
+msgid "The settings can be found on the \"System Info\" page of your SlideShowPro Director installation."
+msgstr "Diese Daten findest du auf der \"System Info\" Seite deiner SlideShowPro Director Installation"
+
+#: sspdc.php:1229
+msgid "Director API Key"
+msgstr "Director API Schl&uuml;ssel"
+
+#: sspdc.php:1236
+msgid "Director API Path"
+msgstr "Director API Pfad"
+
+#: sspdc.php:1242
+msgid "API Cache Settings"
+msgstr "API Cache Einstellungen"
+
+#: sspdc.php:1243
+msgid "The API cache can improve performance dramatically."
+msgstr "Der API Cache kann die Leistung dramatisch verbessern"
+
+#: sspdc.php:1253
+msgid "API Cache"
+msgstr "API Cache"
+
+#: sspdc.php:1256
+msgid "On:"
+msgstr "An:"
+
+
+#: sspdc.php:1257
+msgid "Off:"
+msgstr "Aus:"
+
+#: sspdc.php:1265
+msgid "Prerequisites"
+msgstr "Vorbedinungen"
+
+#: sspdc.php:1270
+msgid "WARNING: Your PHP version is too old. SSPDC will not work. "
+msgstr "WARNUNG: Deine PHP Version ist zu alt. SSPDC wird nicht funktionieren"
+
+#: sspdc.php:1270
+msgid "The DirectorPHP API needs at least PHP 5. Please install it or get in touch with your internet provider or system administrator"
+msgstr "Die DirectorPHP API braucht mindestens PHP5."
+
+#: sspdc.php:1274
+msgid "Great! PHP 5 is available. Version: "
+msgstr "Super! PHP 5 ist verf&uuml;gbar. Version: "
+
+#: sspdc.php:1279
+msgid "WARNING: php_curl is not installed. SSPDC will not work. "
+msgstr "WARNUNG: php_curl ist nicht installiert. SSPDC wird nicht funktionieren."
+
+#: sspdc.php:1279
+msgid "The DirectorPHP API relies on php_curl for talking to Director. Please install it or get in touch with your internet provider or system administrator and give him this link: <a href=\"http://ch.php.net/manual/en/book.curl.php\">http://ch.php.net/manual/en/book.curl.php</a>."
+msgstr "Die DirectorPHP API ist abh&auml;ngig von php_curl um mit Director kommunizieren zu können. Bitte installiere es oder gib diesen Link deinem Systemadministrator weiter: <a href=\"http://ch.php.net/manual/en/book.curl.php\">http://ch.php.net/manual/en/book.curl.php</a>."
+
+#: sspdc.php:1283
+msgid "Cool! PHP curl is installed. Version: "
+msgstr "Super! PHP curl ist installiert. Version: "
+
+#: sspdc.php:1302
+msgid "SlideshowPro Director Connector is almost ready."
+msgstr "SlideShowPro Director Connector ist fast bereit."
+
+#: sspdc.php:1302
+#, php-format
+msgid "You must <a href=\"%1$s\">enter your  API key &amp; path</a> for it to work."
+msgstr "Du musst <a href=\"%1$s\">deinen API Schl&uuml;ssel &amp; Pfad</a> eingeben."
+
+#: sspdc.php:1441
+msgid "Title:"
+msgstr "Titel:"
+
+#: sspdc.php:1443
+msgid "Image count:"
+msgstr "Anzahl Bilder:"
+
+#: sspdc.php:1445
+msgid "Before all images:"
+msgstr "Vor allen Bildern:"
+
+#: sspdc.php:1447
+msgid "After all images:"
+msgstr "Nach allen Bildern"
+
+#: sspdc.php:1449
+msgid "Album:"
+msgstr "Album:"
+
+#: sspdc.php:1453
+msgid "Recent images"
+msgstr "Neueste Bilder"
+
+msgid "Height"
+msgstr "Höhe"
+
+msgid "Width"
+msgstr "Breite"
+
+msgid "Crop"
+msgstr "Freistellen"
+
+msgid "Quality"
+msgstr "Qualit&auml;t"
+
+msgid "Sharpening"
+msgstr "Sch&auml;rfen"

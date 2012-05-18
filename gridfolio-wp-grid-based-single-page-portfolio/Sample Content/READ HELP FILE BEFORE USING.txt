@@ -1,0 +1,9 @@
+
+XML Import
+See XML file import notes in help file.
+
+TXT Files:
+Enter them exactly like the sample content file with the extra spaces above/below each element. 
+
+PHOTOS
+The photos are for demonstration purposes only, they are licensed for commercial use but please replace with your own after getting a feel for how the site works.

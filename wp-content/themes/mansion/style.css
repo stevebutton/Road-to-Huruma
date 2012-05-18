@@ -1,0 +1,179 @@
+/*
+Theme Name: Mansion
+Theme URI: http://graphpaperpress.com/themes/mansion/
+Description: WordPress Theme to showcase your photos
+Version: 1.2.1
+Author: Chandra Maharzan
+Author URI: http://graphpaperpress.com/about/
+Tags: black, two-columns, three-columns, flexible-width, threaded-comments, photoblogging
+License: GPL
+*/
+
+@import url("includes/styles/reset.css");
+
+body {background: #000; font: 14px/18px "Lucida Grande",Arial; color: #ddd;}
+#container {margin:0;} 
+.clear {clear: both;} 
+p{line-height: 1.6;}
+a {color:#aaa;font-weight: bold;}
+a:hover {color:#ddd;}
+blockquote {padding-left: 20px; margin-bottom: 20px; border-left: 5px solid #333;}
+blockquote p {padding: 15px 0;}
+em {font-style: italic}
+.aligncenter {display: block;margin-left: auto;margin-right: auto;}
+.alignleft {float: left;}
+.alignright {float: right;}
+.wp-caption {border: 1px solid #ddd;text-align: center;background-color: #f3f3f3;padding-top: 4px;margin: 10px;-moz-border-radius: 3px;-khtml-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;}
+.wp-caption img {margin: 0;	padding: 0;	border: 0 none;}
+.wp-caption-dd {font-size: 11px;line-height: 17px;padding: 0 4px 5px;margin: 0;}
+
+/* Logo description styles */
+#header {background: #333; width: 200px; float: left; }
+#header h1 {padding: 10px 10px 0; font-size: 18px;}
+#header h1 a {color: #fff; text-decoration: none; text-transform: uppercase; font-weight: bold; }
+#header span.description {font-size: 11px; padding: 0 10px; color: #999;}
+#header .logo, #header .titles {border-bottom: 1px solid #000;}
+#header .menu {position: relative;} 
+#header .logo {height: 150px; position: relative;}
+#header .titles {background: #000;}
+#header .bottom {position: absolute; bottom: 10px;}
+
+/* Navigation styles */
+#nav {padding: 10px; font-size: 11px; position: relative; padding-bottom: 40px;}
+#nav li a {color: #ddd;}
+#nav li a:hover {color: #fff;}
+#nav .pagenav, #nav .categories, #nav .subscribe {padding-top: 10px; }
+#nav span.navtitle {text-transform: uppercase; color: #999;}
+#nav li ul, div.search {margin-left: 10px;}
+#nav li.search, div.search {position: absolute; bottom:10px;}
+#s {background: #2c2c2c url(images/search.png) 1px 3px no-repeat; border: 1px solid #222; width: 157px; color: #666;font-size: 11px; padding: 4px 4px 4px 16px; font-family: "Lucida Grande",Arial;}
+#s:hover {color:#ccc;background-color: #444;}
+
+#nav .current-cat a, #nav .current_page_item a {color: #888;}
+
+.box { padding: 0px; margin: 0 0 1px 1px;float: left; }
+.col1 {width:200px;}
+.col2 {width:401px;}
+.box a {color: #aaa; display: block}
+
+h2.pagetitle {font-size: 18px; padding: 10px; text-transform: uppercase; color: #ccc; font-weight: bold;}
+h2.posttitle {line-height: 1.2;}
+
+/* Blog */
+.category-blog .box, .page-template-page-blog-php .box {background: #222;padding-bottom: 4px;}
+.category-blog .blog a, .page-template-page-blog-php .blog a {text-decoration: none; font-weight: normal;}
+.category-blog .box h2.posttitle, .page-template-page-blog-php .box h2.posttitle {padding:10px;font-size: 15px; font-weight: bold; padding-bottom: 0; margin-bottom: 0;}
+.category-blog .box p, .page-template-page-blog-php .box p {padding:5px 10px 10px;font-size: 12px; line-height: 16px;}
+.category-blog .col2 h2.posttitle, .page-template-page-blog-php .col2 h2.posttitle {font-family: Georgia, Times; font-size: 20px; font-style: italic; font-weight: normal;padding-top: 15px;}
+.category-blog .col2 p, .page-template-page-blog-php .col2 p {font-family: Georgia, Times; font-size: 16px; font-style: italic; line-height: 20px;padding-top: 10px;}
+.category-blog .datediv, .page-template-page-blog-php .datediv {font-family: arial;margin: 10px 10px 0; float: right; color: #666; border-bottom: 2px solid #333;}
+.category-blog span.day, .page-template-page-blog-php span.day {font-size: 30px; text-decoration: none;font-weight: bold;display: block; padding: 3px 0;}
+.category-blog span.monthyear, .page-template-page-blog-php span.monthyear {font-size: 10px; text-transform: uppercase;}
+
+/* Single Post Page */
+#content {padding: 40px 30px 30px 30px; width: 495px; float:left;}
+#content .posted {font-size: 12px;}
+#content h2 { font-size: 24px; padding-bottom: 5px;}
+#content .entry {padding: 20px 0;}
+#content p {padding-bottom: 22px;}
+
+/* Gallery */
+.gallery {display: block;clear: both;overflow: hidden;margin: 0 auto;}
+.gallery .gallery-row {display: block;clear: both;overflow: hidden;margin: 0;}
+.gallery .gallery-item {overflow: hidden;text-align: center;list-style: none;padding: 0; margin: 0 auto;}
+.gallery .gallery-item img, .gallery .gallery-item img.thumbnail {max-width: 100%;height: auto;padding: 0;border:none !important;}
+.gallery-caption {margin-left: 0;}
+.gallery-item .attachment-thumbnail {float:none !important;margin:0 auto;}
+.gallery-item dd{clear:both;}
+
+.pagetitle a {text-decoration: none !important;}
+.pagetitle span {color: #555;font-weight: normal;}
+
+/* Search */
+.search .post {border-top: 1px solid #222; margin-top: 20px;padding-top: 30px;}
+.posted {color: #666;}
+.postmetadata {color: #666;font-size: 12px;}
+.postmetadata a {color: #666;}
+.postmetadata a:hover {color: #999;}
+
+
+/* Comments */
+#respond {border-top: 1px solid #222; margin-top: 15px;}
+#respond h3 {font-size: 20px; padding: 20px 0;}
+#commentform p {padding-bottom: 15px; font-size: 12px; color: #999;}
+#commentform input, #commentform textarea {font-family: "Lucida Grande", Arial; font-size: 13px; padding: 4px; border:none; background: #999;}
+#commentform #submit {-moz-border-radius: 8px; padding: 5px 15px; font-size: 16px; letter-spacing: 0px; font-weight: bold; background: #666;}
+#commentform #submit:hover {background: #888;}
+#commentform textarea {width: 485px;}
+
+h3#comments {font-size: 18px; padding-bottom: 25px; text-transform: uppercase; letter-spacing: 2px; color: #999;}
+.commentnav {font-size: 11px; font-weight: normal; text-align: right;}
+ol.commentlist { list-style:none; margin:0 0 1em; padding:0; text-indent:0; }
+ol.commentlist li { }
+ol.commentlist li.alt { }
+ol.commentlist li.bypostauthor {}
+ol.commentlist li.byuser {}
+ol.commentlist li.comment-author-admin {}
+ol.commentlist li.comment { border-bottom:1px solid #000; padding:1em; }
+ol.commentlist li div.comment-author {}
+ol.commentlist li div.vcard {  }
+ol.commentlist li div.vcard cite.fn { font-style:normal; }
+ol.commentlist li div.vcard cite.fn a.url {}
+ol.commentlist li div.vcard img.avatar { border:1px solid #000; float:right; margin:0 0 1em 1em; }
+ol.commentlist li div.vcard img.avatar-32 {}
+ol.commentlist li div.vcard img.photo {}
+ol.commentlist li div.vcard span.says {}
+ol.commentlist li div.commentmetadata {}
+ol.commentlist li div.comment-meta { font-size:10px; }
+ol.commentlist li div.comment-meta a {  }
+ol.commentlist li p { font-size:12px; margin:1em 0 0 ; }
+ol.commentlist li ul { font-size:12px; list-style:square; margin:0 0 1em 2em; }
+ol.commentlist li div.reply { font-size:11px; }
+ol.commentlist li div.reply a { font-weight:bold; }
+ol.commentlist li ul.children { list-style:none; margin:1em 0 0; text-indent:0; }
+ol.commentlist li ul.children li {}
+ol.commentlist li ul.children li.alt {}
+ol.commentlist li ul.children li.bypostauthor {}
+ol.commentlist li ul.children li.byuser {}
+ol.commentlist li ul.children li.comment {}
+ol.commentlist li ul.children li.comment-author-admin {}
+ol.commentlist li ul.children li.depth-2 { border-left:0px solid #333; margin:0 0 .25em .25em; }
+ol.commentlist li ul.children li.depth-3 { border-left:0px solid #444; margin:0 0 .25em .25em; }
+ol.commentlist li ul.children li.depth-4 { border-left:0px solid #555; margin:0 0 .25em .25em; }
+ol.commentlist li ul.children li.depth-5 {}
+ol.commentlist li ul.children li.odd {}
+ol.commentlist li.even { background:#111; }
+ol.commentlist li.odd { background:#222; }
+ol.commentlist li.parent { border-left:0px solid #333; }
+ol.commentlist li.pingback { border-bottom:1px solid #000; padding:1em; }
+ol.commentlist li.thread-alt { }
+ol.commentlist li.thread-even {}
+ol.commentlist li.thread-odd {}
+
+
+/* Sidebar */
+.single #container, .page #container, .single #footer, .page #footer {width: 960px;overflow: hidden;}
+.page-template-page-blog-php #container {width: 100%; overflow: auto;}
+#sidebar {width: 200px; float:right; padding-top: 20px; font-size: 12px;}
+#sidebar h2 {font-size: 14px; font-weight: bold; margin-top: 20px; margin-bottom: 10px;}
+
+
+/* Footer */
+#footer {clear: both; font-size: 11px; color: #444; display: block; padding: 20px; height: 20px;}
+#footer a {color: #444;}
+#footer a:hover {color: #666;}
+#footer div.copyright { float: left; width: 50%;}
+#footer div.powered {float: left; width: 70px; margin: -4px;}
+#footer div.navigation {float: right;}
+#footer a.gpplogo {width: 28px; height: 27px; float:left; margin-right: 5px;  display: block; background: url(images/gpp-logo.png) no-repeat; text-indent: -9999em;}
+#footer a.wplogo {width: 27px; height: 27px; float:left;  display: block; background: url(images/wordpress-logo.png) no-repeat; text-indent: -9999em;}
+
+/* Paging */
+div.navigation {width: 129px; float: right; overflow: hidden;}
+div.navigation .prev,div.navigation .next, div.navigation .prev a, div.navigation .next a {background: url(images/prev-next.gif) no-repeat;display:block;height: 20px;text-indent: -9999em;}
+div.navigation .prev {float:left;background-position: 0 0;width: 75px;}
+div.navigation .next {float:right;background-position: -75px 0px;width: 54px;}
+div.navigation .prev a { background-position:  0 -20px;width: 75px;}
+div.navigation .next a { background-position: -75px -20px; width: 54px;}
+div.navigation .next a:hover { background-position: -75px -40px; }
+div.navigation .prev a:hover { background-position: 0 -40px; }

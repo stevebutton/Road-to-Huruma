@@ -1,0 +1,80 @@
+/*html, body{} */
+
+#header h1{ color:#fff;} 
+#header h1 a{color:#fff; }
+#header h1 a:hover{color:#000; }
+#header h2{ color:#999999; } 
+ 
+#menu {color:#FFFFFF; }
+#menu a {color:#FFF; }
+#menu a:hover {color:#FFFFFF; }
+
+h2.menuheader {color:#000000; }
+h2.menuheader:hover{color:#000000;}
+h2.menuheader:active{color:#000000;}
+
+#menu ul li{color:#FFFFFF; }
+#menu ul li a{ color:#FFFFFF; }
+#menu ul li a:hover{ color:#000000; }
+
+#menu ul li ul li a{ color:#FFFFFF; }
+#menu ul li ul li a:hover{ color:#000000; }
+
+#menu ul li ul li ul li a{ color:#FFFFFF; }
+#menu ul li ul li ul li a:hover{ color:#000000; }
+
+#menu ul li ul li ul li ul li a{ color:#FFFFFF; }
+#menu ul li ul li ul li ul li a:hover{ color:#000000; }
+
+#recentcomments{ color:#FFFFFF; }
+#recentcomments a{ color:#FFFFFF; }
+#recentcomments a:hover{color:#000000; }
+
+#maincol h2 a{color:#FFF; } 
+#maincol h2 a:hover{ color:#000000;}
+#maincol p{color:#000000; }
+#maincol p a{ color:#000000; }
+#maincol p a:hover{ color:#000000; }
+#maincol ul{ color:#000000; }
+#maincol ol{ color:#000000; }
+
+h2.contentheader{ color:#FFFFFF; } 
+h2.contentheader:hover{color:#000000;}
+h2.contentheader:active{color:#000000;}
+
+.permalink{ color:#FFFFFF; } 
+.permalink a{color:#FFFFFF; } 
+.permalink a:hover{color:#000000; } 
+
+#wp-calendar{ color:#000000;}
+#wp-calendar a{ color:#000000;}
+#wp-calendar a:hover{ color:#000000;}
+
+blockquote p {color:#000000;}
+label {color:#000000;}
+
+#s,#submit {background-color:#ffffff; border:1px solid #FFFFFF; color:#505050;}
+#author,#email,#url,#comment {border:1px solid #FFFFFF;}
+
+.left {border:1px solid #FFFFFF;}
+.right {border:1px solid #FFFFFF; }
+.center {border:1px solid #aaaaaa;}
+
+#postinfotext{color:#FFFFFF; border-top: 1px dashed #FFFFFF; border-bottom: 1px dashed #FFFFFF;}
+#postinfotext a { color:#FFFFFF; }
+#postinfotext a:hover{ color:#000000; }
+
+.commentheader {color:#FFFFFF; }
+
+.commenticon {color:#FFFFFF; }
+.commenticon a{ color:#FFFFFF; }
+.commenticon a:hover{ color:#000000; }
+
+.commenttext {color:#FFFFFF; }
+.commenttext p{color:#FFFFFF; }
+
+.wp-caption { border: 1px solid #ddd; background-color: #f3f3f3; }
+
+.navigation {color:#FFFFFF; }
+.navigation a { color:#FFFFFF; }
+.navigation a:hover{ color:#000000; }

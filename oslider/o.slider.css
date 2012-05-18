@@ -1,0 +1,249 @@
+@CHARSET "UTF-8";
+
+
+@font-face {
+	font-family: 'Bebas';
+	src: url('fonts/BebasNeue-webfont.eot');
+	src: local('¢'), url('fonts/BebasNeue-webfont.woff') format('woff'), url('fonts/BebasNeue-webfont.ttf') format('truetype'), url('fonts/BebasNeue-webfont.svg#webfontAGQ6uv7S') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+/* Main wrapper
+-------------------------------------------------------------------------*/
+.o-slider-external {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	
+	/* You can change the following attributes */
+	width: 100%;
+	min-width: 600px;
+	padding-top: 44px;
+	padding-bottom: 44px;
+}
+
+
+/* Image blocks
+-------------------------------------------------------------------------*/
+.o-slider-images { 
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.o-slider-images a.img_holder { display: block; float: left; } 
+.o-slider-image {
+	position: relative;
+	float: left;
+	
+	-moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+}
+.o-slider-image-outer {
+	float: left;
+}
+
+
+/* Frame for the images
+-------------------------------------------------------------------------*/
+.o-slider-frame {
+margin-left: 50px;
+	/*margin: 0px auto;*/	
+	position: relative;
+	z-index: 100;
+	
+	/* Set the width and height to the size of your images */
+	width: 750px;
+	height: 350px;
+}
+
+
+
+/* Arrows 
+-------------------------------------------------------------------------*/
+.o-slider-arrows {
+	position: absolute;
+	background: url('arrows.png');
+	cursor: pointer;
+	
+	top: 46%;
+	width: 35px;
+	height: 35px;
+	
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+.o-slider-arrows.previous 	{ left: -50px;  background-position: left; }
+.o-slider-arrows.next 		{ right: -50px; background-position: right; }
+
+
+/* Bullets list 
+-------------------------------------------------------------------------*/
+ul.o-slider-listNav {
+	padding: 0;
+	margin: 0;
+	
+	position: absolute;
+	left: 0;
+	list-style: none; 
+	
+	bottom: -23px;
+}
+ul.o-slider-listNav li { 
+	float: left; 
+	cursor: pointer;
+	background: url('switcher.png') right; 
+	overflow: hidden;
+	
+	width: 10px; 
+	height: 10px; 
+	margin: 0 2px;
+}
+ul.o-slider-listNav li.active { background-position: left; }
+
+
+/* Thumbnails list 
+-------------------------------------------------------------------------*/
+ul.o-slider-listNavThumbs {
+	padding: 0;
+	margin: 0;
+	
+	position: absolute;
+	list-style: none;
+	
+	left: 0;
+	bottom: -43px; 
+}
+ul.o-slider-listNavThumbs li { 
+	float: left; 
+	overflow: hidden;
+	cursor: pointer;
+	
+	margin: 0 2px;
+	padding: 2px;
+	width: 90px; 
+	height: 30px;
+}
+ul.o-slider-listNavThumbs li.active { 
+	background: #ccc; 
+	-moz-border-radius: 4px; 
+	-webkit-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+
+/* Captions
+---------------------------------------------------------------------*/
+.o-slider-captions { display: none; }
+.o-slider-caption {
+	display: block;
+	position: absolute;
+	
+	left: 0px;
+	bottom: 0px;
+	background: black;
+	width: 100%;
+	color: white;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	
+}
+.o-slider-caption h3 { font-size: 2.25em; text-transform: uppercase; font-family: Bebas, 'helvetica', sans-serif;color:#FFFFFF;padding-top: 15px; }
+.o-slider-caption p { font-family: helvetica, 'arial', serif; font-size: 11px; }
+
+.o-slider-caption p,
+.o-slider-caption h3 {
+	margin: 10px;
+}
+.o-slider-caption p { margin-top: -5px; margin-bottom: 15px; }
+
+.o-slider-caption p a,
+.o-slider-caption h3 a { color: white; }
+
+
+.o-slider-caption.top {
+	top: 0;
+	bottom: auto;
+}
+.o-slider-caption.bottom {
+	left: 0px;
+	bottom: 0px;
+}
+.o-slider-caption.left {
+	top: 0;
+	left: 0;
+	width: 33.3%;
+	height: 350px;
+	z-index: 5000;
+	overflow: hidden;
+}
+
+.o-slider-caption.video {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 350px;
+	z-index: 3000;
+	opacity:1;
+	filter:alpha(opacity=100);
+	overflow: hidden;
+}
+.o-slider-caption.right {
+	top: 0;
+	left: auto;
+	right: 0;
+	width: 33.3%;
+	height: 350px;
+	z-index: 5000;
+	overflow: hidden;
+}
+
+
+/* Sub Layer 
+---------------------------------------------------------------------*/
+.o-slider-layer { 
+	position: absolute; 
+	top: 0;
+	left: 0;
+}
+
+
+/* 1. Example
+---------------------------------------------------------------------*/
+#circles.o-slider-external {
+/*	background: url('../oslider/images/circles_bg.png');*/
+	padding-top: 30px;
+	padding-bottom: 70px;	
+}
+
+#small .o-slider-frame {
+	width: 800px;
+	height: 500px;
+}
+#circles .o-slider-listNavThumbs {
+	bottom: -47px;	
+}
+
+.circles-one {
+	background: url('../oslider/images/circles_one.png');
+}
+.circles-two {
+	background: url('../oslider/images/circles_two.png');
+}
+.l-wrapper { 
+	position: relative; 
+	float: left;
+	width: 100%;
+	min-height: 100%;
+	background-color:#333333;
+	/*background: url('/gfx/testbig.jpg');*/
+	
+}
+.l-header { margin: 35px auto 25px auto; width: 600px; }
+.l-content { margin: 0 auto; width: 600px; display: block; position: relative; }
+.l-content.top { margin-top: 35px; }
+.l-content.bottom { padding-bottom: 35px; }
+

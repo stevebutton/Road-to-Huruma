@@ -1,0 +1,305 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in echo
+#: header.php:7
+msgid " Archive - "
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:482
+msgid "Ad #1 Image URL"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:487
+msgid "Ad #1 Link"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:492
+msgid "Ad #2 Image URL"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:497
+msgid "Ad #2 Link"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:502
+msgid "Ad #3 Image URL"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:507
+msgid "Ad #3 Link"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:512
+msgid "Ad #4 Image URL"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:517
+msgid "Ad #4 Link"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:522
+msgid "Ad #5 Image URL"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:527
+msgid "Ad #5 Link"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:532
+msgid "Ad #6 Image URL"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:537
+msgid "Ad #6 Link"
+msgstr ""
+
+#. Text in function
+#: lib/theme-post-types.php:1
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#. Text in function
+#: lib/theme-post-types.php:1
+msgid "Add New Slide"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:697
+msgid "Address:"
+msgstr ""
+
+#. Text in echo
+#: single.php:41
+msgid "Back to Blog"
+msgstr ""
+
+#. Text in function
+#: comments.php:19
+msgid "Cancel reply"
+msgstr ""
+
+#. Text in function
+#: comments.php:19
+msgid "Comment:"
+msgstr ""
+
+#. Text in echo
+#: comments.php:3
+msgid "Comments"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:207
+msgid "Display (Random - Latest):"
+msgstr ""
+
+#. Text in function
+#: lib/theme-post-types.php:1
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#. Text in function
+#: lib/theme-post-types.php:1
+msgid "Edit Slide"
+msgstr ""
+
+#. Text in function
+#: comments.php:19
+#: lib/theme-widgets.php:712
+msgid "Email:"
+msgstr ""
+
+#. Text in function
+#: lib/theme-portfolio-meta-boxes.php:1
+msgid "Enter the URL of the full size image or video that will be opened in the lightbox"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:707
+msgid "Fax:"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:185
+msgid "Flickr ID:"
+msgstr ""
+
+#. Text in function
+#: lib/theme-portfolio-meta-boxes.php:1
+msgid "Large Image or Video"
+msgstr ""
+
+#. Text in function
+#: comments.php:19
+msgid "Leave a Reply"
+msgstr ""
+
+#. Text in function
+#: comments.php:19
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#. Text in function
+#: comments.php:19
+msgid "Logged in as <a href=\"%s\">%s</a>. <a href=\"%s\" title=\"Log out of this account\">Log out?</a></p>"
+msgstr ""
+
+#. Text in function
+#: comments.php:19
+msgid "Name:"
+msgstr ""
+
+#. Text in echo
+#: header.php:7
+msgid "Not Found - "
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:190
+msgid "Number of Pictures:"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:812
+msgid "Number of comments to show:"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:702
+msgid "Phone:"
+msgstr ""
+
+#. Text in function
+#: lib/theme-post-types.php:1
+msgid "Portfolio Item"
+msgstr ""
+
+#. Text in function
+#: lib/theme-post-types.php:1
+msgid "Portfolio Items"
+msgstr ""
+
+#. Text in function
+#: lib/theme-post-types.php:1
+msgid "Portfolio Items."
+msgstr ""
+
+#. Text in function
+#: lib/theme-portfolio-meta-boxes.php:1
+msgid "Portfolio Settings"
+msgstr ""
+
+#. Text in function
+#: comments.php:19
+msgid "Post Comment"
+msgstr ""
+
+#. Text in function
+#: single.php:24
+#: index.php:61
+msgid "Posted on %1$s in %2$s with "
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:615
+msgid "Quantity"
+msgstr ""
+
+#. Text in function
+#: lib/theme-widgets.php:717
+#: lib/theme-widgets.php:814
+msgid "Recent Comments"
+msgstr ""
+
+#. Text in echo
+#: header.php:7
+msgid "Search for &quot;"
+msgstr ""
+
+#. Text in function
+#: lib/theme-post-types.php:1
+msgid "Slide"
+msgstr ""
+
+#. Text in function
+#: lib/theme-post-types.php:1
+msgid "Slider Items"
+msgstr ""
+
+#. Text in function
+#: lib/theme-post-types.php:1
+msgid "Slider Items."
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:354
+msgid "Source"
+msgstr ""
+
+#. Text in function
+#: header.php:7
+msgid "Tag Archive for &quot;"
+msgstr ""
+
+#. Text in function
+#: lib/theme-widgets.php:717
+msgid "The most recent comments"
+msgstr ""
+
+#. Text in echo
+#: comments.php:19
+msgid "There are no comments yet."
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:692
+#: lib/theme-widgets.php:809
+msgid "Title:"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:281
+msgid "Twitter Username e.g. celtathemes"
+msgstr ""
+
+#. Text in echo
+#: lib/theme-widgets.php:199
+msgid "Type (User - Group):"
+msgstr ""
+
+#. Text in function
+#: comments.php:19
+msgid "Website:"
+msgstr ""
+
+#. Text in function
+#: comments.php:19
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#. Text in echo
+#: lib/theme-comments.php:12
+msgid "Your comment is awaiting moderation."
+msgstr ""
+

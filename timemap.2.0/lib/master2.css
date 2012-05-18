@@ -1,0 +1,464 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ 
+   
+
+	div#header{
+	height: 450px;
+	z-index: 1700;
+	width: 100%;
+	position: absolute;
+	top: -95px;  /* 470*/
+	/*background-image: url(/gfx/headerband.png);
+	background-repeat: no-repeat;*/
+	background-color: #fff;
+	}
+
+div#background{
+display: none;
+ background-image: url(/gfx/headertitle.png);
+	background-repeat: no-repeat;
+	padding-bottom: 50px;
+}
+
+div#headercontrols{
+display: block;
+width: 100%;
+height: 100px;
+margin-top: 0px;
+float: left;
+position:absolute;
+bottom: 0px;
+}
+
+div#headersocial{
+display: none;
+width: 342px;
+height: 35px;
+padding-top: 10px;
+float: right;
+position:absolute;
+bottom: 0px;
+right: 3px;
+}
+
+div#subscription{
+z-index: 1800;
+width: 760px;
+padding-top: 125px;
+padding-left: 15px;
+}
+
+div#subscriptiontext{
+padding-top: 25px;
+display: block;
+float: left;
+width: 300px;
+}
+
+div#subscriptionform{
+z-index: 1900;
+display: block;
+float: right;
+width: 320px;
+padding-right: 90px;
+padding-top: 25px;
+}
+/*
+div#enter{
+visibility:visible}*/
+
+/*div#enter {visibility:visible; width:240px; height:90px; overflow:hidden;} 
+div#enter:hover img {margin-left:-240px;}
+*//* ie6 needs his fix*/ 
+div#enter:hover {zoom:1;} 
+
+
+/*div#minus{
+display: none;}*/
+
+/*div#plus{
+display: none;}*/
+
+div#plus {display: none; width:200px; height:30px; overflow:hidden;position: relative;top: 70px;} 
+div#plus:hover img {margin-left:-200px;}
+/* ie6 needs his fix*/ 
+div#plus:hover {zoom:1;} 
+
+div#minus {display: none; width:200px; height:30px; overflow:hidden;position: relative;top: 70px;} 
+div#minus:hover img {margin-left:-200px;}
+/* ie6 needs his fix*/ 
+div#minus:hover {zoom:1;} 
+
+div#footerplus {display: none; width:200px; height:35px; overflow:hidden;} 
+div#footerplus:hover img {margin-left:-200px;}
+/* ie6 needs his fix*/ 
+div#footerplus:hover {zoom:1;} 
+
+div#footerminus {display: none; width:200px; height:35px; overflow:hidden;} 
+div#footerminus:hover img {margin-left:-200px;}
+/* ie6 needs his fix*/ 
+div#footerminus:hover {zoom:1;} 
+
+div#subscribebt {display: none; float: right; position: absolute; top: 0px; right: 0px; width:190px; height:35px; overflow:hidden;} 
+div#subscribebt:hover img {margin-left:-190px;}
+/* ie6 needs his fix*/ 
+div#subscribebt:hover {zoom:1;} 
+
+div#mapbt {display: none; width:145px; height:90px; overflow:hidden;} 
+div#mapbt:hover img {margin-left:-145px;}
+/* ie6 needs his fix*/ 
+div#mapbt:hover {zoom:1;} 
+
+div#mapbt2 {display: none; width:145px; height:90px; overflow:hidden;} 
+div#mapbt2:hover img {margin-left:-145px;}
+/* ie6 needs his fix*/ 
+div#mapbt2:hover {zoom:1;} 
+
+/*********SLIDEPANEL***********/
+a:focus {
+	outline: none;
+}
+#panel {
+	background: #754c24;
+	height: 300px;
+	display: none;
+	z-index: 2800;
+}
+.slide {
+	margin: 0;
+	padding: 0;
+	border-top: solid 4px #422410;
+	background: url(/gfx/aboutup.png) no-repeat center top;
+}
+.btn-slide {
+	background: url(/gfx/aboutdown.png) no-repeat right -50px;
+	text-align: center;
+	width: 144px;
+	height: 31px;
+	padding: 10px 10px 0 0;
+	margin: 0 auto;
+	display: block;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+.active {
+	background-position: right 12px;
+}
+/********END SLIDEPANEL*******/
+
+
+div#admin {
+	background-color:#fff;
+   	position:absolute;
+    top: 125px;   /* 30*/
+    left:0;
+  	width:100%;
+  	height: 100%;
+	
+}
+
+div#timebox {
+	background-color:#fff;
+   	position:absolute;
+    top: 0px;   /* 30*/
+    left:0;
+	right: 5px;
+  	height: 100%;
+	
+}
+
+
+a.swap { background-position: left bottom; }
+
+
+ div#timelinecontainer{ 
+/* 	width: 100%; 
+*/	
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 30%; 
+	position: relative;
+	}
+
+/*div#my-library{
+background-repeat:repeat-x;
+background: url(/gfx/whitetopshad.jpg);
+ 	width: 100%;
+ 	height: 100%;
+	padding-top: 10px;
+	position: relative;
+	float: left;
+}
+
+div#my-mdgselect{
+background-repeat:repeat-x;
+background: url(/gfx/whitetopshad.jpg);
+ 	width: 100%;
+ 	height: 100%;
+	position: relative;
+	float: left;
+}*/
+	
+div#my-timeline{
+background-color:#FFFFFF;
+ 	width: 100%;
+	bottom: 0;
+ 	height: 35%;
+	position: absolute;
+	float: left;
+}
+div#forwardback{
+z-index: 2000;
+background-color:#000;
+ 	width: 75px;
+ 	height: 100%;
+	position: fixed;
+	right: 0;
+}
+ 
+ div#mapcontainer{ 
+/*	width: 100%;
+*/	
+left: 0px;
+right: 0px;
+position: absolute; 
+	top: 0px;
+	bottom: 35%;
+	/*top: 440px;*/}
+	
+
+
+div#map {
+	/* width: 100%;*/
+ 	height: 100%;
+ 	top: 0px;
+ 	left: 0px;
+	right: 0px;
+	position: relative;
+ 	background: #fff;
+}
+
+
+/************the components of the main menu bar for timeline and map**********/
+#logocontainer {
+z-index: 5001;
+display: block;
+position: absolute;
+left: 0px;
+/*height: 120px;
+*/right: 0px;
+bottom: 0px;
+background-repeat:repeat-x;
+background: url(/gfx/logobottomslice.png);
+}
+/*********LEFT ELEMENTS**********/
+#mainlogo {
+position: absolute;
+left: 0px;
+width: 460px;
+height: 120px;
+background-image:url(/gfx/logobottom.png);
+}
+
+
+/********COUNTDOWN ELEMENT**********/
+
+#maincountdown {
+display: block;
+position: absolute;
+left: 0px;
+top: 0px;
+width: 345px;
+height: 120px;
+background-image:url(/gfx/countdownbottom.png);
+background-repeat:no-repeat;
+}
+
+
+
+
+.gmnoprint {
+margin: 5px;
+width: 100px;
+position: absolute;
+cursor: pointer;
+right: 75px;
+top: 0px;
+z-index: 0;
+}
+
+
+
+/************the components of the footer menu bar for timeline and map**********/
+#mapfootermenu {
+z-index: 5001;
+display: block;
+position: absolute;
+left: 0px;
+height: 25px;
+right: 0px;
+bottom: 0px;
+background-repeat:repeat-x;
+background: url(/gfx/mapfooterback.png);
+}
+#mapfooterlib {
+display: block;
+float:right;
+width: 150px;
+height:30px;
+bottom: 0px;
+background-image:url(/gfx/btshowlibrary.png);
+}
+
+#mapfooterlibhide {
+display: none;
+right: 0px;
+float:right;
+width: 150px;
+height:30px;
+bottom: 0px;
+background-image:url(/gfx/bthidelibrary.png);
+}
+
+#mapfootergoals {
+display: block;
+float:right;
+width: 150px;
+height:30px;
+bottom: 0px;
+background-image:url(/gfx/btshowgoals.png);
+}
+
+
+div#countdown{
+	display: block;
+	width: 640px;
+	height: 50px;
+	position: relative;
+	z-index: 1000 ;
+	bottom: 0;;
+	left:0px;
+	background-color: #CCC;
+	}
+		
+
+
+div#controls{
+	
+	display: block;
+	width: 325px;
+	position: relative;
+	float: right;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div#timer{
+display: none;
+padding-right: 0px;
+float: left;}
+
+div#mapbt{
+display: none;
+	width:120px;
+	z-index: 2800;
+	height: 90px;
+	position: relative;
+	float: right;
+}
+
+div#mapbt2{
+display: none;
+	width:120px;
+	z-index: 1800;
+	height: 90px;
+	position: relative;
+	float: right;
+	display: none;
+	}
+
+
+/********THESE CONTROL BUBBLE WINDOW SIZE AS WELL *************/
+
+div.infotitle {
+width: 600px;
+    font-size: 14px;
+    font-weight: bold;
+	text-transform:uppercase;
+	color:#333333;
+}
+div.infodescription {
+width: 600px;
+    font-size: 11px;
+ 
+/*float:right;
+	width: 300px;
+	margin-right: 20px;
+	margin-bottom: 15px;*/
+}
+
+div.custominfostyle {
+ /*   font-family: Georgia, Garamond, serif;*/
+    font-size: 1.5em;
+    font-style: italic;
+    width: 20em;
+}
+
+
+
+button {
+  font-size:14px;
+}
+   
+	
+div#footer{
+	display: none;
+	height: 35px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	z-index: 1900;
+	background-image: url(/gfx/footerdiag.png);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	}
+	
+div#footercontrols{
+display: block;
+width: 100%;
+height: 30px;
+margin-top: 0px;
+float: left;
+z-index: 1812;
+position:absolute;
+top: 0px;
+}
+div#footerleft{
+/*background-image: url(/gfx/socmedia.png);
+	background-repeat: no-repeat;*/
+display: none;
+width: 95%;
+margin-top: 0px;
+float: left;
+position:relative;
+top: 0px;
+left: 0px;
+}
+
+
+div#footerright{
+/*background-image: url(/gfx/socmedia.png);
+	background-repeat: no-repeat;*/
+display: block;
+width: 345px;
+margin-top: 135px;
+float: right;
+position:relative;
+top: 0px;
+right: 0px;
+}
+

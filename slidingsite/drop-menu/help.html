@@ -1,0 +1,496 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Drop Menu help</title>
+<style type="text/css">
+<!--
+@charset "utf-8";
+/* CSS Document */
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul,ol, li, dl, dt, dd, form, a, fieldset, input, th, td{
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: none;
+}
+
+body{
+	background:#EAEAEA none repeat scroll 0 0;
+	text-align: center;
+	font-family:'Lucida Grande','Lucida Sans Unicode',Tahoma,Arial,san-serif;
+	font-size:11.5px;
+	line-height:21px;
+	color:#666666;
+}
+
+h1, h2, h3, h4, h5, h6{
+      font-size: 100%;
+      margin: 0 15px;
+	  font-weight:normal;
+		line-height:1.4em;
+		padding-bottom:5px;
+}
+ul, ol{
+      list-style-image: none;
+      list-style-type: none;
+}     
+img{
+ border: 0;
+}
+h1, h2, h3 {
+	font-weight:normal;
+	margin:0;
+	padding:0;
+}
+h1 {
+	font-size:36px;
+	font-weight:normal;
+	line-height:1.4em;
+	color: #3D3D3D;
+	text-align: center;
+	margin:20px 0 0 5px;
+	color:#616263;
+}
+h2 {
+	clear:both;
+	font-size:18px;
+	color:#444444;
+	font-weight:normal;
+	line-height:1.4em;
+	padding-bottom:5px;
+}
+ul {
+	margin:0 1.5em 1.5em;
+	list-style-position:inside;
+	list-style-type:disc;
+}
+ol {
+	list-style-image:none;
+	list-style-position:inside;
+	list-style-type:upper-alpha;
+}
+li {
+	border-bottom:1px solid #DDDDDD;
+	padding:3px 10px;
+	color:#666666;
+}
+p{
+	padding:0 0 1em;
+}
+hr {
+	background:#DDDDDD none repeat scroll 0 0;
+	border:medium none;
+	clear:both;
+	color:#DDDDDD;
+	float:none;
+	height:0.1em;
+	margin:0 0 1.45em;
+	width:100%;
+}
+a:link, a:visited, a:active{
+	color:#3366CC;
+	text-decoration:underline;
+}
+a:hover {
+	color:#CC3333;
+}
+.default {
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	background-color: #F2F2F2;
+	border: 1px solid #CCC;
+	color: #666;
+}
+.quiet {
+	color:#666666;
+}
+.small {
+	font-size:0.85em;
+	line-height:1.875em;
+	margin-bottom:1.875em;
+}
+#globalinfo{
+	border-right:1px solid #EEEEEE;
+	float: left;
+	width: 180px;
+	padding: 10px;
+	font-weight: bold;
+}
+#globaldescription{
+	float: right;
+	width: 410px;
+	padding: 10px;
+}
+#wrapper{
+	width: 700px;
+	margin: 20px auto;
+	text-align: left;
+}
+#header{
+	height: 90px;
+}
+#maincontent{
+	border:1px solid #dddddd;	
+	background-color: #FFF;
+	padding: 30px;
+	 -moz-border-radius: 10px;
+  	border-radius: 10px;
+}
+#header p{
+	margin:0px 0px 10px 0px;
+}
+#header ul{
+	margin: 0px;
+	padding: 0px;
+}
+#header li{
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+}
+
+#header h1 a {
+	color:#616263;
+	text-decoration:none;
+}
+#header h1 a:hover {
+	text-decoration: underline;
+}
+#header .content{
+	float: right;
+	width: 550px;
+	line-height:25px;
+	
+}
+#header img {
+	float:left;
+	margin-right:10px;
+}
+#header h1 span {
+	display:inline;
+}
+#shadow{
+	height: 13px;
+	background-color: #EFEFEF;
+	background-image: url(../media/layout/shadow.gif);
+}
+#footer{
+	margin-top: 5px;
+	color: #898989;
+}
+.bigtext{
+	font-size: 24px;
+	text-align: center;	
+	color: #1C4E7E;
+	font-weight: bold;
+}
+.red{
+	color: #FF4411;
+}
+label{
+	font-size:14px;
+	font-weight:bold;
+}
+input, select, textarea{
+	padding: 4px 6px;	
+	border: solid 1px #7f9db9;
+}
+.nodisplay{
+	display: none;
+}
+.grayed{
+	background-color: #ebebe4;
+	color: #aca899;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.spacer{
+	display: block;
+	clear: both;
+}
+.code{
+	padding-left: 10px;
+	border-left: solid 3px #999;
+	font-family:"Times New Roman", Times, serif;
+	color:#333;
+	font-size: 12px;
+}
+.step{
+	background-color: #333333;
+	color: #FFF;
+	-moz-border-radius: 5px;
+  	border-radius: 5px;
+	padding: 20px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.step .number{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	color: #555;
+	font-size: 36px;
+	font-weight: bold;
+}
+.step .content{
+	margin-left: 50px;
+}
+.step1 {	background-color: #333333;
+	color: #FFF;
+	-moz-border-radius: 5px;
+  	border-radius: 5px;
+	padding: 20px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.step2 {	background-color: #333333;
+	color: #FFF;
+	-moz-border-radius: 5px;
+  	border-radius: 5px;
+	padding: 20px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.step3 {	background-color: #333333;
+	color: #FFF;
+	-moz-border-radius: 5px;
+  	border-radius: 5px;
+	padding: 20px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.step4 {	background-color: #333333;
+	color: #FFF;
+	-moz-border-radius: 5px;
+  	border-radius: 5px;
+	padding: 20px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.step5 {	background-color: #333333;
+	color: #FFF;
+	-moz-border-radius: 5px;
+  	border-radius: 5px;
+	padding: 20px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.step6 {	background-color: #333333;
+	color: #FFF;
+	-moz-border-radius: 5px;
+  	border-radius: 5px;
+	padding: 20px;
+	position: relative;
+	margin-bottom: 10px;
+}
+-->
+</style>
+</head>
+<body>
+<div id="wrapper">
+  <div id="header">
+  	<div class="left">
+    	<h1>DropMenu</h1>
+    </div>
+    <div class="right">
+    	<img src="http://www.sitebase.be/wp-content/themes/twicet/images/logo.png" alt="Sitebase logo" />
+    </div>
+  </div>
+  <div id="maincontent">
+    <div id="globalinfo">Created: 16/12/2009<br />
+  By: Sitebase<br />
+  Email: wim@sitebase.be</div>
+	<div id="globaldescription">Thank you for purchasing my script. If you have any questions that are  beyond the scope of this help file, please feel free to email via my  user page contact form <a href="http://themeforest.net/user/sitebase">here</a>. Thanks so much!</div>
+    <hr />
+    <h2 id="toc">Table of Contents</h2>
+    <ol>
+      <li><a href="#a">Description</a></li>
+      <li><a href="#b">Features</a></li>
+      <li><a href="#c">Install the script</a></li>
+      <li><a href="#d">Parameters</a></li>
+      <li><a href="#e">Custom animation</a></li>
+      <li><a href="#f">Drop menu on top of flash</a></li>
+    </ol>
+    <p>
+    </p>
+    </p>
+    <h2>A. Description<a name="a" id="a"></a></h2>
+    <p>With this script you can make nice and interactive drop down menus. The advantage of this script is that it not only gives you the ability to make list drop down menu. You can also use a div as drop down element. This way you can create big drop down menus like under the buttons products and tutorials in the <a href="http://preview.sitebase.be/scripts/dropmenu/Example1/">live preview</a>. Or you can create a login panel in your drop down like I did in the live preview.</p>
+    <ul>
+      <li><a href="http://preview.sitebase.be/scripts/dropmenu/Example1/">Horizontal example</a></li>
+      <li><a href="http://preview.sitebase.be/scripts/dropmenu/Example2/">Vertical example</a></li>
+      <li><a href="http://preview.sitebase.be/scripts/dropmenu/Example3/">Basic CSS example</a></li>
+      <li><a href="http://preview.sitebase.be/scripts/dropmenu/Example4/">Advanced example</a></li>
+    </ul>
+    <h2>B. Features<a name="b" id="features"></a></h2>
+    <ul>
+      <li> Create dropdown menus<br />
+        </li>
+      <li>Horizontal and vertical menus<br />
+        </li>
+      <li>Supports div dropdown<br />
+        </li>
+      <li>3 examples dropdown menus included<br />
+        </li>
+      <li>3 dropdown animations<br />
+        </li>
+      <li>use different anim for open and close<br />
+        </li>
+      <li>Graceful degradation<br />
+        </li>
+      <li>Customizable through css<br />
+        </li>
+      <li>Works in all browsers</li>
+      <li>Custom animation</li>
+      <li>Callback events</li>
+      <li>Show drop downs on top of flash content</li>
+    </ul>
+    <h2>C. Install<a name="c" id="features2"></a></h2>
+    <p>The first thing you need to do is including jquery and the dropmenu.js script (Script/js/dropmenu.js) in the head of your page. The dropmenu.js can be found under Script/js/. Copy and include the style.css from Example 3 (Script/Example3). This is a very basic css style that you very easily can customize to fit your needs.</p>
+<div class="step">
+    	<div class="number">1</div>
+        <div class="content">&lt;script src=&quot;jquery.js&quot;&gt;&lt;/script&gt;<br />
+        &lt;script src=&quot;dropmenu.js&quot;&gt;&lt;/script&gt;<br />
+        &lt;link rel=&quot;stylesheet&quot;  href=&quot;style.css&quot; type=&quot;text/css&quot; /&gt;<br />
+        </div>
+    </div>
+
+  <p>Next thing to do is adding the HTML of your dropdown menu. For example:</p>
+<div class="step">
+    	<div class="number">2</div>
+        <div class="content">&lt;ul id=&quot;nav-one&quot; class=&quot;dropmenu&quot;&gt;<br />
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;<br />
+&lt;li&gt; <br />
+&lt;a href=&quot;#&quot;&gt;Forum&lt;/a&gt;<br />
+&lt;ul&gt;<br />
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Support&lt;/a&gt;&lt;/li&gt;<br />
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Help&lt;/a&gt;&lt;/li&gt;<br />
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Examples&lt;/a&gt;&lt;/li&gt;<br />
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Your work&lt;/a&gt;&lt;/li&gt;<br />
+&lt;/ul&gt;<br />
+&lt;/li&gt;<br />
+&lt;li&gt; <br />
+&lt;a href=&quot;#&quot;&gt;Downloads&lt;/a&gt;<br />
+&lt;ul&gt;<br />
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Tools&lt;/a&gt;&lt;/li&gt;<br />
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Office&lt;/a&gt;&lt;/li&gt;<br />
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Custom projects&lt;/a&gt;&lt;/li&gt;<br />
+&lt;/ul&gt;<br />
+&lt;/li&gt;<br />
+&lt;li&gt; <br />
+&lt;a href=&quot;#&quot;&gt;Downloads&lt;/a&gt;<br />
+&lt;div&gt;This is a div with some content.&lt;/div&gt;<br />
+&lt;/li&gt;<br />
+&lt;/ul&gt;</div>
+    </div>
+    
+    <p>As you can see in the example above, you can use an ul or a div as dropdown element. </p>
+  <div class="step">
+   	  <div class="number">3</div>
+        <div class="content">
+          <p>&lt;script&gt;<br />
+            $(document).ready(function(){<br />
+$(&quot;#nav-one&quot;).dropmenu({openAnimation: &quot;fade&quot;,<br />
+closeAnimation: &quot;fade&quot;,<br />
+openClick: false,<br />
+            openSpeed: 500,<br />
+            closeSpeed: 700,<br />
+            closeDelay:500,<br />
+            onHide: function(){},<br />
+onHidden: function(){},<br />
+onShow: function(){},<br />
+onShown: function(){}            });<br />
+            });<br />
+&lt;/script&gt;</p>
+      </div>
+    </div>
+    <h2>D. Parameters(default value)<a name="d" id="features3"></a></h2>
+    <ul>
+      <li><strong>openAnimation:</strong> fade, size, slide<br />
+</li>
+      <li><strong>closeAnimation:</strong> fade, size, slide</li>
+      <li><strong>openClick:</strong> A click on the arrow span is needed before the dropdown menu opens.<br />
+      </li>
+      <li><strong>openSpeed:</strong> time of the open animation in miliseconds<br />
+        </li>
+      <li><strong>closeSpeed: </strong>time of the close animation in miliseconds<br />
+        </li>
+      <li><strong>closeDelay: </strong>delayed close time in miliseconds</li>
+      <li><strong>onHide:</strong> Callback function when a submenu close animation starts (this is the submenu)</li>
+      <li><strong>onHidden:</strong> Callback function when a submenu close animation ends (this is the submenu)<br />
+        </li>
+      <li><strong>onShow: </strong>Callback function when a submenu open animation starts (this is the submenu)<br />
+        </li>
+      <li><strong>onShown:</strong> Callback function when a submenu open animation ends (this is the submenu</li>
+      <li><strong>zindex:</strong> With this parameter you can define wich is the lowest zindex that must be applied to the dropmenu. Leave this setting out if you don't know what zindex is.</li>
+      <li><strong>autoAddArrowElements:</strong> If set to true there will automaticly be added a span element to an a elemen that has shildren. This is handy to show a nice arrow on parent menu elements.</li>
+    </ul>
+  <h2>E. Custom animation<a name="e" id="custom animation"></a></h2>
+  
+  <p>With this you can create you own customized animations. The first thing todo is create an animation function.</p>
+  
+  
+  
+  <div class="step">
+    <div class="number">1</div>
+    <div class="content">
+      <p>&lt;script&gt;<br />
+        function customOpenClose(){<br />
+jQuery(this).animate({<br />
+opacity: 'toggle',<br />
+width: 'toggle'<br />
+}, 500);<br />
+}<br />
+        &lt;/script&gt;</p>
+    </div>
+  </div>
+  
+  <p>The "this" we used in the above code will refer to the ul/div element of the submenu. Next we define this function as our animation for the menu.</p>
+  
+   <div class="step">
+    <div class="number">2</div>
+    <div class="content">
+      <p>&lt;script&gt;<br />
+        function customOpenClose(){<br />
+jQuery(this).animate({<br />
+opacity: 'toggle',<br />
+width: 'toggle'<br />
+}, 500);<br />
+}</p>
+      <p>$(&quot;.dropmenu&quot;).dropmenu({</p>
+      <p>...<br />
+        openAnimation: customOpenClose,<br />
+        closeAnimation: customOpenClose,<br />
+...  <br />
+        });<br />
+        &lt;/script&gt;</p>
+    </div>
+  </div>
+  
+   <h2>F. Drop menu on top of flash content<a name="f" id="on flash"></a></h2>
+  <p>It's no problem to show drop menu on top of flash content or another div. To show it above another div you just need to make sure to set the zindex parameter higher than the z-index of the div you want show under the menu.</p>
+  <p>For flash content you add the following parameter to the object element:</p>
+  <code>
+  &lt;param name="wmode" value="transparent" 
+  /&gt;</code>
+  
+  <p>and add this to the embed tag:
+ </p>
+ <code>
+ wmode="transparent" 
+ </code>
+
+  
+  </div>
+</div>
+</body></html>

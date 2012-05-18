@@ -1,0 +1,640 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in echo
+#: basicmaths-trans/author.php:33
+#: basicmaths-trans/tag.php:16
+#: basicmaths-trans/search.php:34
+#: basicmaths-trans/category.php:14
+#: basicmaths-trans/archive.php:32
+msgid " Total"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/footer.php:2
+msgid " by "
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:192
+#: basicmaths-trans/functions.php:211
+msgid " entries"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:192
+#: basicmaths-trans/functions.php:211
+msgid " entry"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/archive-template.php:41
+#: basicmaths-trans/archive-template.php:34
+msgid " total"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/single.php:59
+msgid "%link<span class=\"nextprev-arrow\">&rsaquo;</span>"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/single.php:46
+msgid "%s"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/header.php:19
+msgid "%s latest comments"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/header.php:18
+msgid "%s latest posts"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/404.php:31
+msgid "404"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/single.php:45
+msgid "<span class=\"label\">Categories</span> <span class=\"meta-content\">%s</span>"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/comments.php:72
+msgid "<span class=\"loggedin\">Logged in as <a href=\"%1$s\" title=\"Logged in as %2$s\">%2$s</a>.</span> <span class=\"logout\"><a href=\"%3$s\" title=\"Log out of this account\">Log out?</a></span>"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/single.php:58
+msgid "<span class=\"nextprev-arrow\">&lsaquo;</span>%link"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/author.php:66
+#: basicmaths-trans/tag.php:47
+#: basicmaths-trans/search.php:66
+#: basicmaths-trans/category.php:44
+#: basicmaths-trans/archive.php:63
+#: basicmaths-trans/index.php:63
+msgid "<span class=\"nextprev-link-title\">Newer posts</span>"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/author.php:65
+#: basicmaths-trans/tag.php:46
+#: basicmaths-trans/search.php:65
+#: basicmaths-trans/category.php:43
+#: basicmaths-trans/archive.php:62
+#: basicmaths-trans/index.php:62
+msgid "<span class=\"nextprev-link-title\">Older posts</span>"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/single.php:59
+msgid "<span class=\"nextprev-post\">Next Post</span> <span class=\"nextprev-link-title\">%title</span>"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/single.php:58
+msgid "<span class=\"nextprev-post\">Previous Post</span> <span class=\"nextprev-link-title\">%title</span>"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/comments.php:81
+#: basicmaths-trans/comments.php:86
+msgid "<span class=\"required\">Required</span>"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:361
+msgid "<span class=\"trackback-date\">%2$s</span> %1$s"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/comments.php:28
+msgid "<span>%d</span> Comments so far"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/comments.php:45
+msgid "<span>%d</span> pings so far."
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/comments.php:28
+msgid "<span>One</span> Comment so far"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/comments.php:45
+msgid "<span>One</span> Trackback"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/comments.php:58
+msgid "Add Your Comments"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/archive-template.php:41
+#: basicmaths-trans/functions.php:366
+msgid "All Categories"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/archive-template.php:34
+#: basicmaths-trans/functions.php:366
+msgid "All Tags"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/archive.php:28
+#: basicmaths-trans/sidebar.php:36
+#: basicmaths-trans/functions.php:606
+msgid "Archives"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:366
+msgid "Archives Link"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/author.php:31
+#: basicmaths-trans/single.php:41
+msgid "Author"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/author.php:34
+msgid "Bio"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/author.php:17
+#: basicmaths-trans/search.php:14
+#: basicmaths-trans/category.php:6
+#: basicmaths-trans/404.php:14
+#: basicmaths-trans/page.php:14
+#: basicmaths-trans/index.php:14
+#: basicmaths-trans/single.php:14
+msgid "Categories"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/category.php:12
+msgid "Category"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:366
+msgid "Change the color of hover links by entering a HEX color number. (ie: <span style=\"font-family:Monaco,Lucida Console,Courier,monospace;\">FF6600</span>)"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:366
+msgid "Change the color of links, backgrounds and borders by entering a HEX color number. (ie: <span style=\"font-family:Monaco,Lucida Console,Courier,monospace;\">003333</span>)"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:366
+msgid "Check here to display a list of Categories in the header instead of Tags."
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:366
+msgid "Choose the number of &lsquo;Top Tags&rsquo; to display in the header (Set to <span style=\"font-family:Monaco,Lucida Console,Courier,monospace;\">0</span> to show all tags)."
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/comments.php:97
+msgid "Comment"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/comments.php:28
+msgid "Comments"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/author.php:57
+#: basicmaths-trans/tag.php:38
+#: basicmaths-trans/search.php:56
+#: basicmaths-trans/category.php:35
+#: basicmaths-trans/archive.php:54
+#: basicmaths-trans/index.php:46
+msgid "Comments (%)"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/author.php:57
+#: basicmaths-trans/tag.php:38
+#: basicmaths-trans/search.php:56
+#: basicmaths-trans/category.php:35
+#: basicmaths-trans/archive.php:54
+#: basicmaths-trans/index.php:46
+msgid "Comments (0)"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/author.php:57
+#: basicmaths-trans/tag.php:38
+#: basicmaths-trans/search.php:56
+#: basicmaths-trans/category.php:35
+#: basicmaths-trans/archive.php:54
+#: basicmaths-trans/index.php:46
+msgid "Comments (1)"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/author.php:35
+msgid "Contact"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/author.php:56
+#: basicmaths-trans/tag.php:37
+#: basicmaths-trans/search.php:55
+#: basicmaths-trans/category.php:34
+#: basicmaths-trans/archive.php:53
+#: basicmaths-trans/index.php:45
+msgid "Continue Reading&hellip;"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/archive.php:19
+msgid "Day <span>%s</span>"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/tag.php:17
+#: basicmaths-trans/category.php:15
+#: basicmaths-trans/404.php:33
+msgid "Description"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/author.php:58
+#: basicmaths-trans/tag.php:39
+#: basicmaths-trans/search.php:57
+#: basicmaths-trans/category.php:36
+#: basicmaths-trans/archive.php:55
+#: basicmaths-trans/page.php:41
+#: basicmaths-trans/index.php:47
+#: basicmaths-trans/functions.php:344
+#: basicmaths-trans/functions.php:361
+#: basicmaths-trans/single.php:48
+msgid "Edit"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/comments.php:85
+msgid "Email"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/author.php:35
+msgid "Email "
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/author.php:33
+#: basicmaths-trans/tag.php:15
+#: basicmaths-trans/search.php:33
+#: basicmaths-trans/category.php:14
+#: basicmaths-trans/archive.php:32
+msgid "Entries"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/404.php:31
+msgid "Error"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/404.php:33
+msgid "File not found"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/functions.php:604
+msgid "For more information about this theme, <a href=\"#\">visit Basic Maths</a>."
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/search.php:86
+#: basicmaths-trans/header.php:48
+#: basicmaths-trans/404.php:40
+#: basicmaths-trans/functions.php:606
+msgid "Go"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/header.php:41
+msgid "Home"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:366
+msgid "Hover Color"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:366
+msgid "Insert the slug of the page using the Archives template. (example: For a page Titled “History” that uses the Archives template, insert the slug <span style=\"font-family:Monaco,Lucida Console,Courier,monospace;font-weight:600\">history</span> so that the “All Tags” link points to the correct page)."
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/comments.php:28
+msgid "Leave a comment below."
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:366
+msgid "Link Color"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/search.php:76
+#: basicmaths-trans/404.php:34
+msgid "Message"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/archive.php:22
+msgid "Month <span>%s</span>"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/sidebar.php:19
+#: basicmaths-trans/functions.php:606
+msgid "More Info"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/comments.php:80
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:366
+msgid "No description entered yet."
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/search.php:73
+msgid "Nothing found"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/page.php:38
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/comments.php:58
+msgid "Post a Reply to %s"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/sidebar.php:23
+#: basicmaths-trans/functions.php:257
+msgid "Powered by WordPress"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/sidebar.php:22
+#: basicmaths-trans/functions.php:256
+msgid "RSS Feed for Comments"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/sidebar.php:21
+#: basicmaths-trans/functions.php:255
+msgid "RSS Feed for Entries"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/footer.php:2
+msgid "RSS feed"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/tag.php:33
+msgid "Read More <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/comments.php:112
+msgid "Ready?"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/sidebar.php:6
+#: basicmaths-trans/functions.php:606
+msgid "Recent Posts"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/functions.php:599
+msgid "Reset"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/functions.php:593
+msgid "Save changes"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/search.php:81
+#: basicmaths-trans/header.php:44
+#: basicmaths-trans/404.php:35
+msgid "Search"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:606
+msgid "Search for:"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/search.php:30
+msgid "Search term:"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:366
+msgid "Show Categories"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/header.php:35
+msgid "Skip navigation to the content"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/header.php:35
+msgid "Skip to content"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/search.php:77
+msgid "Sorry, but nothing matched your search criteria.<br />Please try another search term here:"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/index.php:57
+msgid "Sorry, no posts we&rsquo;re found."
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/404.php:34
+msgid "Sorry, the page that you were looking for could not be found. If you want to find something else, you can search for it here:"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/404.php:48
+msgid "Still can’t find what you’re looking for? Try "
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/comments.php:113
+msgid "Submit"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/tag.php:12
+msgid "Tag"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/404.php:48
+msgid "Thanks!"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/comments.php:9
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/footer.php:2
+msgid "This site uses the <a href=\"#\">Basic Maths</a> theme for <a href=\"http://wordpress.org\">WordPress</a>, designed by <a href=\"http://subtraction.com\" rel=\"designer\" class=\"designer\">Khoi Vinh</a> &amp; <a href=\"http://fthrwght.com\" rel=\"developer\" class=\"developer\">Allan Cole</a>."
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/comments.php:102
+msgid "Tips"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:606
+msgid "To search, type and hit enter"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:366
+msgid "Top Tag Count"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/author.php:24
+#: basicmaths-trans/tag.php:6
+#: basicmaths-trans/search.php:21
+#: basicmaths-trans/404.php:21
+#: basicmaths-trans/page.php:21
+#: basicmaths-trans/index.php:21
+#: basicmaths-trans/single.php:21
+msgid "Top Tags"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/comments.php:45
+msgid "Trackbacks"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/comments.php:90
+msgid "Website"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/search.php:73
+msgid "Woops"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/index.php:56
+msgid "Woops&hellip;"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/archive.php:25
+msgid "Year <span>%s</span>"
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/comments.php:104
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: "
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/comments.php:63
+msgid "You must be <a href=\"%s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/comments.php:105
+msgid "Your email is <em>never</em> published nor shared."
+msgstr ""
+
+#. Text in echo
+#: basicmaths-trans/functions.php:365
+msgid "\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting moderation.</span>\\n"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/404.php:48
+msgid "browsing the archives"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:500
+#: basicmaths-trans/functions.php:532
+#: basicmaths-trans/functions.php:577
+msgid "desc"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/404.php:48
+msgid "email me"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:526
+#: basicmaths-trans/functions.php:567
+msgid "name"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/404.php:48
+msgid "or you can"
+msgstr ""
+
+#. Text in function
+#: basicmaths-trans/functions.php:527
+msgid "std"
+msgstr ""
+

@@ -1,0 +1,253 @@
+/****** General MASTER ******/
+
+
+
+
+/** {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}*/
+
+html, body { 
+  height: 100%;
+  min-width: 1000px;
+  max-height: 1200px;
+  max-width: 1920px;
+}
+
+a, a:visited {
+  color:  #999;
+}
+
+.center {
+  text-align: center;
+  margin-auto;
+}
+
+.wide {
+  width: 75%;
+}
+
+.mid {
+  width:  95%;
+  display:  inline-block;
+}
+
+.margin_auto {
+  margin: auto;
+}
+
+/***** Formatting *****/
+body {
+  font-family: 'Droid Sans', arial, serif;
+  letter-spacing: 1px;
+  font-size: 11px;
+  line-height: 18px;
+  background-color: #444444;
+  color: #808080;
+}
+
+table {
+  width: 100%;
+  margin-left: 0px;
+ 
+}
+
+h1 {
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-size: 18px;
+	color:#484848;
+    margin: 2px 0px 10px 0px;
+}
+h2 {
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-size: 14px;
+	color:#484848;
+    margin: 20px 0px 10px 0px;
+}
+
+i {
+	
+  color: #fa9c08;
+}
+
+li {
+  margin-left: 18px;
+  margin-top: 10px;
+}
+
+.info {
+  color: #e7510e;
+  font-size: 80%;
+}
+
+p{
+padding-bottom:10px;}
+
+/****** Layout *******/
+
+blockquote {
+    background-image: url("/gfx/blockquote.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    color: #9B9B9B;
+    font-family: 'Droid Sans', arial, serif;
+    font-size: 1.2em;
+    font-style: normal;
+    line-height: 1.5em;
+    margin: 0 0 2em;
+   padding: 1em 10px 15px 4.5em;
+}
+
+#switcher-demo-panel {
+  margin-top: 30px;
+  margin-left: 29px;
+  margin-right: 29px;
+  padding-bottom: 30px;
+}
+
+#switcher-panel {
+  margin-top: 80px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 400px;
+  width: 400px;
+ 
+}
+
+#switcher-panel2 {
+  margin-top: 60px;
+  margin-left: 0px;
+  margin-right: 29px;
+  height: 500px;
+   width: 500px;
+
+  
+}
+
+#switcher-panelbottom {
+  margin-top: 10px;
+  margin-left: 29px;
+  margin-right: 29px;
+  height: 120px;
+  width: 100%;
+}
+
+#switcher-panelintro {
+  margin-top: 10px;
+  margin-left: 29px;
+  margin-right: 29px;
+  height: 120px;
+  width: 300px;
+}
+
+#switcher-panelform {
+  margin-top: 10px;
+  margin-left: 29px;
+  margin-right: 29px;
+  height: 120px;
+  width: 355px;
+}
+.nav_buttons {
+
+  position: relative;
+  text-transform: uppercase;
+/*  background: transparent url(/timemap.2.0/images/navbg.png) repeat-x bottom left;*/
+  top: 0px;
+  left: 0px;
+  height: 30px;
+}
+
+
+.nav_buttons2 {
+  position: relative;
+  text-transform: uppercase;
+  top: 13px;
+  left: 15px;
+  height: 30px;
+}
+
+.nav_buttons a {
+  margin-right: 15px;
+ font-size: 10px;
+ font-weight: bold;
+color:#ff0000;
+}
+
+.nav_buttons2 a {
+  margin: 0px 10px;
+  font-size: 10px;
+  font-weight: bold;
+color:#ff0000;
+}
+
+.contheader {
+  height: 30px;
+  width: 100%;
+  margin-top: 0px;
+  padding-top:20px;
+  position: relative;
+  top: 0px;
+/*  background: transparent url(/timemap.2.0/images/navbg.png) repeat-x bottom left;*/
+  color: #fff;
+}
+.contheader2 {
+  height: 60px;
+  width: 100%;
+  margin-top: 0px;
+  padding-top: 60px;
+  position: absolute;
+  top: 0px;
+  color: #fff;
+}
+
+.contheader3 {
+  height: 40px;
+  width: 100%;
+  margin-top: 0px;
+  padding-top:40px;
+  position: relative;
+  top: 0px;
+ /* background: transparent url(/timemap.2.0/images/navbg.png) repeat-x bottom left;*/
+  color: #fff;
+}
+.block {
+ /* background: transparent url(/timemap.2.0/images/block_bg.png) repeat top left;*/
+
+ -moz-border-radius: 20px;
+  azimuth-webkit-border-radius: 20px;
+ -khtml-border-radius: 20px;
+  border-radius: 20px;
+  min-height: 400px;
+  height: 400px;
+  padding-left: 10px;
+  margin-top: 0px;
+}
+
+.block2 {
+ /* background: transparent url(/timemap.2.0/images/block_bg.png) repeat top left;*/
+
+
+ -moz-border-radius: 20px;
+  azimuth-webkit-border-radius: 20px;
+ -khtml-border-radius: 20px;
+  border-radius: 20px;
+  min-height: 400px;
+  height: 400px;
+  margin-top: 20px;
+}
+.block3 {
+ /* background: transparent url(/timemap.2.0/images/block_bg.png) repeat top left;*/
+
+
+ -moz-border-radius: 20px;
+  azimuth-webkit-border-radius: 20px;
+ -khtml-border-radius: 20px;
+  border-radius: 20px;
+  min-height: 250px;
+  height: 250px;
+  margin-top: 0px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="keywords" content="javascript, jquery, plugins, scroll, navigation, slideshow, news, ticker, sections, sequential, prev, next, series, scrollTo, smooth, to, animation, overflow, element, window, effect, ariel, flesler" />
+	<meta name="description" content="Demo of jQuery.SerialScroll. A jQuery plugin to quickly animate series of items, made by Ariel Flesler." />
+	<meta name="robots" content="all" />
+	<meta name="author" content="Ariel Flesler, aflesler(at)gmail(dot)com" />
+	<meta name="copyright" content="(c) 2007-2008 Ariel Flesler" />
+	<title>jQuery.SerialScroll</title>
+	<link rel="shortcut icon" href="http://jquery.com/favicon.ico" type="image/x-icon" />
+	<link href='/base.css' type='text/css' rel='stylesheet' />
+	<link href='css/style.css' type='text/css' rel='stylesheet' />
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js'></script>
+	<script type='text/javascript' src='jquery.scrollTo-1.4.2/jquery.scrollTo-min.js'></script>
+	<script type='text/javascript' src='jquery.scrollTo-1.4.2/jquery.serialScroll-min.js'></script>
+	<script type='text/javascript' src='js/init.js'></script>
+	
+	<!-- Timestamp: 1285015073 -->
+</head>
+<body>
+	<h1>jQuery.SerialScroll&nbsp;<strong>by Ariel Flesler</strong></h1>
+	<div class="sidebar">
+			<div id="links">
+			
+		</div>
+		</div>
+		<div id="screen">
+		<img class="prev" src="img/prev.gif" alt="prev" width="42" height="53" />
+		<div id="navigation">
+			<ul>
+				<li><a href="#">Section 1</a></li>
+				<li><a href="#">Section 3</a></li>
+				<li><a href="#">Section 5</a></li>
+			</ul>
+		</div>
+		<div id="sections">
+			<ul>
+				<li>
+					<h2>Section 1</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et turpis sed metus fermentum pellentesque. Vestibulum auctor neque ac nunc elementum malesuada. Praesent non est sed libero vestibulum consectetuer. Sed vehicula. Vivamus quis tellus sit amet erat ultrices luctus. Fusce a ligula. Fusce viverra libero vitae velit. Aenean bibendum nibh non lorem. Suspendisse quis velit. Integer sit amet lacus. Curabitur tristique. Morbi eu lectus. Vestibulum tristique aliquam quam. Sed neque.</p>
+					<p>Nulla facilisi. Quisque eleifend libero. Sed eros. Morbi vel leo. Morbi varius tincidunt sem. Nam sodales volutpat velit. Suspendisse potenti. Duis vehicula pede non nisi. Proin elit pede, ultrices non, ultrices quis, vulputate sit amet, magna. Praesent sodales pellentesque justo. Donec blandit, augue id convallis congue, magna libero hendrerit erat, id blandit est lorem a tellus. Vestibulum tincidunt lectus quis metus. Pellentesque placerat lacus in urna.</p>
+				</li>
+				<li>
+					<h2>Section 2</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et turpis sed metus fermentum pellentesque. Vestibulum auctor neque ac nunc elementum malesuada. Praesent non est sed libero vestibulum consectetuer. Sed vehicula. Vivamus quis tellus sit amet erat ultrices luctus. Fusce a ligula. Fusce viverra libero vitae velit. Aenean bibendum nibh non lorem. Suspendisse quis velit. Integer sit amet lacus. Curabitur tristique. Morbi eu lectus. Vestibulum tristique aliquam quam. Sed neque.</p>
+					<p>Nulla facilisi. Quisque eleifend libero. Sed eros. Morbi vel leo. Morbi varius tincidunt sem. Nam sodales volutpat velit. Suspendisse potenti. Duis vehicula pede non nisi. Proin elit pede, ultrices non, ultrices quis, vulputate sit amet, magna. Praesent sodales pellentesque justo. Donec blandit, augue id convallis congue, magna libero hendrerit erat, id blandit est lorem a tellus. Vestibulum tincidunt lectus quis metus. Pellentesque placerat lacus in urna.</p>
+				</li>
+				<li class="fallen">
+					<h2>Section 3</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et turpis sed metus fermentum pellentesque. Vestibulum auctor neque ac nunc elementum malesuada. Praesent non est sed libero vestibulum consectetuer. Sed vehicula. Vivamus quis tellus sit amet erat ultrices luctus. Fusce a ligula. Fusce viverra libero vitae velit. Aenean bibendum nibh non lorem. Suspendisse quis velit. Integer sit amet lacus. Curabitur tristique. Morbi eu lectus. Vestibulum tristique aliquam quam. Sed neque.</p>
+					<p>Nulla facilisi. Quisque eleifend libero. Sed eros. Morbi vel leo. Morbi varius tincidunt sem. Nam sodales volutpat velit. Suspendisse potenti. Duis vehicula pede non nisi. Proin elit pede, ultrices non, ultrices quis, vulputate sit amet, magna. Praesent sodales pellentesque justo. Donec blandit, augue id convallis congue, magna libero hendrerit erat, id blandit est lorem a tellus. Vestibulum tincidunt lectus quis metus. Pellentesque placerat lacus in urna.</p>
+				</li>				
+				<li>
+					<h2>Section 4</h2>
+					<p>Nullam et sem eget massa pellentesque dapibus. Nulla sollicitudin enim quis odio. Quisque ipsum lorem, volutpat eget, condimentum ac, posuere id, risus. Suspendisse tortor metus, aliquet in, varius nec, hendrerit a, libero. Suspendisse iaculis. Fusce commodo urna ut enim. Fusce tempus eros. Phasellus sodales tellus id dolor. Integer sollicitudin, turpis ac interdum condimentum, enim enim tempus metus, sed imperdiet massa diam nec elit. Mauris ante augue, hendrerit non, commodo ac, porttitor eu, turpis.</p>
+					<p>In fermentum nibh ut diam. Mauris sagittis, tellus ac molestie fermentum, arcu orci pharetra mi, id vehicula massa leo vel pede. Nullam semper tincidunt lorem. Proin arcu libero, auctor sed, interdum egestas, ullamcorper et, lacus. Donec id lectus eget diam accumsan ullamcorper. Donec at urna et lacus condimentum pellentesque. Phasellus dapibus hendrerit massa. Sed sed ipsum. Quisque venenatis. Donec vel turpis.</p>
+				</li>
+				<li>
+					<h2>Section 5</h2>
+					<p>Nullam et sem eget massa pellentesque dapibus. Nulla sollicitudin enim quis odio. Quisque ipsum lorem, volutpat eget, condimentum ac, posuere id, risus. Suspendisse tortor metus, aliquet in, varius nec, hendrerit a, libero. Suspendisse iaculis. Fusce commodo urna ut enim. Fusce tempus eros. Phasellus sodales tellus id dolor. Integer sollicitudin, turpis ac interdum condimentum, enim enim tempus metus, sed imperdiet massa diam nec elit. Mauris ante augue, hendrerit non, commodo ac, porttitor eu, turpis.</p>
+					<p>In fermentum nibh ut diam. Mauris sagittis, tellus ac molestie fermentum, arcu orci pharetra mi, id vehicula massa leo vel pede. Nullam semper tincidunt lorem. Proin arcu libero, auctor sed, interdum egestas, ullamcorper et, lacus. Donec id lectus eget diam accumsan ullamcorper. Donec at urna et lacus condimentum pellentesque. Phasellus dapibus hendrerit massa.</p>
+				</li>
+			</ul>
+		</div>
+		<img class="next" src="img/next.gif" alt="next" width="42" height="53" />
+	</div>
+	
+	<p class="separator message">
+		This plugin can be used for navigation purposes. You decide how many to show at a time with CSS.<br />
+		The items don't need to be aligned, you can spread them as much as you want, it will always find them :)<br />
+		Check jQuery.ScrollTo's demo if you want to create the perfect animation. You can use its settings too!
+	</p>
+	
+	
+</body>
+</html>

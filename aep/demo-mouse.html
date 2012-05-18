@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Changing the mouse over the text to expand</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+	.aep
+	{
+		cursor:help;
+		color: #666;
+	}
+</style>
+
+<script src="extensible.js" type="text/javascript"></script>
+
+</head>
+
+<body bgcolor="#FFFFFF">
+
+
+
+<table width="219" border="1" cellspacing="0" cellpadding="3" bordercolor="#000000">
+  <tr>
+    <td height="13" width="97"> 
+      <div class="aep" onclick="develop();"> 
+        <div align="center">Develop</div>
+      </div>
+</td>
+    <td height="13" width="104"> 
+      <div class="aep" onclick="summarize();"> 
+        <div align="center">Summarize </div>
+      </div></td>
+  </tr>
+</table>
+<p>If you want to keep the text to expand near to the color of the main text, 
+  you can change the cursor of the mouse on it.</p>
+<p>The class aep is changed in this way:</p>
+<pre>&lt;style&gt;
+ cursor:hand;
+ color:#666;
+&lt;/style&gt;</pre>
+<div id="x1" style="display:none;" >
+	The text to display...
+</div>
+<div id="x2" style="display:none;" >
+	Asynchroneous JavaScript and XMLHttpRequest
+</div>
+
+Some content. <span id="z1" name="x1" class="aep" onclick="quietVerbose(this);" >Small.</span> 
+This is an <span id="z2" src="definition.txt" class="aep" onclick="quietVerbose(this);" >Ajax 
+</span> framework that allows to build extensible Web pages. 
+</body>
+</html>

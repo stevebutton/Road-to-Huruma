@@ -1,0 +1,62 @@
+.timeline-duration-event {
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid blue;
+}
+
+.timeline-instant-event2 {
+    position: absolute;
+    overflow: hidden;
+    border-left: 1px solid blue;
+    padding-left: 2px;
+}
+
+.timeline-instant-event {
+    position: absolute;
+    overflow: hidden;
+}
+
+.timeline-event-bubble-title {
+    font-weight: bold;
+	width: 500px;
+	color:      #666;
+	padding-top:15px;
+	font-size: 18px;
+	text-transform: uppercase;
+    border-bottom: 1px solid #888;
+    margin-bottom: 0.5em;
+}
+
+.timeline-event-bubble-body {
+color:      #666;
+padding: 0px;
+width: 520px !important;
+/*overflow:hidden;*/
+}
+
+.timeline-event-bubble-wiki {
+    margin:     0.5em;
+    text-align: right;
+    color:      #A0A040;
+}
+.timeline-event-bubble-wiki a {
+    color:      #A0A040;
+}
+
+.timeline-event-bubble-time {
+    font-size: 0;
+    visibility: hidden;
+}
+
+.timeline-event-bubble-image {
+    text-align:      center;
+    width:      250px;
+    height:     45px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+
+/*********test wrapping image********/
+.alignleft{float:left; margin-right: 2em;}
+.mailchimp {display:none;}

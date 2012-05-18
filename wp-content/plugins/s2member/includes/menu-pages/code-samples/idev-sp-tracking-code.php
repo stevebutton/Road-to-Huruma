@@ -1,0 +1,6 @@
+idev_saleamt=%%amount%%
+idev_ordernum=%%txn_id%%
+
+<img src="http://www.example.com/idevaffiliate/sale.php
+?profile=123&idev_saleamt=%%amount%%&idev_ordernum=%%txn_id%%"
+ width="1" height="1" border="0" />

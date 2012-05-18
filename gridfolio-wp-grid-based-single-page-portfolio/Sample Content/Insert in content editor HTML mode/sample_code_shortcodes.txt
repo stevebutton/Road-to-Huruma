@@ -1,0 +1,130 @@
+Paste this into the WordPress Editor in HTML mode. Please leave the spaces before and after each column shortcode.
+
+<h3>Four Columns</h3>
+
+[cudazi_column width='3' class='alpha']
+
+column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text
+
+[/cudazi_column]
+
+[cudazi_column width='3' ]
+
+column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text
+
+[/cudazi_column]
+
+[cudazi_column width='3' ]
+
+column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text
+
+[/cudazi_column]
+
+[cudazi_column width='3' class='omega']
+
+column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text
+
+[/cudazi_column]
+
+
+<h3>Three Columns</h3>
+
+
+[cudazi_column width='4' class='alpha']
+
+column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text
+
+[/cudazi_column]
+
+[cudazi_column width='4']
+
+column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text
+
+[/cudazi_column]
+
+[cudazi_column width='4' class='omega']
+
+column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text
+
+[/cudazi_column]
+
+
+<h3>Two Columns</h3>
+
+
+[cudazi_column width='6' class='alpha']
+
+column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text
+
+[/cudazi_column]
+
+[cudazi_column width='6' class='omega']
+
+column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text
+
+[/cudazi_column]
+
+<h3>Two Columns, Boxed</h3>
+
+
+[cudazi_column width='6' class='alpha' special='boxed']
+
+<h3>Boxed Style!</h3>
+
+column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text
+
+[/cudazi_column]
+
+[cudazi_column width='6' class='omega' special='boxed']
+
+<h3>Boxed Style!</h3>
+
+column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text
+
+[/cudazi_column]
+
+<br /><br /><br />
+
+<h3>Mix Of Columns A</h3>
+
+
+[cudazi_column width='3' class='alpha']
+
+column text column text column text column text column text column text column text
+
+[/cudazi_column]
+
+[cudazi_column width='7']
+
+column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text column text
+
+[/cudazi_column]
+
+[cudazi_column width='2' class='omega']
+
+column text column text column text column text
+
+[/cudazi_column]
+
+
+<h3>Mix Of Columns B</h3>
+
+
+[cudazi_column width='6' class='alpha']
+
+column text column text column text column text column text column text column text column text column text column text column text column text column text column text text column text column text column text column text column text 
+
+[/cudazi_column]
+
+[cudazi_column width='2']
+
+column text column text column text column text column text column text 
+
+[/cudazi_column]
+
+[cudazi_column width='4' class='omega']
+
+column text column text column text column text column text column text column text column text column text column text column text column text column text column text 
+
+[/cudazi_column]
+

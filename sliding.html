@@ -1,0 +1,429 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        
+	<script src="http://crash-box.fr/javascripts/timeline_js/timeline-api.js"    
+ *     type="text/javascript">
+ *   </script>
+ <script>
+ Timeline_ajax_url="http://crash-box.fr/javascripts/timeline_ajax/simile-ajax-api.js";
+ Timeline_urlPrefix="http://crash-box.fr/javascripts/timeline_js/";       
+ Timeline_parameters='bundle=true';
+ </script>	
+
+        <link href="slidingsite/css/styles.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="slidingsite/js/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="slidingsite/js/jquery.address-1.3.1.min.js"></script>
+        <script type="text/javascript" src="slidingsite/js/jquery.fss-1.0.js"></script>
+        <script type="text/javascript" src="slidingsite/swfobject.js"></script>
+       
+        <title>Crash-Box | a GASC Demolition Project</title>
+        <script type="text/javascript">
+            $(function() {
+                $(['slidingsite/images/home-button-on.png', 'slidingsite/images/prev-button-on.png', 'slidingsite/images/next-button-on.png']).preload();
+                $(".slider").fss();
+            });
+        </script>
+        
+   <script>
+var tl;
+ function onLoad() {
+ var eventSource = new Timeline.DefaultEventSource();
+ var eventSource1 = new Timeline.DefaultEventSource();
+ var eventSource2 = new Timeline.DefaultEventSource();
+ var eventSource3 = new Timeline.DefaultEventSource();
+   var bandInfos = [
+     Timeline.createBandInfo({
+	 eventSource:    eventSource,
+         date:           "Jun 28 2011 00:00:00 GMT",
+         width:          "22%", 
+         intervalUnit:   Timeline.DateTime.MONTH, 
+         intervalPixels: 120
+     }),
+	  Timeline.createBandInfo({
+	 eventSource:    eventSource1,
+         date:           "Jun 28 2011 00:00:00 GMT",
+         width:          "22%", 
+         intervalUnit:   Timeline.DateTime.MONTH, 
+         intervalPixels: 120
+     }),
+	  Timeline.createBandInfo({
+	 eventSource:    eventSource2,
+         date:           "Jun 28 2011 00:00:00 GMT",
+         width:          "22%", 
+         intervalUnit:   Timeline.DateTime.MONTH, 
+         intervalPixels: 120
+     }),
+	 Timeline.createBandInfo({
+	 eventSource:    eventSource3,
+         date:           "Jun 28 2011 00:00:00 GMT",
+         width:          "22%", 
+         intervalUnit:   Timeline.DateTime.MONTH, 
+         intervalPixels: 120
+     }),
+     Timeline.createBandInfo({
+	/* eventSource:    eventSource,*/
+         date:           "Jun 28 2011 00:00:00 GMT",
+         width:          "12%", 
+         intervalUnit:   Timeline.DateTime.MONTH, 
+         intervalPixels: 80
+     })
+   ];
+   bandInfos[1].syncWith = 0;
+   bandInfos[1].highlight = true;
+   bandInfos[2].syncWith = 0;
+   bandInfos[2].highlight = true;
+   bandInfos[3].syncWith = 0;
+   bandInfos[3].highlight = true;
+   bandInfos[4].syncWith = 0;
+   bandInfos[4].highlight = true;
+   
+   tl = Timeline.create(document.getElementById("my-timeline"), bandInfos);
+   Timeline.loadXML("http://crash-box.fr/?feed=timeline&cat=26", function(xml, url) { eventSource.loadXML(xml, url); });
+/*   Timeline.loadXML("http://crash-box.fr/example1.xml", function(xml, url) { eventSource.loadXML(xml, url); });
+*/  Timeline.loadXML("http://crash-box.fr/?feed=timeline&cat=4", function(xml, url) { eventSource1.loadXML(xml, url); });
+ Timeline.loadXML("http://crash-box.fr/?feed=timeline&cat=19", function(xml, url) { eventSource2.loadXML(xml, url); });
+  Timeline.loadXML("http://crash-box.fr/?feed=timeline&cat=20", function(xml, url) { eventSource3.loadXML(xml, url); });
+
+ }
+
+ var resizeTimerID = null;
+ function onResize() {
+     if (resizeTimerID == null) {
+         resizeTimerID = window.setTimeout(function() {
+             resizeTimerID = null;
+             tl.layout();
+         }, 500);
+     }
+ }
+</script>
+   
+      <style>
+    body {
+	background-image: url(gfx/timelineback.jpg);
+	background-repeat: repeat-x;
+	margin-top: 0px;
+}
+</style>  
+      <script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+</head>
+
+<body onload="onLoad();" onresize="onResize();">
+    <!--<body class="login">-->
+    <div class="countdown">
+                      
+                          <script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','400','height','125','src','Countdown_master','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','Countdown_master' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="400" height="125">
+                            <param name="movie" value="http://crash-box.fr/slidingsite/Countdown_master.swf" />
+                            <param name="quality" value="high" />
+                            <param name="wmode" value="transparent" />
+                            <embed src="http://crash-box.fr/slidingsite/Countdown_master.swf" width="400" height="125" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash"></embed>
+                          </object>
+</noscript>
+
+ <!--Navigation starts-->
+                                <div class="nav">
+                                <!--<a href="#advanced-usage" class="special-anchor">TIMELINE</a>-->
+                                    <a href="#" class="home-button special-anchor" title="Home">Home</a>
+                                    <a href="#" class="prev-button special-anchor" title="Previous">Previous</a>
+                                    <a href="#" class="next-button special-anchor" title="Next">Next</a>
+                                </div>
+                                <!--Navigation ends-->
+
+</div>
+
+ 
+    <!--<body onload="onLoad();">-->
+
+        <!-- Slider starts -->
+        <div class="slider">
+            <div class="slides">
+                <div id="introduction" class="slide">
+                    <div class="outer-wrapper">
+                   
+                   
+                        <div class="inner-wrapper">
+                        
+                        
+                        <!--Header starts-->
+                            <div class="header">
+                             
+                                <!--<a href="#introduction" class="logo special-anchor"></a>-->
+                                <!--Top menu starts-->
+                                <ul class="top-menu">
+                               
+                                    <li class="selected">
+                                        <a href="#introduction" class="special-anchor">GASC  DEMOLITION</a>                                    </li>
+                                    <li>
+                                        <a href="#deep-linking" class="special-anchor">THE PROJECT</a>                                    </li>
+                                    <li>
+                                        <a href="#ajax" class="special-anchor">PROJECT TEAM</a>                                    </li>
+                                    <li>
+                                        <a href="#options" class="special-anchor">ARCHIVES</a>                                    </li>
+                                    <li>
+                                        <a href="#advanced-usage" class="special-anchor">TIMELINE</a>                                    </li>
+                                </ul>
+                            <!--Top menu ends-->
+
+                               
+                            </div>
+                            <!--Header ends-->
+
+                            <!--Content starts-->
+                            <div class="content">
+                                <div class="content-header">
+                                    <h1>Welcome to FSS</h1>
+                                    <h2>FSS is a <a target="_blank" href="http://www.jquery.com">jQuery</a> plugin for creating full screen sliding websites. This website is just a sample of what can be accomplished with FSS. It can be easily integrated into your website by placing a piece of javascript code between the &lt;head&gt;&lt;/head&gt; tags. FSS can work with any website, regardless of its design.</h2>
+                                </div>
+                                <div class="column left-column">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros et lacus scelerisque egestas. Quisque sed interdum nunc. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec. Sed semper scelerisque urna, et rutrum ipsum sollicitudin laoreet. Donec interdum rhoncus velit fringilla adipiscing. Fusce commod</p>
+                                </div>
+                                <div id ="first" class="column right-column">
+                                    <p>Duis interdum dolor id purus aliquam cursus. Praesent blandit magna nibh. Donec tempor feugiat augue, rutrum porta est rutrum eget. Praesent non diam non orci faucibus vestibulum ac ut nulla. Curabitur porta dapibus nisl, rhoncus condimentum odio iaculis quis. Nam ullamcorper urna vel lorem ullamcorper at mollis dolor vehicula. Curabitur sit amet leo eros, ac dapibus tellus. Ut scelerisque imperdiet pellentesque. Suspendisse in lorem a nibh imperdiet posuere ut et arcu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sed metus nec ipsum porttitor cursus nec in mi.</p>
+                                </div>
+                            </div>
+                            <!--Content ends-->
+
+                            <!--Footer starts-->
+                            <div class="footer">
+                                <p>
+                                    Copyright © 2011 - CRASH-BOX.FR
+                                </p>
+                            </div>
+                            <!--Footer ends-->
+                        </div>
+                    </div>
+                </div>
+                <div id="deep-linking" class="slide">
+                    <div class="outer-wrapper">
+                        <div class="inner-wrapper">
+                            <!--Header starts-->
+                            <div class="header">
+                                <!--<a href="#introduction" class="logo special-anchor"></a>-->
+                                <!--Top menu starts-->
+                               <!-- <ul class="top-menu">
+                                    <li>
+                                        <a href="#introduction" class="special-anchor">GASC  DEMOLITION</a>                                    </li>
+                                    <li class="selected">
+                                        <a href="#deep-linking" class="special-anchor">DEEP LINKING</a>                                    </li>
+                                    <li>
+                                        <a href="#ajax" class="special-anchor">AJAX</a>                                    </li>
+                                    <li>
+                                        <a href="#options" class="special-anchor">OPTIONS</a>                                    </li>
+                                    <li>
+                                        <a href="#advanced-usage" class="special-anchor">ADVANCED USAGE</a>                                    </li>
+                                </ul>-->
+                            <!--Top menu ends-->
+
+                                <!--Navigation starts-->
+                               <!-- <div class="nav">
+                                    <a href="#" class="home-button special-anchor" title="Home">Home</a>
+                                    <a href="#" class="prev-button special-anchor" title="Previous">Previous</a>
+                                    <a href="#" class="next-button special-anchor" title="Next">Next</a>
+                                </div>-->
+                                <!--Navigation ends-->
+                            </div>
+                            <!--Header ends-->
+
+                            <!--Content starts-->
+                            <div class="content">
+                                <div class="content-header">
+                                    <h1>Each Slide Has a URL</h1>
+                                    <h2>FSS supports <a target="_blank" href="http://en.wikipedia.org/wiki/Deep_linking">deep linking</a>, which means that you can link to any specific part of the website from anywhere. Deep linking also lets you use the browser's back and forward buttons. Another cool thing about FSS is that the pages which are dynamically loaded by using <a href="#ajax" class="special-anchor">AJAX</a> also support deep linking. </h2>
+                                </div>
+                                <div class="column left-column">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros et lacus scelerisque egestas. Quisque sed interdum nunc. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec. Sed semper scelerisque urna, et rutrum ipsum sollicitudin laoreet. Donec interdum rhoncus velit fringilla adipiscing. Fusce commodo dui sit amet tortor mattis sed </p>
+                                </div>
+                                <div class="column right-column">
+                                    <p>Duis interdum dolor id purus aliquam cursus. Praesent blandit magna nibh. Donec tempor feugiat augue, rutrum porta est rutrum eget. Praesent non diam non orci faucibus vestibulum ac ut nulla. Curabitur porta dapibus nisl, rhoncus condimentum odio iaculis quis. Nam ullamcorper urna vel lorem ullamcorper at mollis dolor vehicula. Curabitur sit amet leo eros, ac dapibus tellus. Ut scelerisque imperdiet pellentesque. Suspendisse in lorem a nibh imperdiet posuere ut et arcu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sed metus nec ipsum porttitor cursus nec in mi. Etiam eget pharetra lectu</p>
+                                </div>
+                            </div>
+                            <!--Content ends-->
+
+                            <!--Footer starts-->
+                            <div id="footer" class="footer">
+                                <p>
+                                    Copyright © 2011 - CRASH-BOX.FR
+                                </p>
+                            </div>
+                            <!--Footer ends-->
+                        </div>
+                    </div>
+                </div>
+                <div id="ajax" class="slide">
+                    <div class="outer-wrapper">
+                        <div class="inner-wrapper">
+                            <!--Header starts-->
+                            <div class="header">
+                                <!--<a href="#introduction" class="logo special-anchor"></a>-->
+                                <!--Top menu starts-->
+                                <!--<ul class="top-menu">
+                                    <li>
+                                        <a href="#introduction" class="special-anchor">GASC DEMOLITION</a>                                    </li>
+                                    <li>
+                                        <a href="#deep-linking" class="special-anchor">THE PROJECT</a>                                    </li>
+                                    <li class="selected">
+                                        <a href="#ajax" class="special-anchor">PROJECT TEAM</a>                                    </li>
+                                    <li>
+                                        <a href="#options" class="special-anchor">ARCHIVES</a>                                    </li>
+                                    <li>
+                                        <a href="#advanced-usage" class="special-anchor">TIMELINE</a>                                    </li>
+                                </ul>-->
+                            <!--Top menu ends-->
+
+                                <!--Navigation starts-->
+                               <!-- <div class="nav">
+                                    <a href="#" class="home-button special-anchor" title="Home">Home</a>
+                                    <a href="#" class="prev-button special-anchor" title="Previous">Previous</a>
+                                    <a href="#" class="next-button special-anchor" title="Next">Next</a>
+                                </div>-->
+                                <!--Navigation ends-->
+                            </div>
+                            <!--Header ends-->
+
+                            <!--Content starts-->
+                            <div class="content">
+                                <div class="content-header">
+                                    <h1>Load Pages Dynamically</h1>
+                                    <h2>You can dynamically load the content into your website by using <a target="_blank" href="http://en.wikipedia.org/wiki/Ajax_%28programming%29">AJAX</a>. All of the external content will be preloaded by default, however, this can be easily changed by using the plugin options. A gif preloader can be displayed during the loading process. The  <a target="_blank" href="http://en.wikipedia.org/wiki/Ajax_%28programming%29">AJAX</a> feature is optional, FSS can also work with a single index page.</h2>
+                                </div>
+                                <div class="column left-column">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros et lacus scelerisque egestas. Quisque sed interdum nunc. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec. Sed semper scelerisque urna, et rutrum ipsum sollicitudin laoreet. Donec interdum rhoncus velit fringilla adipiscl</p>
+                                </div>
+                                <div class="column right-column">
+                                    <p>Duis interdum dolor id purus aliquam cursus. Praesent blandit magna nibh. Donec tempor feugiat augue, rutrum porta est rutrum eget. Praesent non diam non orci faucibus vestibulum ac ut nulla. Curabitur porta dapibus nisl, rhoncus condimentum odio iaculis quis. Nam ullamcorper urna vel lorem ullamcorper at mollis dolor vehicula. Curabitur sit amet leo eros, ac dapibus tellus. Ut scelerisque imperdiet pellentesque. </p>
+                                </div>
+                            </div>
+                            <!--Content ends-->
+
+                            <!--Footer starts-->
+                            <div class="footer">
+                                <p>
+                                    Copyright © 2011 - CRASH-BOX.FR
+                                </p>
+                            </div>
+                            <!--Footer ends-->
+                        </div>
+                    </div>
+                </div>
+                <div id="options" class="slide">
+                    <div class="outer-wrapper">
+                        <div class="inner-wrapper">
+                            <!--Header starts-->
+                            <div class="header">
+                                <!--<a href="#introduction" class="logo special-anchor"></a>-->
+                                <!--Top menu starts-->
+                               <!-- <ul class="top-menu">
+                                    <li>
+                                        <a href="#introduction" class="special-anchor">GASC DEMOLITION</a>                                    </li>
+                                    <li>
+                                        <a href="#deep-linking" class="special-anchor">THE PROJECT</a>                                    </li>
+                                    <li>
+                                        <a href="#ajax" class="special-anchor">PROJECT TEAM</a>                                    </li>
+                                    <li class="selected">
+                                        <a href="#options" class="special-anchor">ARCHIVES</a>                                    </li>
+                                    <li>
+                                        <a href="#advanced-usage" class="special-anchor">TIMELINE</a>                                    </li>
+                                </ul>-->
+                            <!--Top menu ends-->
+
+                                <!--Navigation starts-->
+                                <!--<div class="nav">
+                                    <a href="#" class="home-button special-anchor" title="Home">Home</a>
+                                    <a href="#" class="prev-button special-anchor" title="Previous">Previous</a>
+                                    <a href="#" class="next-button special-anchor" title="Next">Next</a>
+                                </div>-->
+                                <!--Navigation ends-->
+                            </div>
+                            <!--Header ends-->
+
+                            <!--Content starts-->
+                            <div class="content">
+                                <div class="content-header">
+                                    <h1>Fully Configurable</h1>
+                                    <h2>FSS is a fully configurable jQuery slider which can be modified to suit your needs. The transition method (Horizontal/Vertical), transition speed and slide duration can be adjusted by using the plugin options. Other adjustable parameters include autoplay, looping, keyboard navigation and easing.</h2>
+                                </div>
+                                <div class="column left-column">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros et lacus scelerisque egestas. Quisque sed interdum nunc. Proin at convallis dolor. Suspendisse potenti. Mauris eu ornare erat. Praesent dictum molestie aliquam. Mauris cursus commodo tortor, quis posuere eros dignissim nec. Sed semper scelerisque urna, et rutrum ipsum sollicitudin laoreet. Donec interdum rhoncus velit fringilla adipiscing. Fusce commod </p>
+                                </div>
+                                <div class="column right-column">
+                                    <p>Duis interdum dolor id purus aliquam cursus. Praesent blandit magna nibh. Donec tempor feugiat augue, rutrum porta est rutrum eget. Praesent non diam non orci faucibus vestibulum ac ut nulla. Curabitur porta dapibus nisl, rhoncus condimentum odio iaculis quis. Nam ullamcorper urna vel lorem ullamcorper at mollis dolor vehicula. Curabitur sit amet leo eros, ac dapibus tellus. Ut scelerisque imperdiet pellentesque. Suspendisse in lorem a nibh imperdiet posuere ut et arcu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sed metus nec ipsum porttitor cursus nec in mi. Etiam eget pharetra lectus. Donec vel mauris in odio fringilla feugiat sit amet quis arcu. Phasellus erat purus, consequat non tincidunt et, vulputate et nisl. Pellentesque consequat convallis orci ege</p>
+                                </div>
+                            </div>
+                            <!--Content ends-->
+
+                            <!--Footer starts-->
+                            <div class="footer">
+                                <p>
+                                    Copyright © 2011 - CRASH-BOX.FR
+                                </p>
+                            </div>
+                            <!--Footer ends-->
+                        </div>
+                    </div>
+                </div>
+                <div id="advanced-usage" class="slide">
+                    <div class="outer-wrapper">
+                        <!--<div class="inner-wrapper">-->
+                            <!--Header starts-->
+                            <div class="header">
+                                <!--<a href="#introduction" class="logo special-anchor"></a>-->
+                                <!--Top menu starts-->
+                                <!--<ul class="top-menu">
+                                    <li>
+                                        <a href="#introduction" class="special-anchor">INTRODUCTION</a>                                    </li>
+                                    <li>
+                                        <a href="#deep-linking" class="special-anchor">DEEP LINKING</a>                                    </li>
+                                    <li>
+                                        <a href="#ajax" class="special-anchor">AJAX</a>                                    </li>
+                                    <li>
+                                        <a href="#options" class="special-anchor">OPTIONS</a>                                    </li>
+                                    <li class="selected">
+                                        <a href="#advanced-usage" class="special-anchor">ADVANCED USAGE</a>                                    </li>
+                                </ul>-->
+                            <!--Top menu ends-->
+
+                                <!--Navigation starts-->
+                               <!-- <div class="nav">
+                                    <a href="#" class="home-button special-anchor" title="Home">Home</a>
+                                    <a href="#" class="prev-button special-anchor" title="Previous">Previous</a>
+                                    <a href="#" class="next-button special-anchor" title="Next">Next</a>
+                                </div>-->
+                                <!--Navigation ends-->
+                            </div>
+                            <!--Header ends-->
+
+<div id="timemap" style="height: 600px; padding-top: 40px; border: 0px solid #aaa">
+        
+        <div id="my-timeline" style="height: 500px; border: 0px solid #aaa"></div>
+                            </div>
+                            
+                            <!--Content starts-->
+                            <div class="content">
+                                <!--<div class="content-header">
+                                    <h1>FSS Plugin API</h1>
+                                    <h2>The plugin <a target=="_blank" href="http://en.wikipedia.org/wiki/Application_programming_interface">API</a> offers very useful methods for advanced JavaScript and jQuery developers. The current <a target=="_blank" href="http://en.wikipedia.org/wiki/Application_programming_interface">API</a> includes methods for selecting individual slides. You can pass your own callback functions to the <a target=="_blank" href="http://en.wikipedia.org/wiki/Application_programming_interface">API</a> methods. We're planning to improve our <a target=="_blank" href="http://en.wikipedia.org/wiki/Application_programming_interface">API</a> to make it more useful for all of our customers.</h2>
+                                </div>-->
+              <!-- ************TIMELINE GOES HERE*****************-->
+                               
+                            <!--Content ends-->
+
+                            <!--Footer starts-->
+                            <div class="footer">
+                                <p>
+                                    Copyright © 2011 - CRASH-BOX.FR
+                                </p>
+                            </div>
+                            <!--Footer ends-->
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end slides -->
+        </div>
+        <!-- Slider ends -->
+
+    </div></body>
+</html>

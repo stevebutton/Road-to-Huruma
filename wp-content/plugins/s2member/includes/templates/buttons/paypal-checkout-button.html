@@ -1,0 +1,33 @@
+<form action="https://%%endpoint%%/cgi-bin/webscr" method="post">
+ <input type="hidden" name="business" value="%%paypal_business%%" />
+ <input type="hidden" name="cmd" value="_xclick-subscriptions" />
+ <!-- Instant Payment Notification & Return Page Details -->
+ <input type="hidden" name="notify_url" value="%%notify_url%%" />
+ <input type="hidden" name="cancel_return" value="%%cancel_return%%" />
+ <input type="hidden" name="return" value="%%return%%" />
+ <input type="hidden" name="rm" value="2" />
+ <!-- Configures All Of The Checkout Fields -->
+ <input type="hidden" name="no_shipping" value="1" />
+ <input type="hidden" name="no_note" value="1" />
+ <input type="hidden" name="custom" value="%%custom%%" />
+ <input type="hidden" name="currency_code" value="USD" />
+ <input type="hidden" name="page_style" value="paypal" />
+ <input type="hidden" name="item_name" value="%%level_label%% description and pricing details here." />
+ <input type="hidden" name="item_number" value="%%level%%" />
+ <!-- Identifies/Updates An Existing Member After Checkout -->
+ <input type="hidden" name="on0" value="<?php echo S2MEMBER_CURRENT_USER_VALUE_FOR_PP_ON0; ?>" />
+ <input type="hidden" name="os0" value="<?php echo S2MEMBER_CURRENT_USER_VALUE_FOR_PP_OS0; ?>" />
+ <input type="hidden" name="modify" value="0" />
+ <!-- Customizes Prices, Payments & Billing Cycle -->
+ <!--<input type="hidden" name="amount" value="0.01" />-->
+ <input type="hidden" name="src" value="1" />
+ <input type="hidden" name="sra" value="1" />
+ <input type="hidden" name="a1" value="0.00" />
+ <input type="hidden" name="p1" value="0" />
+ <input type="hidden" name="t1" value="D" />
+ <input type="hidden" name="a3" value="0.01" />
+ <input type="hidden" name="p3" value="1" />
+ <input type="hidden" name="t3" value="M" />
+ <!-- Displays The PayPal® Image Button -->
+ <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif" style="width:auto; height:auto; border:0;" alt="PayPal®" />
+</form>

@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+ <style type="text/css">@import "/jquery_countdown/jquery.countdown.css";
+ #defaultCountdown { width: 440px; height: 145px; }
+ </style> 
+<script type="text/javascript" src="/jquery_countdown/jquery.countdown.js"></script>
+  
+  
+ <script>
+//doesn't block the load event
+function createIframe(){
+  var i = document.createElement("iframe");
+  i.src = "wp-login.php";
+  i.scrolling = "auto";
+  i.frameborder = "0";
+  i.width = "100%";
+  i.height = "400px";
+  document.getElementById("iframeholder").appendChild(i);
+};
+	
+// Check for browser support of event handling capability
+if (window.addEventListener)
+window.addEventListener("load", createIframe, false);
+else if (window.attachEvent)
+window.attachEvent("onload", createIframe);
+else window.onload = createIframe;
+
+</script>
+
+<script type="text/javascript">
+$(function () {
+	var austDay = new Date();
+	austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+	$('#defaultCountdown').countdown({until: austDay});
+	$('#year').text(austDay.getFullYear());
+});
+</script>
+
+</head>
+
+<body>
+<div id="defaultCountdown"></div>
+
+<div id="iframeholder"></div>
+</body>
+</html>

@@ -1,0 +1,526 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GridFolio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-31 17:34-0600\n"
+"PO-Revision-Date: 2010-10-31 17:35-0600\n"
+"Last-Translator: Cudazi <info@cudazi.com>\n"
+"Language-Team: Cudazi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:12
+msgid "Not Found!"
+msgstr ""
+
+#: ../404.php:13
+msgid "Apologies, but the item you requested could not be found. Perhaps searching will help."
+msgstr ""
+
+#: ../archive.php:11
+#: ../archive.php:39
+msgid "Archives"
+msgstr ""
+
+#: ../archive.php:20
+msgid "Daily Archives:"
+msgstr ""
+
+#: ../archive.php:22
+msgid "Monthly Archives:"
+msgstr ""
+
+#: ../archive.php:24
+msgid "Yearly Archives:"
+msgstr ""
+
+#: ../archive.php:26
+msgid "Posts by:"
+msgstr ""
+
+#: ../archive.php:28
+msgid "Posts tagged:"
+msgstr ""
+
+#: ../archive.php:31
+msgid "Category:"
+msgstr ""
+
+#: ../comments.php:9
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:31
+#: ../comments.php:45
+msgid "&lt;&nbsp;&nbsp;Older Comments"
+msgstr ""
+
+#: ../comments.php:32
+#: ../comments.php:46
+msgid "Newer Comments&nbsp;&nbsp;&gt;"
+msgstr ""
+
+#: ../comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#: ../loop.php:13
+msgid "Not Found"
+msgstr ""
+
+#: ../loop.php:14
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: ../loop.php:34
+msgid "Posted by"
+msgstr ""
+
+#: ../loop.php:34
+msgid "in"
+msgstr ""
+
+#: ../loop.php:34
+msgid "with"
+msgstr ""
+
+#: ../loop.php:34
+msgid "0 Comments"
+msgstr ""
+
+#: ../loop.php:34
+msgid "1 Comment"
+msgstr ""
+
+#: ../loop.php:34
+msgid "% Comments"
+msgstr ""
+
+#: ../loop.php:38
+msgid "Read More..."
+msgstr ""
+
+#: ../loop.php:48
+msgid "&lt;&nbsp;&nbsp;Older posts"
+msgstr ""
+
+#: ../loop.php:49
+msgid "Newer posts&nbsp;&nbsp;&gt;"
+msgstr ""
+
+#: ../search.php:11
+msgid "Search"
+msgstr ""
+
+#: ../search.php:18
+msgid "Search results for:"
+msgstr ""
+
+#: ../search.php:22
+msgid "Nothing Found"
+msgstr ""
+
+#: ../search.php:23
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: ../searchform.php:8
+msgid "Search..."
+msgstr ""
+
+#: ../searchform.php:12
+msgid "GO"
+msgstr ""
+
+#: ../single.php:12
+msgid "Pages:"
+msgstr ""
+
+#: ../layouts/page-custom-blog-summary.php:42
+msgid "Continue Reading..."
+msgstr ""
+
+#: ../layouts/page-custom-blog-summary.php:60
+msgid "View All Posts"
+msgstr ""
+
+#: ../layouts/page-custom-portfolio.php:60
+msgid "No image attachments for this portfolio item."
+msgstr ""
+
+#: ../libraries/comments.php:18
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../libraries/comments.php:25
+msgid "Edit"
+msgstr ""
+
+#: ../libraries/comments.php:27
+msgid "Link to this comment"
+msgstr ""
+
+#: ../libraries/comments.php:28
+#, php-format
+msgid "Posted on %1$s "
+msgstr ""
+
+#: ../libraries/comments.php:39
+msgid "Pingback:"
+msgstr ""
+
+#: ../libraries/comments.php:39
+msgid "(Edit)"
+msgstr ""
+
+#: ../libraries/custom-post-types.php:6
+#: ../libraries/custom-post-types.php:7
+msgid "Portfolio"
+msgstr ""
+
+#: ../libraries/custom-post-types.php:8
+msgid "Add Portfolio Item"
+msgstr ""
+
+#: ../libraries/custom-post-types.php:9
+msgid "Large portfolio items with slider."
+msgstr ""
+
+#: ../libraries/custom-post-types.php:10
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../libraries/custom-post-types.php:11
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../libraries/custom-post-types.php:12
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ../libraries/custom-post-types.php:36
+msgid "Additional Options"
+msgstr ""
+
+#: ../libraries/custom-post-types.php:45
+msgid "Add optional sub heading"
+msgstr ""
+
+#: ../libraries/debug.php:16
+msgid "More Information"
+msgstr ""
+
+#: ../libraries/debug.php:18
+msgid "This message is only displayed to admin users and can be disabled in the custom Settings+ page."
+msgstr ""
+
+#: ../libraries/shortcodes.php:66
+msgid "Contact Form Message"
+msgstr ""
+
+#: ../libraries/shortcodes.php:67
+#: ../libraries/shortcodes.php:118
+msgid "Send Message"
+msgstr ""
+
+#: ../libraries/shortcodes.php:68
+msgid "Message Sent!"
+msgstr ""
+
+#: ../libraries/shortcodes.php:69
+msgid "Error, please be sure you filled out all fields properly."
+msgstr ""
+
+#: ../libraries/shortcodes.php:108
+msgid "Contact Form"
+msgstr ""
+
+#: ../libraries/shortcodes.php:109
+msgid "Name, valid email and message required."
+msgstr ""
+
+#: ../libraries/shortcodes.php:111
+msgid "Enter Your Name"
+msgstr ""
+
+#: ../libraries/shortcodes.php:113
+msgid "Enter Your Email Address"
+msgstr ""
+
+#: ../libraries/shortcodes.php:116
+msgid "Enter Your Message"
+msgstr ""
+
+#: ../libraries/shortcodes.php:117
+msgid "Enter a Message"
+msgstr ""
+
+#: ../libraries/themesettings.php:12
+msgid "Custom Theme Settings"
+msgstr ""
+
+#: ../libraries/themesettings.php:13
+#: ../libraries/themesettings.php:21
+#: ../libraries/themesettings.php:249
+msgid "Settings+"
+msgstr ""
+
+#: ../libraries/themesettings.php:22
+msgid "General"
+msgstr ""
+
+#: ../libraries/themesettings.php:29
+#: ../libraries/themesettings.php:30
+#: ../libraries/themesettings.php:143
+msgid "Suggested Plugins"
+msgstr ""
+
+#: ../libraries/themesettings.php:37
+#: ../libraries/themesettings.php:38
+#: ../libraries/themesettings.php:73
+msgid "Theme Help"
+msgstr ""
+
+#: ../libraries/themesettings.php:205
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../libraries/themesettings.php:234
+msgid "All Settings Saved!"
+msgstr ""
+
+#: ../libraries/themesettings.php:240
+msgid "Save Changes"
+msgstr ""
+
+#: ../libraries/themesettings.php:253
+msgid "Overview"
+msgstr ""
+
+#: ../libraries/themesettings.php:254
+msgid "Please read through this page to find general theme settings. Many other settings are available when adding/editing pages."
+msgstr ""
+
+#: ../libraries/themesettings.php:263
+msgid "Theme"
+msgstr ""
+
+#: ../libraries/themesettings.php:268
+msgid "Choose a Theme:"
+msgstr ""
+
+#: ../libraries/themesettings.php:275
+msgid "Upload a light or dark background using the Appearance > Background page. Some custom backgrounds are included with the theme or use your own or a custom background color. Edit other site elements in more detail using the additional CSS area on this page or edit the stylesheets."
+msgstr ""
+
+#: ../libraries/themesettings.php:282
+msgid "Logo"
+msgstr ""
+
+#: ../libraries/themesettings.php:283
+msgid "Overwrite the default logo in the images folder or update below:"
+msgstr ""
+
+#: ../libraries/themesettings.php:288
+msgid "Logo URL:"
+msgstr ""
+
+#: ../libraries/themesettings.php:292
+msgid "Enter the full URL. Upload the image into your theme folder or the WordPress media gallery. Size to 183x64 for perfect results. If your logo is very tall and enlarges the header, you may need to adjust the padding of the section class, see the additional CSS area note below"
+msgstr ""
+
+#: ../libraries/themesettings.php:297
+msgid "Text Logo"
+msgstr ""
+
+#: ../libraries/themesettings.php:300
+msgid "Use Text Logo (Site Name) - This will override the Logo URL above"
+msgstr ""
+
+#: ../libraries/themesettings.php:312
+msgid "Blog Summary Page Template"
+msgstr ""
+
+#: ../libraries/themesettings.php:313
+msgid "Create a page with the  blog summary page template to use the blog summary section."
+msgstr ""
+
+#: ../libraries/themesettings.php:318
+msgid "Blog Summary Maximum"
+msgstr ""
+
+#: ../libraries/themesettings.php:322
+msgid "Maximum items to display in the blog summary template."
+msgstr ""
+
+#: ../libraries/themesettings.php:327
+msgid "Blog Summary Category"
+msgstr ""
+
+#: ../libraries/themesettings.php:331
+msgid "Category ID or IDs to use in the blog summary template. Enter a comma-separated list of IDs to include or exclude with a minus sign."
+msgstr ""
+
+#: ../libraries/themesettings.php:339
+msgid "Contact Form Page Template"
+msgstr ""
+
+#: ../libraries/themesettings.php:340
+msgid "Create a page with the contact form page template to use the contact form."
+msgstr ""
+
+#: ../libraries/themesettings.php:341
+msgid "Note: The form is a shortcode and can also be inserted in page content: [cudazi_contact to='you@email.com']"
+msgstr ""
+
+#: ../libraries/themesettings.php:346
+msgid "Contact Form To Address"
+msgstr ""
+
+#: ../libraries/themesettings.php:350
+msgid "Enter the email address you want the contact form sent to."
+msgstr ""
+
+#: ../libraries/themesettings.php:359
+msgid "Additional Settings"
+msgstr ""
+
+#: ../libraries/themesettings.php:364
+msgid "Disable Website Footer"
+msgstr ""
+
+#: ../libraries/themesettings.php:366
+msgid "Disable the website footer"
+msgstr ""
+
+#: ../libraries/themesettings.php:375
+msgid "Disable Link to Posts Page (blog) in Menu"
+msgstr ""
+
+#: ../libraries/themesettings.php:377
+msgid "Remove item set as posts page under Settings > Reading in main menu"
+msgstr ""
+
+#: ../libraries/themesettings.php:386
+msgid "Disable Link to Posts Page (blog) in Blog Summary template"
+msgstr ""
+
+#: ../libraries/themesettings.php:388
+msgid "Remove item set as posts page under Settings > Reading in blog summary template"
+msgstr ""
+
+#: ../libraries/themesettings.php:397
+msgid "Admin Notes/Errors"
+msgstr ""
+
+#: ../libraries/themesettings.php:399
+msgid "Disable Admin Error Messages / Notes (cudazi_admin_message() function)"
+msgstr ""
+
+#: ../libraries/themesettings.php:408
+msgid "Add-On Tools"
+msgstr ""
+
+#: ../libraries/themesettings.php:413
+msgid "Additional JavaScript"
+msgstr ""
+
+#: ../libraries/themesettings.php:414
+msgid "Use for Google Analytics, etc. Applied in the footer of the website."
+msgstr ""
+
+#: ../libraries/themesettings.php:418
+msgid "Surround JavaScript with proper script tags:"
+msgstr ""
+
+#: ../libraries/themesettings.php:429
+msgid "Additional CSS"
+msgstr ""
+
+#: ../libraries/themesettings.php:430
+msgid "Use this to override all theme styles without having to edit the CSS file directly. <a href='http://www.google.com/search?q=css+tutorial' target='_blank'>CSS Tutorials...</a>"
+msgstr ""
+
+#: ../libraries/themesettings.php:434
+msgid "Enter the CSS directly without the opening/closing &lt;style&gt; tags:"
+msgstr ""
+
+#: ../libraries/themesetup.php:22
+msgid "Footer Left"
+msgstr ""
+
+#: ../libraries/themesetup.php:23
+msgid "Footer Right"
+msgstr ""
+
+#: ../libraries/widgets.php:8
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../libraries/widgets.php:10
+msgid "Appears in any template with a sidebar."
+msgstr ""
+
+#: ../libraries/widgets.php:18
+msgid "Archive"
+msgstr ""
+
+#: ../libraries/widgets.php:20
+msgid "Appears in the archive.php template."
+msgstr ""
+
+#: ../libraries/widgets.php:28
+msgid "Search Results"
+msgstr ""
+
+#: ../libraries/widgets.php:30
+msgid "Appears in the search.php search results template."
+msgstr ""
+
+#: ../libraries/widgets.php:40
+msgid "Single Post"
+msgstr ""
+
+#: ../libraries/widgets.php:42
+msgid "Appears in the single.php single post display template."
+msgstr ""
+
+#: ../libraries/widgets.php:53
+msgid "Home Column A"
+msgstr ""
+
+#: ../libraries/widgets.php:55
+msgid "Home column A - Appears when you set a page up using the home page template."
+msgstr ""
+
+#: ../libraries/widgets.php:62
+msgid "Home Column B"
+msgstr ""
+
+#: ../libraries/widgets.php:64
+msgid "Home column B - Appears when you set a page up using the home page template."
+msgstr ""
+
+#: ../libraries/widgets.php:71
+msgid "Home Column C"
+msgstr ""
+
+#: ../libraries/widgets.php:73
+msgid "Home column C - Appears when you set a page up using the home page template."
+msgstr ""
+
+#: ../libraries/widgets.php:80
+msgid "Home Column D"
+msgstr ""
+
+#: ../libraries/widgets.php:82
+msgid "Home column D - Appears when you set a page up using the home page template."
+msgstr ""
+

@@ -1,0 +1,262 @@
+/**
+*
+* FSS - Full Screen Sliding Website Plugin
+* URL: http://www.codecanyon.net/user/lydian
+* Version: 1.0
+* Author: Lydian
+* Author URL: http://www.codecanyon.net/user/lydian
+*
+*
+* ATTENTION:
+*
+* This styles file include the styles for the sample content. You can completely
+* ignore this file.
+*
+*/
+
+
+body {
+    background: #fff;
+    font: 10px Helvetica, Arial, sans-serif;
+}
+
+.countdown {
+    width: 760px;
+	margin-left: 250px ;
+  margin-right: auto ;
+    overflow: hidden;
+	z-index: 1;
+}
+
+/*.bottommenu {
+    width: 760px;
+	position: fixed;
+	top: 650px;
+	margin-left: auto ;
+  margin-right: auto ;
+    overflow: hidden;
+	z-index: 1;
+}*/
+
+/*.timemap {
+    width: 100%;
+	padding-top:115px;
+	position: relative;
+    overflow: hidden;
+}*/
+
+.outer-wrapper {
+    border-top: 0px solid #000;
+    min-width: 1024px;
+}
+
+.inner-wrapper {
+    width: 760px;
+/*	width: 960px;
+*/    margin: 0px auto 10px auto;
+    overflow: hidden;
+}
+
+/**
+* Styles for the top logo.
+*/
+.logo {
+    float: left;
+    background: url(../images/logo.png) no-repeat;
+    width: 105px;
+    height: 0;
+    overflow: hidden;
+    padding-top: 23px;
+    outline: 0;
+    margin-top: 10px;
+}
+
+/**
+* Styles for the preloader.
+*/
+.slider .loading {
+    background: url(../images/preloader.gif) no-repeat center center;
+}
+
+/**
+* Styles for the header menu.
+*/
+.header .top-menu {
+    position: fixed;
+	padding-left:0px;
+    list-style: none;
+    float: left;
+    font: 12px "Century Gothic", AppleGothic, Arial, sans-serif;
+    margin: 6px 0 0 0;
+    z-index: 1;
+}
+
+    .header .top-menu li {
+        position: relative;
+        float: left;
+    }
+
+        .header .top-menu li a {
+            display: block;
+			padding:10px 20px 10px 0px;
+            text-decoration: none;
+            color: #ccc;
+            outline: 0;
+        }
+
+        .header .top-menu li a:hover {
+            color: #000;
+        }
+
+        .header .top-menu li.selected a {
+            font-weight: bold;
+            color: #000;
+            margin-top: 1px;
+        }
+
+/**
+* Styles for the navigation.
+*/
+
+.bottommenu{
+width: 760px;
+height: 50px;
+
+position: absolute; top: 520px;
+}
+
+.bottommenu .nav {
+    position:relative;
+	float: right;
+    clear: both;
+    padding-top: 10px;
+    width: 360px;
+    height: 54px;
+    margin: auto;
+}
+
+    .bottommenu .nav a {
+        float: left;
+        width: 54px;
+        height: 50px;
+        padding-top: 20px;
+        margin-left: 15px;
+        overflow: hidden;
+        outline: 0;
+    }
+
+        .bottommenu .nav a.home-button {
+            background: url(../images/timeline_off.png) no-repeat;
+        }
+
+            .header .nav a.home-button:hover {
+                background: url(../images/timeline_on.png) no-repeat;
+            }
+
+        .bottommenu .nav a.prev-button {
+            background: url(../images/map_off.png) no-repeat;
+        }
+
+            .bottommenu .nav a.prev-button:hover {
+                background: url(../images/map_on.png) no-repeat;
+            }
+
+        .bottommenu .nav a.next-button {
+            background: url(../images/next-button-off.png) no-repeat;
+        }
+
+            .bottommenu .nav a.next-button:hover {
+                background: url(../images/next-button-on.png) no-repeat;
+            }
+
+/**
+* Styles for the content.
+*/
+.content {
+    float: left;
+	height: 570px;
+	padding-top: 30px;
+	color: #000;
+}
+
+    .content h1 {
+        font: 36px "Century Gothic", AppleGothic, Arial, sans-serif;
+		font-weight: bold;
+		color: #000;
+		text-transform: uppercase;
+        /*letter-spacing: -1.5px;*/
+        text-align: left;
+        margin: 20px 0 0 0;
+        line-height: 50px;
+    }
+
+    .content h2 {
+        font-size: 12px;
+        font-style: italic;
+        font-weight: normal;
+        line-height: 20px;
+        margin: 40px 0 0 0;
+		padding-right: 300px;
+		/*padding-left: 380px;*/
+        text-align: left;
+    }
+
+        .content h2 a {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            outline: 0;
+        }
+
+        .content h2 a:hover {
+            text-decoration: underline;
+        }
+
+
+    .content p {
+        line-height: 18px;
+        margin-top: 30px;
+    }
+
+        .content p img {
+            display: block;
+            margin: 20px 0 40px 0;
+        }
+
+    .content .column {
+        float: left;
+        width: 360px;
+    }
+
+    .content .column.left-column {
+        margin-right: 20px;
+    }
+
+    .content .column.right-column {
+        margin-left: 0px;
+    }
+
+/**
+* Styles for the footer.
+*/
+.footer {
+    float: left;
+	position: fixed;
+	top: 700px;
+    margin: 20px 0 0 0;
+    overflow: hidden;
+}
+
+    .footer p {
+        color: #ccc;
+        font-size: 11px;
+    }
+
+/**
+* Styles for the sample images.
+*/
+#bowls { height: 260px }
+#checkmates { height: 265px }
+#plate { height: 375px }
+#clock { height: 324px }
+#piggy { height: 325px }

@@ -1,0 +1,253 @@
+/* ================== Theme Options Panel ================== */
+.optionsWrapper {
+	margin: 15px 0;
+	width: 800px;
+}
+
+.optionsWrapper * {
+	margin: 0;
+	padding: 0;
+}
+
+.optionsHeader {
+	background: url("images/optionsHeader_bg.jpg") repeat-x top left;
+	border: 1px solid #c6c6c6;
+	height: 77px;
+	padding: 0;
+	border-top-right-radius: 12px;
+	-moz-border-radius-topright: 12px;
+	-webkit-border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
+	-moz-border-radius-topleft: 12px;
+	-webkit-border-top-left-radius: 12px;
+}
+
+.optionsHeader h2 {
+	background: url("images/logo.png") no-repeat top left;
+	display: block;
+	height: 50px;
+	margin: 13px 0 0 10px;
+	text-indent: -9999px;
+	width: 209px;
+}
+
+.optionsBar {
+	background: #f1f1f1;
+	border: 1px solid #d8d8d8;
+	border-top: 1px solid #fff;
+	height: 33px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+.optionsBar p {
+	color: #555;
+	float: left;
+	font-weight: bold;
+	line-height: 33px;
+}
+
+.optionsBar p.submit {
+	float: right;
+}
+
+.optionsBar input {
+	cursor: pointer;
+	font-size: 11px;
+	margin-top: 5px;
+	padding: 3px;
+}
+
+.optionsMenu {
+	background: #f1f1f1;
+	border: 1px solid #d8d8d8;
+	border-top: none;
+	float: left;
+	padding-bottom: 40px;
+	width: 198px;
+}
+
+.optionsMenu li {
+	border-bottom: 1px solid #d8d8d8;
+	border-top: 1px solid #fff;
+	height: 38px;
+	line-height: 38px;
+}
+
+.optionsMenu li a {
+	display: block;
+	padding-left: 15px;
+	text-decoration: none;
+}
+
+.optionsMenu li a.active {
+	background: #fff;
+	left: 1px;
+	position: relative;
+}
+
+.optionsBody {
+	background: #fff;
+	border: 1px solid #d8d8d8;
+	border-left: none;
+	border-top: none;
+	float: left;
+	padding: 20px;
+	width: 559px;
+}
+
+.optionsField {
+	margin-bottom: 25px;
+}
+
+.optionsField label {
+	border-bottom: 1px solid #e7e7e7;
+	color: #555;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 13px;
+	padding-bottom: 8px;
+}
+
+#wpbody-content .optionsField input, #wpbody-content .optionsField select, #wpbody-content .optionsField textarea {
+	color: #555;
+	float: left;
+	font-size: 11px;
+	height: 30px;
+	line-height: 30px;
+	padding: 5px;
+	width: 315px;
+}
+
+#wpbody-content .optionsField .optionsCheckbox input {
+	height: auto;
+	margin-right: 10px;
+	width: auto;
+}
+
+#wpbody-content .optionsField input:focus, #wpbody-content .optionsField select:focus, #wpbody-content .optionsField textarea:focus {
+	background: #f5f5f5;
+}
+
+#wpbody-content .optionsField textarea {
+	height: 150px;
+	line-height: 15px;
+}
+
+.optionsField .fieldDesc, .optionsCheckbox {
+	color: #888;
+	float: left;
+	font-size: 10px;
+	margin-left: 12px;
+	width: 220px;
+}
+
+.optionsCheckbox {
+	margin: 0;
+	width: auto;
+}
+
+#wpbody-content .optionsField input.optionsUpload {
+	margin-right: 5px;
+	width: 210px;
+}
+
+#wpbody-content .optionsField input.optionsUploadButton {
+	cursor: pointer;
+	height: 28px;
+	line-height: 28px;
+	padding: 0;
+	width: 100px;
+}
+
+#wpbody-content .optionsField input.color {
+	background: url("images/selectColor.png") no-repeat 1px 1px;
+	cursor: pointer;
+	height: 34px;
+	padding-left: 35px;
+	width: 315px;
+}
+
+.clear {
+	clear: both;
+}
+
+.optionsReset {
+	background: #f1f1f1;
+	border: 1px solid #d8d8d8;
+	border-top: 1px solid #fff;
+	overflow: hidden;
+	padding: 10px;
+	border-bottom-right-radius: 12px;
+	-moz-border-radius-bottomright: 12px;
+	-webkit-border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	-moz-border-radius-bottomleft: 12px;
+	-webkit-border-bottom-left-radius: 12px;
+}
+
+.optionsReset input {
+	float: right;
+	margin-left: 5px;
+}
+
+#optionsMessage {
+	background: #ffffe0;
+	border: 1px solid #e6db55;
+	color: #555;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 12px;
+	margin-top: 15px;
+	padding: 15px;
+	width: 770px;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+
+/* ================== Shortcodes Lightbox ================== */
+.shortcodes-container {
+	padding: 15px 0;
+}
+
+.shortcodes-container .left, .shortcodes-container .right {
+	float: left;
+	margin: 0 15px 20px 0;
+	width: 305px;
+}
+
+.shortcodes-container .full {
+	margin-bottom: 20px;
+}
+
+.shortcodes-container .right {
+	float: right;
+	margin: 0 0 20px 15px;
+}
+
+.shortcodes-container label {
+	display: block;
+	color: #555;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.shortcodes-container input[type="text"], .shortcodes-container select, .shortcodes-container textarea {
+	display: block;
+	color: #555;
+	font-size: 11px;
+	margin-bottom: 7px;
+	padding: 8px 10px;
+	width: 100%;
+}
+
+.shortcodes-container select {
+	padding: 5px 10px;
+}
+
+.shortcodes-container small {
+	color: #777;
+	font-style: italic;
+}

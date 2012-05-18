@@ -1,0 +1,67 @@
+/*
+ * timeline.css
+ * Description: CSS for the SIMILE Timline Frontend. Define your custom content bubbles here.
+ * Plugin URI: http://www.freshlabs.de/journal/archives/2006/10/wordpress-plugin-simile-timeline/
+ * Author: Tim Isenheim
+ * 
+	===========================================================================
+	SIMILE Timeline for WordPress
+	Copyright (C) 2006 Tim Isenheim
+	
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+	
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+	
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+	===========================================================================
+*/
+
+.stl-timeline{
+	width: 100%;
+	height: 208px;
+	border: 0px solid #aaa;
+}
+
+
+.t-highlight1 { background-color: transparent; }
+.p-highlight1 { background-color: transparent; }
+
+.timeline-highlight-label-start .label_t-highlight1 { color: #f00; }
+.timeline-highlight-label-end .label_t-highlight1 { color: #aaf; }
+
+.timeline-band-events .important { color: #f00; }
+.timeline-band-events .small-important { background: #c00; }
+
+
+/* Sample Theme from http://www.simile-widgets.org/timeline/
+================================================================*/
+
+
+.dark-theme .timeline-band-0 .timeline-ether-bg { background-color: #181818; }
+.dark-theme .timeline-band-1 .timeline-ether-bg { background-image:url(/fixed_images/simile_back_top.jpg); }
+.dark-theme .timeline-band-2 .timeline-ether-bg { background-color: #000; }
+.dark-theme .timeline-band-3 .timeline-ether-bg { background-color: #000; }
+
+.dark-theme .t-highlight1 { background-color: transparent; }
+.dark-theme .p-highlight1 { background-color: transparent; }
+
+.dark-theme .timeline-highlight-label-start .label_t-highlight1 { font-size:30px;color: #999; }
+.dark-theme .timeline-highlight-label-end .label_t-highlight1 { color: #115; }
+
+.dark-theme .timeline-band-events .important { color: #c00; }
+.dark-theme .timeline-band-events .small-important { background: #c00; }
+
+.dark-theme .timeline-date-label-em { font-size:120px; color: #666; }
+.dark-theme .timeline-ether-lines { border-color: #555; border-style: solid; }
+.dark-theme .timeline-ether-highlight { background: #555; }
+
+.dark-theme .timeline-event-tape,
+.dark-theme .timeline-small-event-tape { background: #f60; }
+.dark-theme .timeline-ether-weekends { background: #111; }

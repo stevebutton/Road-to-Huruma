@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ body{ height:100% }
+   
+
+
+
+div#timeline{
+ width: 100%;
+ height: 400px;
+}
+
+
+
+div#map {
+ width: 100%;
+ height: 100%;
+ background: #fff;
+}
+
+div.infotitle {
+    font-size: 14px;
+    font-weight: bold;
+}
+div.infodescription {
+    font-size: 14px;
+    font-style: italic;
+}
+
+div.custominfostyle {
+    font-family: Georgia, Garamond, serif;
+    font-size: 1.5em;
+    font-style: italic;
+    width: 20em;
+}
+
+#menu{
+position: fixed;
+display: block;
+z-index:1500;
+top: 30px;
+}
+
+#timemap {
+display:block;
+  background-color:#ccc;
+   position:absolute;
+    top:30px;
+    left:0;
+  width:100%;
+  height: 100%;
+ /* text-align:center;*/
+ /* border:2px solid green;
+  margin:3px;*/
+  font-size:14px;
+}
+button {
+  font-size:14px;
+}
+    div#timelinecontainer{ width: 100%;/*height: 400px; */position: relative }
+    div#mapcontainer{ height: 100%;widthe: 100%; position: relative; }
+	
+	div#footer{
+	height: 30px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	background-color: #000;
+	}
+	
+	div#header{
+	height: 30px;
+	z-index: 1700;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	background-color: #000;
+	}

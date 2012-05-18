@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+  /*give the body height:100% so that its child
+    elements can have percentage heights*/
+  body{ height:100% }
+
+  /*this is what we want the div to look like*/
+  div.fullscreen{
+    display:block;
+
+    /*set the div in the top-left corner of the screen*/
+    position:absolute;
+    top:0;
+    left:0;
+    
+    /*set the width and height to 100% of the screen*/
+    width:100%;
+    height:100%;
+  }
+
+</style>
+  <style>
+  
+  body{ height:100% }
+   
+div {
+  background-color:#bca;
+  width:700px;
+  height: 150px;
+  text-align:center;
+  /*border:2px solid green;
+  margin:3px;*/
+  font-size:14px;
+}
+
+#container {
+display:block;
+  background-color:#ccc;
+   position:absolute;
+    top:0;
+    left:0;
+  width:100%;
+  height: 100%;
+ /* text-align:center;*/
+ /* border:2px solid green;
+  margin:3px;*/
+  font-size:14px;
+}
+button {
+  font-size:14px;
+}
+</style>
+  <script src="jquery-1.5.1.js"></script>
+</head>
+<body>
+<div id="container">
+  <button id="go1">&raquo; Animate Block1</button>
+<button id="go2">&raquo; Animate Block2</button>
+<button id="go3">&raquo; Animate Both</button>
+
+<button id="go4">&raquo; Reset</button>
+
+<div id="block1">Timeline</div>
+<div id="block2">Map</div>
+</div>
+<script>
+
+$( "#go1" ).click(function(){
+  $( "#block1" ).animate( { width: "100%" }, { queue: false, duration: 1000 })
+     .animate({ fontSize: "24px" }, 1500 )
+	 .animate({ height: "40%" }, 1000 )
+    /* .animate({ borderRightWidth: "15px" }, 1500 );*/
+});
+
+$( "#go2" ).click(function(){
+  $( "#block2" ).animate({ width: "100%" }, 1000 )
+     .animate({ fontSize: "24px" }, 1000 )
+	 .animate({ height: "55%" }, 1000 )
+    /* .animate({ borderLeftWidth: "15px" }, 1000 );*/
+});
+
+$( "#go3" ).click(function(){
+  $( "#go1" ).add( "#go2" ).click();
+});
+
+$( "#go4" ).click(function(){
+  $( "div" ).css({ width: "", height:"", fontSize: "", borderWidth: "" });
+});
+
+</script>
+
+</body>
+</html>

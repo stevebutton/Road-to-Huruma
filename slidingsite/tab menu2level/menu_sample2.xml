@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu textSize="12" 
+      textColor="0xFFFFFF" hoverTextColor="0xFFFF00" selectedTextColor="0xCCFF00" 
+	  borderColor="" bgColor="" gradientColor="" 
+	  tabOffset="72" tabGap="0" width="600" level1Height="30" level2Height="35" 
+	  fadeSubmenu="true" borderOn="false" tabType="round" autoSelect="true" target="_blank">
+	
+	<tabfilter on="false"/> 
+	  
+	<tab submenuAlign="left" bgColor="0xe694cf" gradientColor="0xe694cf">
+		<menuitem label="Flash Den"  link=""/>			
+		<submenuitem label="Flash Files" link=""/>
+		<submenuitem label="Flash Templates" link=""/>
+		<submenuitem label="Pixel Fonts" link=""/>
+		<submenuitem label="Stock Video" link=""/>
+	</tab>	
+	<tab submenuAlign="left" bgColor="0x73d0e6" gradientColor="0x73d0e6">
+		<menuitem label="Audio Jungle"  link=""/>
+		<submenuitem label="Music" link=""/>
+		<submenuitem label="Sound" link=""/>
+		<submenuitem label="Source Files" link=""/>		
+	</tab>
+	<tab submenuAlign="left" bgColor="0x85e674" gradientColor="0x85e674">
+		<menuitem label="Theme Forest"  link=""/>
+		<submenuitem label="HTML Templates" link=""/>
+		<submenuitem label="WordPress" link=""/>
+		<submenuitem label="Joomla" link=""/>
+		<submenuitem label="Flash Sites" link=""/>
+		<submenuitem label="Misc." link=""/>
+		<submenuitem label="PSD Templates" link=""/>
+	</tab>
+	<tab submenuAlign="left" bgColor="0xcfe64d" gradientColor="0xcfe64d">
+		<menuitem label="Video Hive"  link=""/>
+		<submenuitem label="Stock Footage" link=""/>
+		<submenuitem label="Motion Graphics" link=""/>
+		<submenuitem label="Project Files" link=""/>
+	</tab>	
+	<tab submenuAlign="left" bgColor="0xffb380" gradientColor="0xffb380">
+		<menuitem label="Graphic River"  link=""/>
+		<submenuitem label="Graphics" link=""/>
+		<submenuitem label="Textures" link=""/>
+		<submenuitem label="Vectors" link=""/>
+		<submenuitem label="Add-ons" link=""/>
+		<submenuitem label="Isolated Objects" link=""/>
+		<submenuitem label="Icons" link=""/>
+	</tab>
+	
+</menu>

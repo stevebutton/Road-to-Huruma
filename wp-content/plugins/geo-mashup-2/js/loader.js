@@ -1,0 +1,1 @@
+var GeoMashupLoader;GeoMashupLoader={addMapFrame:function(d,f,a,e,b){var c=['<iframe name="'];d.style.backgroundImage="none";c.push(b);c.push('" src="');c.push(f);c.push('" height="');c.push(a);c.push('" width="');c.push(e);c.push('" marginheight="0" marginwidth="0" frameborder="0" scrolling="no"></iframe>');d.innerHTML=c.join("")}};

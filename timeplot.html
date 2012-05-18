@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+
+<script src="http://api.simile-widgets.org/timeplot/1.1/timeplot-api.js" 
+       type="text/javascript"></script>
+</head>
+
+<body onload="onLoad();" onresize="onResize();">
+
+<script>
+var timeplot;
+
+function onLoad() {
+  var eventSource = new Timeplot.DefaultEventSource();
+ var plotInfo = [
+    Timeplot.createPlotInfo({
+      id: "plot1",
+      dataSource: new Timeplot.ColumnSource(eventSource,1),
+      valueGeometry: new Timeplot.DefaultValueGeometry({
+        gridColor: "#000000",
+        min: 0,
+        max: 100
+      }),
+      timeGeometry: new Timeplot.DefaultTimeGeometry({
+        gridColor: new Timeplot.Color("#000000"),
+        axisLabelsPlacement: "top"
+      }),
+      lineColor: "#ff0000",
+      fillColor: "#cc8080",
+      showValues: true
+    })
+  ];
+  
+  timeplot = Timeplot.create(document.getElementById("my-timeplot"), plotInfo);
+  timeplot.loadText("timeplotdata.txt", ",", eventSource);
+}
+</script>
+
+<div id="my-timeplot" style="height: 150px;"></div>
+</body>
+</html>

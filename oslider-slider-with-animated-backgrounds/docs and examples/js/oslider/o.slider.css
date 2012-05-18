@@ -1,0 +1,188 @@
+@CHARSET "UTF-8";
+
+/* Main wrapper
+-------------------------------------------------------------------------*/
+.o-slider-external {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	
+	/* You can change the following attributes */
+	width: 100%;
+	min-width: 900px;
+	padding-top: 44px;
+	padding-bottom: 44px;
+}
+
+
+/* Image blocks
+-------------------------------------------------------------------------*/
+.o-slider-images { 
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.o-slider-images a.img_holder { display: block; float: left; } 
+.o-slider-image {
+	position: relative;
+	float: left;
+	
+	-moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+}
+.o-slider-image-outer {
+	float: left;
+}
+
+
+/* Frame for the images
+-------------------------------------------------------------------------*/
+.o-slider-frame {
+	margin: 0px auto;	
+	position: relative;
+	z-index: 100;
+	
+	/* Set the width and height to the size of your images */
+	width: 900px;
+	height: 300px;
+}
+
+
+
+/* Arrows 
+-------------------------------------------------------------------------*/
+.o-slider-arrows {
+	position: absolute;
+	background: url('arrows.png');
+	cursor: pointer;
+	
+	top: 46%;
+	width: 35px;
+	height: 35px;
+	
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+.o-slider-arrows.previous 	{ left: 5px;  background-position: left; }
+.o-slider-arrows.next 		{ right: 5px; background-position: right; }
+
+
+/* Bullets list 
+-------------------------------------------------------------------------*/
+ul.o-slider-listNav {
+	padding: 0;
+	margin: 0;
+	
+	position: absolute;
+	left: 0;
+	list-style: none; 
+	
+	bottom: -23px;
+}
+ul.o-slider-listNav li { 
+	float: left; 
+	cursor: pointer;
+	background: url('switcher.png') right; 
+	overflow: hidden;
+	
+	width: 10px; 
+	height: 10px; 
+	margin: 0 2px;
+}
+ul.o-slider-listNav li.active { background-position: left; }
+
+
+/* Thumbnails list 
+-------------------------------------------------------------------------*/
+ul.o-slider-listNavThumbs {
+	padding: 0;
+	margin: 0;
+	
+	position: absolute;
+	list-style: none;
+	
+	left: 0;
+	bottom: -43px; 
+}
+ul.o-slider-listNavThumbs li { 
+	float: left; 
+	overflow: hidden;
+	cursor: pointer;
+	
+	margin: 0 2px;
+	padding: 2px;
+	width: 90px; 
+	height: 30px;
+}
+ul.o-slider-listNavThumbs li.active { 
+	background: #ccc; 
+	-moz-border-radius: 4px; 
+	-webkit-border-radius: 4px;
+	border-radius: 4px;	
+}
+
+
+/* Captions
+---------------------------------------------------------------------*/
+.o-slider-captions { display: none; }
+.o-slider-caption {
+	display: block;
+	position: absolute;
+	
+	left: 0px;
+	bottom: 0px;
+	background: black;
+	width: 100%;
+	color: white;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	
+}
+.o-slider-caption h3 { font-size: 1.25em; text-transform: uppercase; font-family: georgia, 'times new roman', serif; }
+.o-slider-caption p { font-family: georgia, 'times new roman', serif; font-size: 0.85em; }
+
+.o-slider-caption p,
+.o-slider-caption h3 {
+	margin: 10px;
+}
+.o-slider-caption p { margin-top: -5px; margin-bottom: 15px; }
+
+.o-slider-caption p a,
+.o-slider-caption h3 a { color: white; }
+
+
+.o-slider-caption.top {
+	top: 0;
+	bottom: auto;
+}
+.o-slider-caption.bottom {
+	left: 0px;
+	bottom: 0px;
+}
+.o-slider-caption.left {
+	top: 0;
+	left: 0;
+	width: 33.3%;
+	height: 300px;
+	overflow: hidden;
+}
+.o-slider-caption.right {
+	top: 0;
+	left: auto;
+	right: 0;
+	width: 33.3%;
+	height: 300px;
+	overflow: hidden;
+}
+
+
+/* Sub Layer 
+---------------------------------------------------------------------*/
+.o-slider-layer { 
+	position: absolute; 
+	top: 0;
+	left: 0;
+}
+
+

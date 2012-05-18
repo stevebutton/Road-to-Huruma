@@ -1,0 +1,30 @@
+*How to change the event date?
+
+Open the fla file. Double click the Countdown Timer symbol... 
+
+Click to the first frame of actions layer... (Which includes "a")
+Open the Actions Panel. (Or just press F9)
+
+You will see this code at the 6th row..
+    var eventDate:Date = new Date(2034, 7, 15, 16, 23, 42, 0);
+
+Upgrade the code with your event date as this format:
+    var eventDate:Date = new Date(Year, Month-1, Day, Hour, Minute, Second, 0);
+
+Please dont forget to write month as month-1...
+
+
+
+
+
+When the event date will come, animation will play 3th frame of the Countdown Timer symbol.
+You could add a special message or logo to there...
+
+Please open the Event Message Symbol from the library. Add your own message or picture in it.
+
+
+
+Subscribe to my RSS Feed. Get notified about new files : http://onurdemirsoy.com/rss/flashden.xml
+
+
+Thank you....

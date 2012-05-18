@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>jqEasy Slide Panel Cookie</title>
+<link href="jqeasypanel.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.jqEasyPanel.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#jqeasypanel').jqEasyPanel({
+		position: 'bottom'
+	});
+});
+</script>
+</head>
+
+<body>
+
+<div id="jqeasypanel">
+	<ul class="panelbuttons">
+    	<li><a href="#"><img src="icons/pencil_48.png" alt="" />Item One</a></li>
+        <li><a href="#"><img src="icons/clipboard_48.png" alt="" />Item Two</a></li>
+        <li><a href="#"><img src="icons/letter_48.png" alt="" />Item Three</a></li>
+        <li><a href="#"><img src="icons/diagram_48.png" alt="" />Item Four</a></li>
+        <li><a href="#"><img src="icons/gear_48.png" alt="" />Item Five</a></li>
+        <li><a href="#"><img src="icons/save_48.png" alt="" />Item Six</a></li>
+    </ul>
+    <div id="copy">
+    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius odio ac nibh fringilla cursus. Fusce euismod commodo ipsum eget vehicula. Cras et mauris in enim porta fermentum. Morbi cursus orci in turpis fringilla feugiat. Vestibulum ut libero non libero pretium ornare eget nec ante.</p>	
+    </div>
+	<div id="jqeasypaneloptions">
+    	<p><label for="keepopen">Keep panel open?</label> <input name="keepopen" id="keepopen" type="checkbox" value="" /></p>
+    </div>
+</div>
+
+<div id="jqeasytrigger">
+    <a href="#" class="open">open</a>
+    <a href="#" class="close">close</a>
+</div>
+
+<div id="container">
+	<img src="fakesite.gif" width="194" height="43" alt="" />
+    <ul class="fakenav">
+    	<li><a href="index.html">demo top one</a></li><li><a href="top.html">demo top two</a></li><li><a href="bottom1.html">demo bottom three</a></li><li><a href="bottom2.html">demo bottom four</a></li>
+    </ul>
+	<p>This is the first line of DEMO BOTTOM FOUR.</p>
+    <p><a href="/jquery-sliding-info-panel-plugin">&laquo; Back to article</a></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius odio ac nibh fringilla cursus. Fusce euismod commodo ipsum eget vehicula. Cras et mauris in enim porta fermentum. Morbi cursus orci in turpis fringilla feugiat. Vestibulum ut libero non libero pretium ornare eget nec ante. Proin nec ante leo, a viverra diam. Proin porta leo sed diam consectetur non pharetra augue pulvinar. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer hendrerit metus quis risus vestibulum sodales eu eget velit. Aenean eleifend, erat sed tempor porta, nulla tellus lacinia felis, eget aliquam ipsum nisl eget nunc. Aliquam cursus felis ac quam rutrum placerat. Donec in tortor leo. Vivamus iaculis mi nec ipsum molestie semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec sagittis lorem dui, a semper arcu. Mauris tristique, sem quis consequat fermentum, elit est molestie est, mollis adipiscing velit purus a eros. In hac habitasse platea dictumst. Morbi tempor porttitor nunc, ac consequat neque euismod vel.</p>
+    
+    <p>Click <a href="#" class="openpanel">here</a> to open the panel.</p>
+  <p>Click <a href="#" class="closepanel">here</a> to close the panel.</p>
+    
+    <p>Pellentesque et sapien purus. Nullam blandit, libero eu sagittis aliquam, quam felis fermentum sapien, ac volutpat libero tortor sed turpis. Duis elementum porta eleifend. Aenean pharetra, turpis et suscipit vulputate, magna diam dapibus diam, id mollis nunc diam sit amet nunc. Cras sed tempus eros. Aliquam vitae massa quis elit ornare molestie ut eget erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec lacus nulla. Pellentesque eu purus ac eros sollicitudin pulvinar. Quisque in erat a neque condimentum vestibulum. In vel nisl nec lacus scelerisque mattis. Sed consectetur justo vitae nibh porta id imperdiet nulla malesuada. Etiam dapibus arcu sit amet ante rhoncus tincidunt ac porta metus. Etiam pharetra enim id felis hendrerit convallis. Cras dolor purus, feugiat sit amet tempus sit amet, tristique vitae libero. Quisque vel lacus vel felis mollis molestie. Sed lectus nulla, gravida a ultricies ac, hendrerit nec urna. Aenean arcu nunc, porttitor vel tempor commodo, aliquam a massa. Aenean aliquet, elit sed blandit eleifend, erat libero facilisis ante, congue dapibus metus ipsum eu elit.</p>
+    
+    <p>Click <a href="#" class="openpanel">here</a> to open the panel.</p>
+    <p>Click <a href="#" class="closepanel">here</a> to close the panel.</p>
+    
+<p>Integer diam justo, convallis ut cursus at, vulputate at neque. In adipiscing fringilla arcu ac placerat. Ut auctor semper dolor ac lobortis. Curabitur sit amet diam urna. Maecenas ornare volutpat condimentum. Nulla facilisi. Ut sit amet velit nec orci rutrum sollicitudin et quis felis. Integer ornare tortor quis diam mollis tempus. Aliquam adipiscing est vitae enim commodo vel molestie risus faucibus. Sed in adipiscing mauris. Mauris vehicula porttitor ligula id blandit. Nulla at nisl ipsum. Ut auctor ullamcorper vulputate. Nullam eu augue magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed justo turpis, varius a posuere vel, porttitor id purus. Donec congue pharetra leo, eget facilisis felis lacinia feugiat. Proin ac dui nec magna accumsan aliquam.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius odio ac nibh fringilla cursus. Fusce euismod commodo ipsum eget vehicula. Cras et mauris in enim porta fermentum. Morbi cursus orci in turpis fringilla feugiat. Vestibulum ut libero non libero pretium ornare eget nec ante. Proin nec ante leo, a viverra diam. Proin porta leo sed diam consectetur non pharetra augue pulvinar. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer hendrerit metus quis risus vestibulum sodales eu eget velit. Aenean eleifend, erat sed tempor porta, nulla tellus lacinia felis, eget aliquam ipsum nisl eget nunc. Aliquam cursus felis ac quam rutrum placerat. Donec in tortor leo. Vivamus iaculis mi nec ipsum molestie semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec sagittis lorem dui, a semper arcu. Mauris tristique, sem quis consequat fermentum, elit est molestie est, mollis adipiscing velit purus a eros. In hac habitasse platea dictumst. Morbi tempor porttitor nunc, ac consequat neque euismod vel.</p>
+    
+    <p>Pellentesque et sapien purus. Nullam blandit, libero eu sagittis aliquam, quam felis fermentum sapien, ac volutpat libero tortor sed turpis. Duis elementum porta eleifend. Aenean pharetra, turpis et suscipit vulputate, magna diam dapibus diam, id mollis nunc diam sit amet nunc. Cras sed tempus eros. Aliquam vitae massa quis elit ornare molestie ut eget erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec lacus nulla. Pellentesque eu purus ac eros sollicitudin pulvinar. Quisque in erat a neque condimentum vestibulum. In vel nisl nec lacus scelerisque mattis. Sed consectetur justo vitae nibh porta id imperdiet nulla malesuada. Etiam dapibus arcu sit amet ante rhoncus tincidunt ac porta metus. Etiam pharetra enim id felis hendrerit convallis. Cras dolor purus, feugiat sit amet tempus sit amet, tristique vitae libero. Quisque vel lacus vel felis mollis molestie. Sed lectus nulla, gravida a ultricies ac, hendrerit nec urna. Aenean arcu nunc, porttitor vel tempor commodo, aliquam a massa. Aenean aliquet, elit sed blandit eleifend, erat libero facilisis ante, congue dapibus metus ipsum eu elit.</p>
+    
+    <p>This is the last line of DEMO BOTTOM FOUR.</p>
+</div>
+
+</body>
+</html>

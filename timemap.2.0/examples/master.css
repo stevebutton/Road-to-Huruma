@@ -1,0 +1,271 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ body{ height:100%
+ 	font-family: 'Droid Sans', arial, serif;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+   
+
+	div#header{
+	height: 500px;
+	z-index: 1700;
+	width: 100%;
+	position: absolute;
+	top: -470px;
+	background-image: url(/gfx/headerband.png);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	}
+
+div#headercontrols{
+display: block;
+width: 100%;
+height: 30px;
+margin-top: 0px;
+float: left;
+position:absolute;
+bottom: 0px;
+}
+
+div#minus{
+opacity: 0;}
+
+/*********SLIDEPANEL***********/
+a:focus {
+	outline: none;
+}
+#panel {
+	background: #754c24;
+	height: 300px;
+	display: none;
+	z-index: 2800;
+}
+.slide {
+	margin: 0;
+	padding: 0;
+	border-top: solid 4px #422410;
+	background: url(/gfx/aboutup.png) no-repeat center top;
+}
+.btn-slide {
+	background: url(/gfx/aboutdown.png) no-repeat right -50px;
+	text-align: center;
+	width: 144px;
+	height: 31px;
+	padding: 10px 10px 0 0;
+	margin: 0 auto;
+	display: block;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+.active {
+	background-position: right 12px;
+}
+/********END SLIDEPANEL*******/
+#timebox {
+/*display:block;*/
+  background-color:#ccc;
+   position:absolute;
+    top:30px;
+    left:0;
+  width:100%;
+  height: 100%;
+ /* text-align:center;*/
+ /* border:2px solid green;
+  margin:3px;*/
+  font-size:14px;
+}
+
+
+/********BUTTONSWITCH**********/
+/*a.switch_thumb {
+    width: 300px;
+    height: 37px;
+    line-height: 37px;
+    padding: 0;
+    margin: 0px 0;
+    display: block;
+    background: url(/gfx/aboutup.png) no-repeat;
+    outline: none;
+    text-indent: -9999px;
+}
+a:hover.switch_thumb {
+    filter:alpha(opacity=75);
+    opacity:.75;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+}*/
+
+a.swap { background-position: left bottom; }
+/***********FROM EXAMPLES CSS*************/
+/*div#timemap {
+padding-top:60px;
+}*/
+
+/*div#timelinecontainer{
+width: 100%;
+/*height: 0px;*/
+}*/
+
+/*div#my-timeline{
+ width: 100%;
+ height: 50%;
+ font-size: 12px;
+ background: #fff;
+ opacity: 1
+}*/
+
+/*div#mapcontainer {
+position: fixed;
+top: 460px;
+ width: 100%;
+ height: 100%;
+}*/
+
+/*div#map {
+ width: 100%;
+ height: 100%;
+ background: #fff;*/
+}
+/*******END*********/
+
+ div#timelinecontainer{ width: 100%; height: 435px; position: relative }
+ div#mapcontainer{ height: 100%;width: 100%; position: relative;}
+	
+div#my-timeline{
+ width: 100%;
+ height: 435px;
+}
+
+
+/*div#countdown{
+display: block;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	z-index: 1000 ;
+	top:310px;
+	left:0px;
+	background-color: #fff;
+	}*/
+
+div#countdown{
+display: block;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	z-index: 1000 ;
+	bottom: 130px;;
+	left:0px;
+	background-color: #fff;
+	}	
+div#timer{
+
+position: relative;
+left: 0px;
+float: left;
+background-color: #fff;
+}
+
+div#controls{
+
+background-color: #fff;
+position: relative;
+left: 780px;
+padding-right: 10px;
+
+}
+div#mapbt{
+
+/*background-image: url(/gfx/timemapbt.png);
+	background-repeat: no-repeat;*/
+	background-color: #fff;
+width:100px;
+z-index: 2800;
+height: 90px;
+position: relative;
+
+left: 950px;
+
+
+padding-right: 10px;
+
+}
+div#mapbt2{
+
+/*background-image: url(/gfx/timemapbtback.png);
+	background-repeat: no-repeat;*/
+	background-color: #fff;
+width:100px;
+z-index: 1800;
+height: 90px;
+position: relative;
+left: 950px;
+padding-right: 10px;
+opacity: 0;
+
+}
+
+
+
+div#map {
+ width: 100%;
+ height: 100%;
+ background: #fff;
+}
+
+div.infotitle {
+    font-size: 14px;
+    font-weight: bold;
+}
+div.infodescription {
+    font-size: 14px;
+    font-style: italic;
+}
+
+div.custominfostyle {
+    font-family: Georgia, Garamond, serif;
+    font-size: 1.5em;
+    font-style: italic;
+    width: 20em;
+}
+
+
+
+button {
+  font-size:14px;
+}
+   
+	
+	div#footer{
+	height: 1000px;
+	width: 100%;
+	position: absolute;
+	bottom: -950px;
+	z-index: 1900;
+	background-image: url(/gfx/footerdiag.png);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	}
+/*div#footer {
+	background:#1A1A1A;
+	width: 100%;
+	font-size:10px;
+	color:#BCBCBC;
+}
+	#footer #footer_content {
+		width: 980px;
+		margin: 0px auto;
+		display: none;
+	}
+	#footer #footer_content .footbox {
+		background: #1F1F1F;
+		width: 265px;
+		padding: 15px 20px 20px 20px;
+		margin: 20px 10px 20px 10px;
+		float: left;
+	}*/
+

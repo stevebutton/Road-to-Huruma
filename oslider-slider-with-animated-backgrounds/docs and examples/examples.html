@@ -1,0 +1,589 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>o'Slider &mdash; jQuery slider plugin with animated backgrounds</title>
+	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+	
+	<link rel="stylesheet" media="all" href="css/reset.css" />
+	<link rel="stylesheet" media="all" href="css/style.css" />
+	<link rel="stylesheet" media="all" href="js/oslider/o.slider.css" />
+	<link rel="stylesheet" media="all" href="css/examples.css" />
+	
+	<script type="text/javascript" src="js/oslider/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/oslider/jquery.o.slider-1.0.js"></script>
+	<script type="text/javascript" src="js/examples.js"></script>
+</head>
+<body>
+<div class="l-wrapper">
+	
+	<div class="l-header">
+		<a href="index.html"><img src="images/oslider-logotype.png" /></a>
+		
+		<ul class="b-nav">
+			<li><a href="index.html">Home</a></li>
+			<li class="active"><a href="examples.html">Examples</a></li>
+			<li><a href="docs.html">Docs</a></li>
+		</ul>	
+	</div>
+	
+	<div class="l-content content">
+		<h3>1. Example</h3>
+	</div>
+	
+	<div id="circles">
+		<a href="index.html"><img src="images/slider/road.jpg" width="900" height="300" rel="circles_road" /></a>
+		<a href="index.html"><img src="images/slider/bed.jpg" width="900" height="300" rel="circles_bed" /></a>
+		<a href="index.html"><img src="images/slider/chair.jpg" width="900" height="300" rel="circles_chair" /></a>
+		<a href="index.html"><img src="images/slider/color_mix.jpg" width="900" height="300" rel="circles_hand" /></a>
+		<img src="images/slider/hand.jpg" width="900" height="300" />
+		<img src="images/slider/cactus.jpg" width="900" height="300" />
+		<img src="images/slider/willow.jpg" width="900" height="300" />
+	</div>
+	
+	<div class="o-slider-captions" id="circles_road">
+		<h3>jQuery slider plug-in with animated backgrounds</h3>	
+	</div>
+	
+	<div class="o-slider-captions" id="circles_bed">
+		<h3>Pretty cool huh? C'mon, try again!</h3>	
+	</div>
+	
+	<div class="o-slider-captions" id="circles_chair">
+		<h3>Weeee... Don't stop! Click the Next again</h3>	
+	</div>
+	
+	<div class="o-slider-captions" id="circles_hand">
+		<h3>All right, you got it!</h3>
+	</div>
+	
+	<br class="clear" />
+	<div class="l-content content  top bottom">
+		<ul>
+			<li>&mdash; Auto play</li>
+			<li>&mdash; Thumbnails navigation</li>
+			<li>&mdash; Pause on hover</li>
+			<li>&mdash; Hide arrows on mouse out</li>
+			<li>&mdash; Captions</li>
+			<li>&mdash; Two animated layers (one direction, different offset)</li>
+		</ul>
+		<h4>HTML</h4>
+		<p class="b-code">
+			
+			&lt;div id="circles"><br />
+	
+				<span class="tab"></span>&lt;a href="index.html">&lt;img src="images/slider/road.jpg" width="900" height="300" rel="circles_road" />&lt;/a><br />
+				<span class="tab"></span>&lt;a href="index.html">&lt;img src="images/slider/bed.jpg" width="900" height="300" rel="circles_bed" />&lt;/a><br />
+				<span class="tab"></span>&lt;a href="index.html">&lt;img src="images/slider/chair.jpg" width="900" height="300" rel="circles_chair" />&lt;/a><br />
+				<span class="tab"></span>&lt;a href="index.html">&lt;img src="images/slider/color_mix.jpg" width="900" height="300" rel="circles_hand" />&lt;/a><br />
+				<span class="tab"></span>&lt;img src="images/slider/hand.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/cactus.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/willow.jpg" width="900" height="300" /><br />
+			
+			&lt;/div><br /><br />
+			
+			&lt;div class="o-slider-captions" id="circles_road"><br />
+				<span class="tab"></span>&lt;h3>jQuery slider plug-in with animated backgrounds&lt;/h3>	<br />
+			&lt;/div><br />
+			
+			&lt;div class="o-slider-captions" id="circles_bed"><br />
+				<span class="tab"></span>&lt;h3>Pretty cool huh? C'mon, try again!&lt;/h3><br />
+			&lt;/div><br />
+			
+			&lt;div class="o-slider-captions" id="circles_chair"><br />
+				<span class="tab"></span>&lt;h3>Weeee... Don't stop! Click the Next again&lt;/h3><br />	
+			&lt;/div><br />
+			
+			&lt;div class="o-slider-captions" id="circles_color_mix"><br />
+				<span class="tab"></span>&lt;h3>All right, you got it!&lt;/h3><br />	
+			&lt;/div><br />
+			
+		</p>
+		
+		<h4>Javascript</h4>
+		<p class="b-code">
+			$(document).ready(function(){<br />
+				<span class="tab"></span>$('#circles').oSlider({<br />
+					<span class="tab2"></span>autoStart: true,<br />
+					<span class="tab2"></span>pauseOnHover: true,<br />
+					<span class="tab2"></span>listNavThumbs: true,<br />
+					<span class="tab2"></span>arrowsNavHide: true,<br />
+					<span class="tab2"></span>layers: {<br />
+						<span class="tab3"></span>first: {<br />
+							<span class="tab4"></span>className: 'circles-one',<br />
+							<span class="tab4"></span>offset: 6,<br />
+							<span class="tab4"></span>direction: 'ltr'<br />
+						<span class="tab3"></span>},<br />
+						<span class="tab3"></span>second: {<br />
+							<span class="tab4"></span>className: 'circles-two',<br />
+							<span class="tab4"></span>offset: 16,<br />
+							<span class="tab4"></span>direction: 'ltr'<br />
+						<span class="tab3"></span>}<br />
+					<span class="tab2"></span>}<br />
+				<span class="tab"></span>});<br />
+			});
+		</p>
+		
+		<h4>CSS</h4>
+		<p class="b-code">
+			.o-slider-external {<br />
+				<span class="tab"></span>background: url('../images/circles_bg.png');<br />
+				<span class="tab"></span>padding-top: 30px;<br />
+				<span class="tab"></span>padding-bottom: 70px;<br />	
+			}<br />
+			.o-slider-listNavThumbs {<br />
+				<span class="tab"></span>bottom: -47px;<br />	
+			}<br />
+			.circles-one {<br />
+				<span class="tab"></span>background: url('../images/circles_one.png');<br />
+			}<br />
+			.circles-two {<br />
+				<span class="tab"></span>background: url('../images/circles_two.png');<br />
+			}<br />
+		</p>
+		
+		<br class="clear" />
+	</div>
+	
+	
+	<div class="l-content content">
+		<h3>2. Example</h3>
+	</div>
+	
+	<div id="color_lines">
+	
+		<img src="images/slider/bed.jpg" width="900" height="300" />
+		<img src="images/slider/chair.jpg" width="900" height="300" />
+		<img src="images/slider/color_mix.jpg" width="900" height="300" />
+		<img src="images/slider/hand.jpg" width="900" height="300" />
+		<img src="images/slider/cactus.jpg" width="900" height="300" />
+		<img src="images/slider/willow.jpg" width="900" height="300" />
+		<img src="images/slider/road.jpg" width="900" height="300" />
+	
+	</div>
+
+
+	<br class="clear" />
+	<div class="l-content content  top bottom">
+		<ul>
+			<li>&mdash; Prev/Next arrows always on top</li>
+			<li>&mdash; Bullets for the list navigation</li>
+			<li>&mdash; One animated layer (direction from right to left)</li>
+		</ul>
+		
+		<h4>HTML</h4>
+		<p class="b-code">
+			
+			&lt;div id="color_lines"><br />
+	
+				<span class="tab"></span>&lt;img src="images/slider/bed.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/chair.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/color_mix.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/hand.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/cactus.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/willow.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/road.jpg" width="900" height="300" /><br />
+				
+			&lt;/div><br />
+
+		</p>
+		
+		<h4>Javascript</h4>
+		<p class="b-code">
+			$(document).ready(function(){<br />
+				<span class="tab"></span>$('#color_lines').oSlider({<br />
+					<span class="tab2"></span>layers: {<br />
+						<span class="tab3"></span>first: {<br />
+							<span class="tab4"></span>className: 'layer-color-lines',<br />
+							<span class="tab4"></span>offset: 20,<br />
+							<span class="tab4"></span>direction: 'ltr'<br />
+						<span class="tab3"></span>}<br />
+					<span class="tab2"></span>}<br />
+				<span class="tab"></span>});<br />
+			});
+		</p>
+		
+		<h4>CSS</h4>
+		<p class="b-code">
+			.layer-color-lines {<br />
+				<span class="tab"></span>background: url('../images/color_lines.jpg') top;<br />
+			}
+		</p>
+		
+		<br class="clear" />
+	</div>	
+	
+	
+	<div class="l-content content">
+		<h3>3. Example</h3>
+	</div>
+	
+	<div id="rhombuses">
+	
+		<img src="images/slider/road.jpg" width="900" height="300" rel="rhombuses_bottom" />
+		<img src="images/slider/bed.jpg" width="900" height="300" rel="rhombuses_left" />
+		<img src="images/slider/chair.jpg" width="900" height="300" rel="rhombuses_right" />
+		<img src="images/slider/color_mix.jpg" width="900" height="300" rel="rhombuses_top" />
+		<img src="images/slider/hand.jpg" width="900" height="300" />
+		<img src="images/slider/cactus.jpg" width="900" height="300" />
+		<img src="images/slider/willow.jpg" width="900" height="300" />
+	
+	</div>
+	
+	<div class="o-slider-captions bottom" id="rhombuses_bottom">
+		<h3>Captions at the bottom of the block</h3>
+		<p>Aenean imperdiet. Etiam ultricies nisi vel augue. <a href="index.html">Curabitur ullamcorper</a> ultricies nisi. Nam eget dui. Etiam rhoncus.</p>	
+	</div>
+	
+	<div class="o-slider-captions left" id="rhombuses_left">
+		<h3>Captions at the left side of the block</h3>	
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <a href="index.html">Aenean commodo</a> ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+		<p>Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+	</div>
+	
+	<div class="o-slider-captions right" id="rhombuses_right">
+		<h3>Captions at the right side of the block</h3>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <a href="index.html">Aenean commodo</a> ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+		<p>Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>	
+	</div>
+	
+	<div class="o-slider-captions top" id="rhombuses_top">
+		<h3>Captions at the top of the block</h3>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <a href="index.html">Aenean commodo</a> ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+	</div>
+	
+	<br class="clear" />
+	<div class="l-content content  top bottom">
+		<ul>
+			<li>&mdash; Prev/Next arrows always on and positioned out of the block</li>
+			<li>&mdash; Different positions for the captions (add one of the following class names: .left, .right, .top, .bottom to your caption block)</li>
+			<li>&mdash; One animated layer (direction from left to right)</li>
+		</ul>
+		
+		<h4>HTML</h4>
+		<p class="b-code">
+			
+			&lt;div id="rhombuses"><br />
+	
+				<span class="tab"></span>&lt;img src="images/slider/road.jpg" width="900" height="300" rel="rhombuses_bottom" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/bed.jpg" width="900" height="300" rel="rhombuses_left" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/chair.jpg" width="900" height="300" rel="rhombuses_right" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/color_mix.jpg" width="900" height="300" rel="rhombuses_top" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/hand.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/cactus.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/willow.jpg" width="900" height="300" /><br />
+			
+			&lt;/div><br />
+			<br />
+			
+			&lt;div class="o-slider-captions bottom" id="rhombuses_bottom"><br />
+				<span class="tab"></span>&lt;h3>Captions at the bottom of the block&lt;/h3><br />
+				<span class="tab"></span>&lt;p>Aenean imperdiet. Etiam ultricies nisi vel augue. &lt;a href="index.html">Curabitur ullamcorper&lt;/a> ultricies nisi. Nam <span class="tab"></span>eget dui. Etiam rhoncus.&lt;/p><br />
+			&lt;/div><br />
+			
+			&lt;div class="o-slider-captions left" id="rhombuses_left"><br />
+				<span class="tab"></span>&lt;h3>Captions at the left side of the block&lt;/h3><br />	
+				<span class="tab"></span>&lt;p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. &lt;a href="index.html">Aenean commodo&lt;/a> ligula eget dolor. <span class="tab"></span>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p><br />
+				<span class="tab"></span>&lt;p>Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.&lt;/p><br />
+			&lt;/div><br />
+			
+			&lt;div class="o-slider-captions right" id="rhombuses_right"><br />
+				<span class="tab"></span>&lt;h3>Captions at the right side of the block&lt;/h3><br />
+				<span class="tab"></span>&lt;p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. &lt;a href="index.html">Aenean commodo&lt;/a> ligula eget dolor. <span class="tab"></span>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p><br />
+				<span class="tab"></span>&lt;p>Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.&lt;/p><br />	
+			&lt;/div><br />
+			
+			&lt;div class="o-slider-captions top" id="rhombuses_top"><br />
+				<span class="tab"></span>&lt;h3>Captions at the top of the block&lt;/h3><br />
+				<span class="tab"></span>&lt;p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. &lt;a href="index.html">Aenean commodo&lt;/a> ligula eget dolor. <span class="tab"></span>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p><br />
+			&lt;/div><br />
+	
+		</p>
+		
+		<h4>Javascript</h4>
+		<p class="b-code">
+			$(document).ready(function(){<br />
+				<span class="tab"></span>$('#rhombuses').oSlider({<br />
+					<span class="tab2"></span>layers: {<br />
+						<span class="tab3"></span>first: {<br />
+							<span class="tab4"></span>className: 'layer-rhombuses',<br />
+							<span class="tab4"></span>offset: 5,<br />
+							<span class="tab4"></span>direction: 'rtl'<br />
+						<span class="tab3"></span>}<br />
+					<span class="tab2"></span>}<br />
+				<span class="tab"></span>});<br />
+			});
+		</p>
+		
+		<h4>CSS</h4>
+		<p class="b-code">
+			.o-slider-arrows.previous 	{ left: -40px;  background-position: left; }<br />
+			.o-slider-arrows.next 		{ right: -40px; background-position: right; }<br />
+			<br />
+			.layer-rhombuses {<br />
+				<span class="tab"></span>background: url('../images/rhombuses.jpg') top;<br />
+			}
+		</p>
+		
+		<br class="clear" />
+	</div>	
+	
+	<div class="l-content content">
+		<h3>4. Example</h3>
+	</div>
+	
+	<div id="blackwhite">
+	
+		<img src="images/slider/bed.jpg" width="900" height="300" />
+		<img src="images/slider/chair.jpg" width="900" height="300" />
+		<img src="images/slider/color_mix.jpg" width="900" height="300" />
+		<img src="images/slider/hand.jpg" width="900" height="300" />
+		<img src="images/slider/cactus.jpg" width="900" height="300" />
+		<img src="images/slider/willow.jpg" width="900" height="300" />
+		<img src="images/slider/road.jpg" width="900" height="300" />
+	
+	</div>
+	<br class="clear" />
+	<div class="l-content content  top bottom">
+		<ul>
+			<li>&mdash; Prev/Next arrows always on top</li>
+			<li>&mdash; Bullets for the list navigation</li>
+			<li>&mdash; One animated layer (direction from right to left)</li>
+		</ul>
+		
+		<h4>HTML</h4>
+		<p class="b-code">
+			
+			&lt;div id="blackwhite"><br />
+	
+				<span class="tab"></span>&lt;img src="images/slider/bed.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/chair.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/color_mix.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/hand.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/cactus.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/willow.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/road.jpg" width="900" height="300" /><br />
+			
+			&lt;/div><br />
+
+		</p>
+		
+		<h4>Javascript</h4>
+		<p class="b-code">
+			$(document).ready(function(){<br />
+				<span class="tab"></span>$('#blackwhite').oSlider({<br />
+					<span class="tab2"></span>layers: {<br />
+						<span class="tab3"></span>first: {<br />
+							<span class="tab4"></span>className: 'layer-blackwhite',<br />
+							<span class="tab4"></span>offset: 10,<br />
+							<span class="tab4"></span>direction: 'ltr'<br />
+						<span class="tab3"></span>}<br />
+					<span class="tab2"></span>}<br />
+				<span class="tab"></span>});<br />
+			});
+		</p>
+		
+		<h4>CSS</h4>
+		<p class="b-code">
+			.o-slider-external {<br />
+				<span class="tab"></span>border-top: solid 2px black;<br />
+				<span class="tab"></span>border-bottom: solid 2px black;<br />
+			}<br />
+			.layer-blackwhite {<br />
+				<span class="tab"></span>background: url('../images/blackwhite.jpg') top;<br />
+			}
+		</p>
+		
+		<br class="clear" />
+	</div>	
+	
+	<div class="l-content content">
+		<h3>5. Example</h3>
+	</div>
+	
+	<div id="orange_flakes" class="b-fixed-width">
+	
+		<img src="images/slider/road.jpg" width="900" height="300" />
+		<img src="images/slider/bed.jpg" width="900" height="300" />
+		<img src="images/slider/chair.jpg" width="900" height="300" />
+		<img src="images/slider/color_mix.jpg" width="900" height="300" />
+		<img src="images/slider/hand.jpg" width="900" height="300" />
+		<img src="images/slider/cactus.jpg" width="900" height="300" />
+		<img src="images/slider/willow.jpg" width="900" height="300" />
+	
+	</div>
+	<br class="clear" />
+	<div class="l-content content  top bottom">
+		<ul>
+			<li>&mdash; Fixed width</li>
+			<li>&mdash; Prev/Next arrows always on top</li>
+			<li>&mdash; Bullets for the list navigation</li>
+			<li>&mdash; Two animated layers (one direction, different offset)</li>
+		</ul>
+		
+		<h4>HTML</h4>
+		<p class="b-code">
+			
+			&lt;div id="orange_flakes"><br />
+	
+				<span class="tab"></span>&lt;img src="images/slider/road.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/bed.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/chair.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/color_mix.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/hand.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/cactus.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/willow.jpg" width="900" height="300" /><br />
+			
+			&lt;/div><br />
+
+		</p>
+		
+		<h4>Javascript</h4>
+		<p class="b-code">
+			$(document).ready(function(){<br />
+				<span class="tab"></span>$('#orange_flakes').oSlider({<br />
+					<span class="tab2"></span>animSpeed: 650,<br />
+					<span class="tab2"></span>liquidLayout: false,<br />
+					<span class="tab2"></span>layers: {<br />
+						<span class="tab3"></span>first: {<br />
+							<span class="tab4"></span>className: 'orange-flakes-one',<br />
+							<span class="tab4"></span>offset: 5,<br />
+							<span class="tab4"></span>direction: 'ltr'<br />
+						<span class="tab3"></span>},<br />
+						<span class="tab3"></span>second: {<br />
+							<span class="tab4"></span>className: 'orange-flakes-two',<br />
+							<span class="tab4"></span>offset: 2,<br />
+							<span class="tab4"></span>direction: 'ltr'<br />
+						<span class="tab3"></span>}<br />
+					<span class="tab2"></span>}<br />
+				<span class="tab"></span>});<br />
+			});
+		</p>
+		
+		<h4>CSS</h4>
+		<p class="b-code">
+			.o-slider-external {<br />
+				<span class="tab"></span>background: url('../images/background.jpg');<br />
+			
+				<span class="tab"></span>width: 990px;<br />
+				<span class="tab"></span>margin:  0 auto;<br />
+				
+				<span class="tab"></span>-moz-border-radius: 10px; <br />
+				<span class="tab"></span>-webkit-border-radius: 10px;<br />
+				<span class="tab"></span>border-radius: 10px;<br />
+			}<br />
+			.orange-flakes-one {<br />
+				<span class="tab"></span>background: url('../images/flakes-one.png');<br />	
+			}<br />
+			.orange-flakes-two {<br />
+				<span class="tab"></span>background: url('../images/flakes-two.png');<br />
+			}
+		</p>
+		
+		<br class="clear" />
+	</div>
+	
+	
+	<div class="l-content content">
+		<h3>6. Example</h3>
+	</div>
+	
+	<div id="small" class="b-small">
+	
+		<img src="images/slider/smaller/Slide_3.jpg" width="800" height="267" />
+		<img src="images/slider/smaller/chair_one.jpg" width="800" height="267" />
+		<img src="images/slider/smaller/beeze_one.jpg" width="800" height="267" />
+		<img src="images/slider/smaller/road_one.jpg" width="800" height="267" />
+		<img src="images/slider/smaller/sky_one.jpg" width="800" height="267" />
+		<img src="images/slider/smaller/basic_one.jpg" width="800" height="267" />
+		
+	</div>
+	<br class="clear" />
+	<div class="l-content content  top bottom">
+		<ul>
+			<li>&mdash; Fixed width</li>
+			<li>&mdash; Prev/Next arrows always on top</li>
+			<li>&mdash; Bullets for the list navigation</li>
+			<li>&mdash; Restyled list navigation</li>
+			<li>&mdash; Two animated layers (one direction, different offset)</li>
+		</ul>
+		
+		<h4>HTML</h4>
+		<p class="b-code">
+			
+			&lt;div id="small"><br />
+	
+				<span class="tab"></span>&lt;img src="images/slider/smaller/adorepaper.jpg" width="800" height="267" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/smaller/chair_one.jpg" width="800" height="267" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/smaller/beeze_one.jpg" width="800" height="267" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/smaller/road_one.jpg" width="800" height="267" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/smaller/sky_one.jpg" width="800" height="267" /><br />
+				<span class="tab"></span>&lt;img src="images/slider/smaller/basic_one.jpg" width="800" height="267" /><br />
+			
+			&lt;/div><br />
+
+		</p>
+		
+		<h4>Javascript</h4>
+		<p class="b-code">
+			$(document).ready(function(){<br />
+				<span class="tab"></span>$('#small').oSlider({<br />
+					<span class="tab2"></span>animSpeed: 750,<br />
+					<span class="tab2"></span>liquidLayout: false,<br />
+					<span class="tab2"></span>layers: {<br />
+						<span class="tab3"></span>first: {<br />
+							<span class="tab4"></span>className: 'flowers-pattern',<br />
+							<span class="tab4"></span>offset: 10,<br />
+							<span class="tab4"></span>direction: 'ltr'<br />
+						<span class="tab3"></span>}<br />
+					<span class="tab2"></span>}<br />
+				<span class="tab"></span>});<br />
+			});
+		</p>
+		
+		<h4>CSS</h4>
+		<p class="b-code">
+			.o-slider-external {<br /> 
+				<span class="tab"></span>width: 900px;<br />
+				<span class="tab"></span>margin:  0 auto;<br />
+				<span class="tab"></span>padding-top: 22px;<br />
+				<span class="tab"></span>padding-bottom: 32px;<br />
+			}<br />
+			.o-slider-frame {<br />
+				<span class="tab"></span>width: 800px;<br />
+				<span class="tab"></span>height: 267px;<br />
+			}<br />
+			.o-slider-listNav {<br />
+				<span class="tab"></span>background: white;<br />
+				<span class="tab"></span>padding: 3px;<br />
+				<span class="tab"></span>-moz-border-radius: 10px;<br /> 
+				<span class="tab"></span>-webkit-border-radius: 10px;<br />
+				<span class="tab"></span>border-radius: 10px;<br />	
+			}<br />
+			<br />
+			.flowers-pattern {<br />
+				<span class="tab"></span>background: url('../images/pattern_one.jpg') top;<br />
+			}<br />
+		</p>
+		
+		<br class="clear" />
+	</div>
+	
+	
+	<br style="clear:both" />
+	<div class="l-content l-footer-boofer"></div>
+</div>
+
+<div class="l-footer">
+	<div>
+		Copyright &copy 2010 Odincov.net
+		<span>
+			Exclusive for CodeCanyon.net.
+		</span>
+	</div>
+</div>
+
+</body>
+</html>

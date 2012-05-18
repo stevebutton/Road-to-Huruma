@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	<mainMenu>
+		<settings>
+			<firstLevelButtonWidth>12</firstLevelButtonWidth>
+			<firstLevelButtonHeight>10</firstLevelButtonHeight>
+			
+			<secondLevelButtonWidth>0</secondLevelButtonWidth>
+			<secondLevelButtonHeight>6</secondLevelButtonHeight>
+			
+			<subMenuXDistance>0</subMenuXDistance>
+			<subMenuYDistance>35</subMenuYDistance>
+			
+			<subMenuAddedWidth>20</subMenuAddedWidth>
+			<subMenuMaxHeight>180</subMenuMaxHeight>
+			
+			<subMenuOpenAnimTime>0.5</subMenuOpenAnimTime>
+			<subMenuOpenAnimType>easeOutExpo</subMenuOpenAnimType>
+			
+			<scrollerAccelerationMultiplier>5</scrollerAccelerationMultiplier>
+			
+			<mainMenuMovingBgAnimationTime>0.3</mainMenuMovingBgAnimationTime>
+			<mainMenuMovingBgAnimationType>easeOutQuart</mainMenuMovingBgAnimationType>
+			
+			<!-- center, left, right or no value ( the menu will respect the position setup in the fla -->
+			<menuPosition></menuPosition> 
+			<correctMenuXpos>50</correctMenuXpos>
+			<correctMenuYPos>50</correctMenuYPos>
+		</settings>
+		
+		<content>
+
+			<button title="About us" url="http://www.google.com/" target="_blank"></button>
+			
+			<button title="Services" url="http://www.google.com/" target="_blank"></button>
+			
+			<button title="News" url="http://www.google.com/" target="_blank"></button>
+			
+			<button title="Blog" url="http://www.google.com/" target="_blank"></button>
+			
+			<button title="Clients" toggleSubMenu="1">
+					<subMenu>
+						<button title="All our Clients" url="http://www.google.com/" target="_blank"></button>
+						<button title="Webdesign Clients" url="http://www.google.com/" target="_blank"></button>
+						<button title="Corporate ID Clients" url="http://www.google.com/" target="_blank"></button>
+						<button title="Clients by Continent" url="http://www.google.com/" target="_blank"></button>
+						<button title="Clients by Date" url="http://www.google.com/" target="_blank"></button>
+						<button title="Links to Partners" url="http://www.google.com/" target="_blank"></button>
+					</subMenu>
+			</button>
+			
+			<button title="Portfolio" url="http://www.google.com/" target="_blank"></button>
+			
+			<button title="Careers" url="http://www.google.com/" target="_blank"></button>
+			
+			
+			<button title="Contact" toggleSubMenu="1">
+					<subMenu>
+						<button title="This will" url="http://www.google.com/" target="_blank"></button>
+						<button title="Show that" url="http://www.google.com/" target="_blank"></button>
+						<button title="The drop" url="http://www.google.com/" target="_blank"></button>
+						<button title="down menu" url="http://www.google.com/" target="_blank"></button>
+						<button title="also has" url="http://www.google.com/" target="_blank"></button>
+						<button title="SCROLL" url="http://www.google.com/" target="_blank"></button>
+						<button title="feature enabled" url="http://www.google.com/" target="_blank"></button>
+						
+						
+						
+					</subMenu>
+			</button>
+
+		</content>
+</mainMenu>

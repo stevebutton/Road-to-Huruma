@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>o'Slider &mdash; jQuery slider plugin with animated backgrounds</title>
+	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+	
+	<link rel="stylesheet" media="all" href="css/reset.css" />
+	<link rel="stylesheet" media="all" href="css/style.css" />
+	
+	<script type="text/javascript" src="js/oslider/jquery-1.4.2.min.js"></script>
+</head>
+<body>
+<div class="l-wrapper">
+	<div class="l-header">
+		<a href="index.html"><img src="images/oslider-logotype.png" /></a>
+		
+		<ul class="b-nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="examples.html">Examples</a></li>
+			<li class="active"><a href="docs.html">Docs</a></li>
+		</ul>	
+	</div>
+	
+	<div class="l-content content top bottom">
+		<h3>How it works</h3>
+		<p>
+			The o'Slider plug-in works much like most other image sliders. 
+			It has Prev/Next arrows for navigation, auto run, bullets list or image thumbnails for navigation and other classic parameters. 
+			However the slider has a major distinction - it gives amazing live-background experience.
+		</p>
+		<p>
+			To achieve the needed effect the wrapper block, the sub layers for animation and the frame block for the images are required. 
+			On the plug-in call the wrapper is created from your main 'Div' block. 
+			All defined layers are placed and positioned inside this wrapper. 
+			The div with the images is placed on top of the layers. 
+		</p>
+		<p>
+			The main wrapper block will have class name 'o-slider-external'. 
+			You are able to change its parameters (width, padding and margins) in o.slider.css file. 
+			Remember, if you are using several o'Slider blocks on a page and would like to have a different designs for each of them then you will have to use <em>'#your_unique_slider_block.o-slider-external'</em> in css file to add a unique style description.
+		</p>
+		<p>
+			The sub layers you would like to use for animation should be declared in css file (only the 'background' property is required) and listed in the function call as properties.
+		</p>
+		<p>
+			The frame div which wraps your images has a class name 'o-slider-frame'. 
+			You have to set up its width and height to the width and height of your images before running the slider.
+		</p>
+		<p>
+			Now you know about three main components: the 'o-slider-external' wrapper, the layers and the 'o-slider-frame' for the images. 
+			Follow the 'How to use' instructions and check the <a href="examples.html">Examples</a> page for more live examples.
+		</p>
+		
+		
+		<h3>How to use</h3>
+		<p>
+			First of all you have to include jQuery, the o'Slider script and the o'Slider CSS on your page:
+		</p>
+		<p class="b-code">
+			&lt;link rel="stylesheet" href="o.slider.css" type="text/css" media="screen" /><br/>
+			&lt;script src="jquery.min.js" type="text/javascript">&lt;/script><br/>
+			&lt;script src="o.slider.min.js" type="text/javascript">&lt;/script>
+		</p>
+		<p>
+			Now you need to add some HTML. 
+			Create a Div block and place the images inside. 
+			All images in a sequence should be the same size. 
+			You can wrap an image with 'A' element to add a link to it.
+		</p>
+		<p class="b-code">
+			&lt;div id="block"><br />
+				<span class="tab"></span>&lt;img src="image_1.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;img src="image_2.jpg" width="900" height="300" /><br />
+				<span class="tab"></span>&lt;a href="someurl.html">&lt;img src="image_3.jpg" width="900" height="300" />&lt;/a><br />
+			&lt;/div><br />
+		</p>
+		<p>
+			Adding captions is a quite simple thing. 
+			Create 'Div' blocks with the captions outside of the main block and set its 'id' attribute to 'rel' of the related image. 
+			You have to remember to add a 'o-slider-captions' class name to the blocks. 
+		</p>
+		<p class="b-code">
+			&lt;div id="block"><br />
+				<span class="tab"></span>&lt;img src="image_1.jpg" width="900" height="300" rel="caption_one" /><br />
+				<span class="tab"></span>&lt;img src="image_2.jpg" width="900" height="300" rel="caption_two" /><br />
+				<span class="tab"></span>&lt;a href="someurl.html">&lt;img src="image_3.jpg" width="900" height="300" />&lt;/a><br />
+			&lt;/div><br />
+			<br />
+			&lt;div class="o-slider-captions" id="caption_one"><br />
+				<span class="tab"></span>&lt;h3>First caption&lt;/h3><br />
+				<span class="tab"></span>&lt;p>Lorem ipsum&lt;/p><br />
+			&lt;/div><br />
+			<br />
+			&lt;div class="o-slider-captions" id="caption_two"><br />
+				<span class="tab"></span>&lt;h3>Second caption&lt;/h3><br />
+				<span class="tab"></span>&lt;p>Lorem ipsum&lt;/p><br />
+			&lt;/div><br />
+		</p>
+		
+		
+		<p>
+			When the html is ready you have to set up CSS. 
+			Find some nice patterns for sub layers and add css blocks to the css file. 
+			Use a class name not an ID as the identifier.
+		</p>
+		<p class="b-code">
+			.layer-one {<br />
+				<span class="tab"></span>background: url('../images/image_one.png');<br />
+			}<br />
+			.layer-two {<br />
+				<span class="tab"></span>background: url('../images/image_two.png');<br />
+			}<br />
+		</p>
+		<p>
+			Open o.slider.css file. 
+			Find '.o-slider-frame' block and change width and height to the size of your images. 
+			Now find '.o-slider-external' block which is the main container. 
+			By default it's 100% width, has no background and is centrally aligned. 
+			You can change the width, margins, paddings or the background according to your design.
+		</p>
+		
+		<p>
+			And finally, Javascript. This short script will run the slider without animated layers.
+		</p>
+		<p class="b-code">
+			$(document).ready(function(){<br />
+				<span class="tab"></span>$('#block').oSlider();<br />
+			});
+		</p>
+		
+		<p>
+			To add animated layers add a 'layers' parameter which includes descriptions of all layers as shown in the example below. 
+			Use any name for the layer. 
+			Each layer must have 'className','offset' and 'direction' as parameters.
+		</p>
+		<p class="b-code">
+			$(document).ready(function(){<br />
+				<span class="tab"></span>$('#block').oSlider({<br />
+					<span class="tab2"></span>layers: {<br />
+						<span class="tab3"></span>first: {<br />
+							<span class="tab4"></span>style: 'layer-one',<br />
+							<span class="tab4"></span>offset: 5,<br />
+							<span class="tab4"></span>direction: 'ltr'<br />
+						<span class="tab3"></span>},<br />
+						<span class="tab3"></span>second: {<br />
+							<span class="tab4"></span>style: 'layer-two',<br />
+							<span class="tab4"></span>offset: 2,<br />
+							<span class="tab4"></span>direction: 'ltr'<br />
+						<span class="tab3"></span>},<br />
+						<span class="tab3"></span>some_next_level: {<br />
+							<span class="tab4"></span>style: 'some-next-layer-class-name',<br />
+							<span class="tab4"></span>offset: 26,<br />
+							<span class="tab4"></span>direction: 'ltr'<br />
+						<span class="tab3"></span>}<br />
+					<span class="tab2"></span>}<br />
+				<span class="tab"></span>});<br />
+			});
+		</p>
+		
+		<p>
+			Except the 'layers' more parameters can be passed to the function. This is a more extended example.
+		</p>
+		<p class="b-code">
+			$(document).ready(function(){<br />
+				<span class="tab"></span>$('#block').oSlider({<br />
+					<span class="tab2"></span>autoStart: true,<br />
+					<span class="tab2"></span>pauseOnHover: true,<br />
+					<span class="tab2"></span>listNavThumbs: true,<br />
+					<span class="tab2"></span>arrowsNavHide: true,<br />
+					<span class="tab2"></span>layers: {<br />
+						<span class="tab3"></span>first: {<br />
+							<span class="tab4"></span>style: 'layer-one',<br />
+							<span class="tab4"></span>offset: 6,<br />
+							<span class="tab4"></span>direction: 'ltr'<br />
+						<span class="tab3"></span>},<br />
+						<span class="tab3"></span>second: {<br />
+							<span class="tab4"></span>style: 'layer-two',<br />
+							<span class="tab4"></span>offset: 16,<br />
+							<span class="tab4"></span>direction: 'ltr'<br />
+						<span class="tab3"></span>}<br />
+					<span class="tab2"></span>}<br />
+				<span class="tab"></span>});<br />
+			});
+		</p>
+		
+		
+		<h3>Parameters</h3>
+		
+		<table class="b-parameters">
+			<thead>
+				<tr>
+					<td>Parameter</td>
+					<td>Default</td>
+					<td width="70%">Description</td>
+				</tr>
+			</thead>
+			<tr>
+				<td>animSpeed</td>
+				<td>1000</td>
+				<td width="70%">Animation speed in milliseconds.</td>
+			</tr>
+			<tr>
+				<td>liquidLayout</td>
+				<td>true</td>
+				<td width="70%">
+					Use it for a full-width liquid designs. 
+					If it's 'true' all positions will be recalculated on window re-size. 
+					If you have the fixed-width slider block then you should set parameter value to 'false' to avoid superfluous calculations.
+				</td>
+			</tr>
+			<tr>
+				<td>autoStart</td>
+				<td>false</td>
+				<td width="70%">
+					Set to 'true' if you would like to run the auto play mode.
+				</td>
+			</tr>
+			<tr>
+				<td>pauseTime</td>
+				<td>3000</td>
+				<td width="70%">Pause time for auto play mode in milliseconds.</td>
+			</tr>
+			<tr>
+				<td>pauseOnHover</td>
+				<td>false</td>
+				<td width="70%">
+					Set to 'true' if you would like to pause the auto play mode on mouse hover.
+				</td>
+			</tr>
+			<tr>
+				<td>arrowsNav</td>
+				<td>true</td>
+				<td width="70%">
+					Set to 'true' if you would like the Prev/Next arrows navigation to appear.
+				</td>
+			</tr>
+			<tr>
+				<td>arrowsNavHide</td>
+				<td>true</td>
+				<td width="70%">
+					If you set to 'true' Prev/Next arrows navigation will be hidden on mouse out.
+				</td>
+			</tr>
+			<tr>
+				<td>listNav</td>
+				<td>true</td>
+				<td width="70%">
+					Shows the list navigation. If 'listNavThumbs' is set to 'false' the bullets list will appear.
+				</td>
+			</tr>
+			<tr>
+				<td>listNavThumbs</td>
+				<td>false</td>
+				<td width="70%">
+					Use thumbnails of images instead of the bullets list.
+				</td>
+			</tr>
+			<tr>
+				<td>listNavThumbName</td>
+				<td>'_thumb'</td>
+				<td width="70%">
+					The ending should be added to the thumbnail file. 
+					For example if you have some 'image_file.jpg' then you have to create a smaller image file with the 'image_file_thumb.jpg' name. 
+					You can use any suitable file extension.
+				</td>
+			</tr>
+			<tr>
+				<td>layers</td>
+				<td>'false'</td>
+				<td width="70%">
+					This parameter holds all sub layers and their parameters.
+				</td>
+			</tr>
+			<tr>
+				<td>class</td>
+				<td>-</td>
+				<td width="70%">
+					Class name of the sub layer.
+				</td>
+			</tr>
+			<tr>
+				<td>offset</td>
+				<td>-</td>
+				<td width="70%">
+					Usually animated sub layers move to lesser distance than the layer with images. You can choose the offset from 0 (not moving) to 100% (equal to images). Don’Äôt put the ’Äò%’Äô mark when you set the variable.
+				</td>
+			</tr>
+			<tr>
+				<td>direction</td>
+				<td>-</td>
+				<td width="70%">
+					Direction for the animation of the sub layer. Can be either 'ltr' or 'rtl'.
+				</td>
+			</tr>
+		</table>
+		
+		<h3>Release Notes</h3>
+		<p><strong>v1.0</strong> - 11 Novemer 2010. First release.</p>
+		
+		<h3>Thanks for Purchasing</h3>
+		<p>Thank you for purchasing my website template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/odincov">here</a>. Thanks so much!</p>
+	</div>
+	
+	
+	
+	<br style="clear:both" />
+	<div class="l-content l-footer-boofer"></div>
+</div>
+
+<div class="l-footer">
+	<div>
+		Copyright &copy 2010 Odincov.net
+		<span>
+			Exclusive for CodeCanyon.net.
+		</span>
+	</div>
+</div>
+
+</body>
+</html>

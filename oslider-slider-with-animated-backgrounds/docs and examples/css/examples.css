@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+
+
+/* o'Slider Demo Styles
+---------------------------------------------------------------------*/
+
+/* 0. Start page
+---------------------------------------------------------------------*/
+#start .o-slider-arrows.previous 	{ left: -15px;  background-position: left; }
+#start .o-slider-arrows.next 		{ right: -15px; background-position: right; }
+
+.start-blur {
+	background: url('../images/blur.png');
+}
+.start-flakes {
+	background: url('../images/flakes-one.png');
+}
+
+
+
+/* 1. Example
+---------------------------------------------------------------------*/
+#circles.o-slider-external {
+	background: url('../images/circles_bg.png');
+	padding-top: 30px;
+	padding-bottom: 70px;	
+}
+
+#small .o-slider-frame {
+	width: 800px;
+	height: 500px;
+}
+#circles .o-slider-listNavThumbs {
+	bottom: -47px;	
+}
+
+.circles-one {
+	background: url('../images/circles_one.png');
+}
+.circles-two {
+	background: url('../images/circles_two.png');
+}
+
+
+
+/* 2. Example
+---------------------------------------------------------------------*/
+.layer-color-lines {
+	background: url('../images/color_lines.jpg') top;
+}
+
+
+
+/* 3. Example
+---------------------------------------------------------------------*/
+.layer-rhombuses {
+	background: url('../images/rhombuses.jpg') top;
+}
+#rhombuses .o-slider-arrows.previous 	{ left: -40px;  background-position: left; }
+#rhombuses .o-slider-arrows.next 		{ right: -40px; background-position: right; }
+
+
+
+/* 4. Example
+---------------------------------------------------------------------*/
+#blackwhite.o-slider-external {
+	border-top: solid 2px black;
+	border-bottom: solid 2px black;
+}
+.layer-blackwhite {
+	background: url('../images/blackwhite.jpg') top;
+}
+
+
+
+/* 5. Example
+---------------------------------------------------------------------*/
+#orange_flakes.o-slider-external {
+	background: url('../images/background.jpg');
+
+	width: 990px;	
+	margin:  0 auto;
+	
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.orange-flakes-one {
+	background: url('../images/flakes-one.png');	
+}
+.orange-flakes-two {
+	background: url('../images/flakes-two.png');	
+}
+
+
+
+/* 6. Example
+---------------------------------------------------------------------*/
+#small.o-slider-external { 
+	width: 900px;	
+	margin:  0 auto;
+	padding-top: 22px;
+	padding-bottom: 32px;
+}
+
+#small .o-slider-frame {
+	width: 800px;
+	height: 500px;
+}
+#small .o-slider-listNav {
+	background: white;
+	padding: 3px;
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	border-radius: 10px;	
+}
+
+.flowers-pattern {
+	background: url('../images/pattern_one.jpg') top;
+}
